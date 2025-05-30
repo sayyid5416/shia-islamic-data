@@ -1,0 +1,20 @@
+[
+    {
+        "id": "ziyarat-al-ashura",
+        "title": {
+            "ar": "زيارة عاشوراء",
+            "en": "Ziyarat al-Ashura",
+            "transliteration": "Ziyarat al-Ashura"
+        },
+        "languages": ["ar", "en", "transliteration"]
+    },
+    {
+        "id": "ziyarat-al-nahya",
+        "title": {
+            "ar": "زيارة الناحية",
+            "en": "Ziyarat al-Nahya",
+            "transliteration": "Ziyarat al-Nahya"
+        },
+        "languages": ["ar", "en", "transliteration"]
+    }
+]
