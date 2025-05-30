@@ -6,6 +6,7 @@
             "en": "Ziyarat al-Ashura",
             "transliteration": "Ziyarat al-Ashura"
         },
+        "total_lines": 100,
         "languages": ["ar", "en", "transliteration"],
         "description": "This Ziarat is recited for Imam Hussain(as)(ajtfs) on the day of Ashura & everyday. Highly Recommended for solutions to all major problems, if recited continiously for 40 days"
     },
@@ -16,6 +17,7 @@
             "en": "Ziyarat al-Nahya",
             "transliteration": "Ziyarat al-Nahya"
         },
+        "total_lines": 100,
         "languages": ["ar", "en", "transliteration"],
         "description": "Salutation on Imam Hussain(as) by Imam Mahdi(ajtfs). Of the several prescribed Ziyarat of Imam al-Husain (as), one was recited by Imam al-Mahdi(ATFS) and reached us through one of his four special deputies."
     }
