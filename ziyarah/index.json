@@ -88,5 +88,20 @@
             "transliteration": "Ziyarat al-Warith"
         },
         "description": "This Ziyarat al-Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day. It is also a means to seek needs when recited with specific intentions"
+    },
+    {
+        "id": "ziyarat-ale-yasin---imam-mahdi-(ajtfs)",
+        "total_lines": 77,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة آل ياسين - الإمام المهدي (عجتس)",
+            "en": "Ziyarat Ale Yasin - Imam Mahdi (ajtfs)",
+            "transliteration": "Ziyarat Ale Yasin - Imam Mahdi (ajtfs)"
+        },
+        "description": "This Ziarat is recited for Imam Mahdi(ajtfs) & any of the Imams as well. It is a Hadith Qudsi (direct saying of Allah(swt)) in Mafatih-al-Jinnan. is reported from Shaykh Ahmad ibn Abi-Talib al-Tabrisi in his book of al-Ihtijaj: The chain of narrators is: Al-Tabarsi narrates that Mohammad son of Abdullah al-Hemyari received this Ziyarah in a written letter from Imam Mahdi (a) during the minor occultation."
     }
 ]
