@@ -28,5 +28,20 @@
             "transliteration": "Ziyarat al-Nahiya"
         },
         "description": "Salutation on Imam Hussain(as) by Imam Mahdi(ajtfs). Of the several prescribed Ziyarat of Imam al-Husain (as), one was recited by Imam al-Mahdi(ATFS) and reached us through one of his four special deputies."
+    },
+    {
+        "id": "ziyarat-warith",
+        "total_lines": 59,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة وارث",
+            "en": "Ziyarat Warith",
+            "transliteration": "Ziyarat Warith"
+        },
+        "description": "This ziyarat Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day. It is also a means to seek needs when recited with specific intentions"
     }
 ]
