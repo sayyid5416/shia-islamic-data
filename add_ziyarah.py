@@ -46,7 +46,7 @@ def read_blocks(filePath: str) -> list[list[str]]:
     return blocks
 
 
-def AddZiyarahData(inputFile: str, name: str):
+def add_ziyarah_data(inputFile: str, name: str):
     try:
         prepare_file(inputFile)
 
@@ -89,7 +89,7 @@ def AddZiyarahData(inputFile: str, name: str):
 
 
 if __name__ == "__main__":
-    AddZiyarahData(
+    add_ziyarah_data(
         inputFile="raw.txt",
         name="Ziyarat al-Nahiya"
     )
