@@ -53,12 +53,12 @@ def update_index(name: str, totalLines: int):
     entry = {
         "id": slug,
         "total_lines": totalLines,
+        "languages": ["ar", "en", "transliteration"],
         "title": {
             "ar": "",
             "en": name,
             "transliteration": name
         },
-        "languages": ["ar", "en", "transliteration"],
         "description": ""
     }
 
