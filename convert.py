@@ -45,8 +45,7 @@ def read_blocks(filePath: str) -> list[list[str]]:
 
     return blocks
 
-
-def extract_text(inputFile: str, outputFile: str):
+def extract_text(inputFile: str, name: str):
     try:
         prepare_file(inputFile)
 
@@ -61,24 +60,23 @@ def extract_text(inputFile: str, outputFile: str):
                     printError(f"Block {i+1} has {len(block)} lines: {block}")
             return
 
-        arabic = [b[0] for b in blocks]
-        translit = [b[1] for b in blocks]
-        english = [b[2] for b in blocks]
+        slug = name.lower().replace(" ", "-")
+        languages = [("ar", 0), ("transliteration", 1), ("en", 2)]
 
-        base = os.path.splitext(outputFile)[0]
-        files = {
-            f"{base}_arabic.json": {"text": arabic},
-            f"{base}_translit.json": {"text": translit},
-            f"{base}_english.json": {"text": english},
-            f"{base}_meta.json": {"total_blocks": len(blocks)}
-        }
-
-        for path, content in files.items():
-            prepare_file(path)
-            printStart(f"Writing to {path}...")
-            with open(path, "w", encoding="utf-8") as f:
-                json.dump(content, f, ensure_ascii=False, indent=4)
-            printDone(f"Wrote {len(content.get('text', [])) if 'text' in content else 1} items.")
+        for lang_code, idx in languages:
+            lines = [b[idx] for b in blocks]
+            data = {
+                "id": slug,
+                "title": name,
+                "language": lang_code,
+                "text": lines
+            }
+            out_path = f"ziyarah/text/{lang_code}/{slug}.json"
+            prepare_file(out_path)
+            printStart(f"Writing to {out_path}...")
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)
+            printDone(f"Wrote {len(lines)} lines.")
 
     except FileNotFoundError:
         printError(f"Error: File '{inputFile}' not found.")
@@ -91,6 +89,6 @@ def extract_text(inputFile: str, outputFile: str):
 
 if __name__ == "__main__":
     extract_text(
-        inputFile=".temp/raw.txt",
-        outputFile=".temp/results.json"
+        inputFile="raw.txt",
+        name="Ziyarat al-Nahiya"
     )
