@@ -1,5 +1,35 @@
 [
     {
+        "id": "h.-abal-fadhl-al-abbas-(as)",
+        "total_lines": 7,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة أبي الفضل العباس (ع)",
+            "en": "H. Abal-Fadhl al-Abbas (as)",
+            "transliteration": "H. Abal-Fadhl al-Abbas (as)"
+        },
+        "description": ""
+    },
+    {
+        "id": "h.-ali-akbar-(as)",
+        "total_lines": 15,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة ح. علي الأكبر (ع)",
+            "en": "H. Ali Akbar (as)",
+            "transliteration": "H. Ali Akbar (as)"
+        },
+        "description": ""
+    },
+    {
         "id": "ziyarat-al-ashura",
         "total_lines": 147,
         "languages": [
@@ -30,36 +60,6 @@
         "description": "Salutation on Imam Hussain(as) by Imam Mahdi(ajtfs). Of the several prescribed Ziyarat of Imam al-Husain (as), one was recited by Imam al-Mahdi(ATFS) and reached us through one of his four special deputies."
     },
     {
-        "id": "ziyarat-al-warith",
-        "total_lines": 59,
-        "languages": [
-            "ar",
-            "en",
-            "transliteration"
-        ],
-        "title": {
-            "ar": "زيارة وارث",
-            "en": "Ziyarat al-Warith",
-            "transliteration": "Ziyarat al-Warith"
-        },
-        "description": "This Ziyarat al-Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day. It is also a means to seek needs when recited with specific intentions"
-    },
-    {
-        "id": "h.-ali-akbar-(as)",
-        "total_lines": 15,
-        "languages": [
-            "ar",
-            "en",
-            "transliteration"
-        ],
-        "title": {
-            "ar": "زيارة ح. علي الأكبر (ع)",
-            "en": "H. Ali Akbar (as)",
-            "transliteration": "H. Ali Akbar (as)"
-        },
-        "description": ""
-    },
-    {
         "id": "ziyarat-al-shuhada",
         "total_lines": 13,
         "languages": [
@@ -75,18 +75,18 @@
         "description": ""
     },
     {
-        "id": "h.-abal-fadhl-al-abbas-(as)",
-        "total_lines": 7,
+        "id": "ziyarat-al-warith",
+        "total_lines": 59,
         "languages": [
             "ar",
             "en",
             "transliteration"
         ],
         "title": {
-            "ar": "زيارة أبي الفضل العباس (ع)",
-            "en": "H. Abal-Fadhl al-Abbas (as)",
-            "transliteration": "H. Abal-Fadhl al-Abbas (as)"
+            "ar": "زيارة وارث",
+            "en": "Ziyarat al-Warith",
+            "transliteration": "Ziyarat al-Warith"
         },
-        "description": ""
+        "description": "This Ziyarat al-Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day. It is also a means to seek needs when recited with specific intentions"
     }
 ]
