@@ -30,7 +30,7 @@
         "description": "Salutation on Imam Hussain(as) by Imam Mahdi(ajtfs). Of the several prescribed Ziyarat of Imam al-Husain (as), one was recited by Imam al-Mahdi(ATFS) and reached us through one of his four special deputies."
     },
     {
-        "id": "ziyarat-warith",
+        "id": "ziyarat-al-warith",
         "total_lines": 59,
         "languages": [
             "ar",
@@ -39,13 +39,13 @@
         ],
         "title": {
             "ar": "زيارة وارث",
-            "en": "Ziyarat Warith",
-            "transliteration": "Ziyarat Warith"
+            "en": "Ziyarat al-Warith",
+            "transliteration": "Ziyarat al-Warith"
         },
-        "description": "This ziyarat Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day. It is also a means to seek needs when recited with specific intentions"
+        "description": "This Ziyarat al-Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day. It is also a means to seek needs when recited with specific intentions"
     },
     {
-        "id": "ziyarah-h.-ali-akbar-(as)",
+        "id": "ziyarat-h.-ali-akbar-(as)",
         "total_lines": 15,
         "languages": [
             "ar",
@@ -54,13 +54,13 @@
         ],
         "title": {
             "ar": "زيارة ح. علي الأكبر (ع)",
-            "en": "Ziyarah H. Ali Akbar (as)",
-            "transliteration": "Ziyarah H. Ali Akbar (as)"
+            "en": "Ziyarat H. Ali Akbar (as)",
+            "transliteration": "Ziyarat H. Ali Akbar (as)"
         },
         "description": ""
     },
     {
-        "id": "ziyarah-al-shuhada",
+        "id": "ziyarat-al-shuhada",
         "total_lines": 13,
         "languages": [
             "ar",
@@ -69,13 +69,13 @@
         ],
         "title": {
             "ar": "زيارة الشهداء",
-            "en": "Ziyarah al-Shuhada",
-            "transliteration": "Ziyarah al-Shuhada"
+            "en": "Ziyarat al-Shuhada",
+            "transliteration": "Ziyarat al-Shuhada"
         },
         "description": ""
     },
     {
-        "id": "ziyarah-abal-fadhl-'abbas-(as)",
+        "id": "ziyarat-abal-fadhl-'abbas-(as)",
         "total_lines": 7,
         "languages": [
             "ar",
@@ -84,8 +84,8 @@
         ],
         "title": {
             "ar": "زيارة أبي الفضل العباس (ع)",
-            "en": "Ziyarah Abal Fadhl 'Abbas (as)",
-            "transliteration": "Ziyarah Abal Fadhl 'Abbas (as)"
+            "en": "Ziyarat Abal Fadhl 'Abbas (as)",
+            "transliteration": "Ziyarat Abal Fadhl 'Abbas (as)"
         },
         "description": ""
     }
