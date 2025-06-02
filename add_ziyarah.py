@@ -92,12 +92,12 @@ def add_ziyarah_data(inputFile: str, name: str):
         blocks = read_blocks(inputFile)
         printDone(f"Total blocks read: {len(blocks)}")
 
-        if not all(len(b) == 3 for b in blocks):
-            printError("Some blocks do not have exactly 3 lines.")
-            for i, block in enumerate(blocks):
-                if len(block) != 3:
-                    printError(f"Block {i+1} has {len(block)} lines: {block}")
-            return
+        for i, block in enumerate(blocks):
+            if len(block) == 1:
+                blocks[i] = block * 3
+            elif len(block) != 3:
+                printError(f"Block {i+1} has {len(block)} lines: {block}")
+                return
 
         slug = name.lower().replace(" ", "-")
         languages = [("ar", 0), ("transliteration", 1), ("en", 2)]
@@ -127,6 +127,6 @@ def add_ziyarah_data(inputFile: str, name: str):
 
 
 if __name__ == "__main__":
-    ziyarahName = "name here"
+    ziyarahName = "Ziyarat al-Ashura"
     totalLines = add_ziyarah_data(inputFile="raw.txt", name=ziyarahName)
 
