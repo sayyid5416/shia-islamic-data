@@ -43,5 +43,20 @@
             "transliteration": "Ziyarat Warith"
         },
         "description": "This ziyarat Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day. It is also a means to seek needs when recited with specific intentions"
+    },
+    {
+        "id": "ziyarah-h.-ali-akbar-(as)",
+        "total_lines": 15,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة ح. علي الأكبر (ع)",
+            "en": "Ziyarah H. Ali Akbar (as)",
+            "transliteration": "Ziyarah H. Ali Akbar (as)"
+        },
+        "description": ""
     }
 ]
