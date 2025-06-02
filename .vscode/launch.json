@@ -8,7 +8,7 @@
             "name": "Convert raw data",
             "type": "debugpy",
             "request": "launch",
-            "program": "convert.py",
+            "program": "add_ziyarah.py",
             "console": "integratedTerminal"
         }
     ]

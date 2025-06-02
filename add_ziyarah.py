@@ -45,7 +45,8 @@ def read_blocks(filePath: str) -> list[list[str]]:
 
     return blocks
 
-def extract_text(inputFile: str, name: str):
+
+def AddZiyarahData(inputFile: str, name: str):
     try:
         prepare_file(inputFile)
 
@@ -88,7 +89,7 @@ def extract_text(inputFile: str, name: str):
 
 
 if __name__ == "__main__":
-    extract_text(
+    AddZiyarahData(
         inputFile="raw.txt",
         name="Ziyarat al-Nahiya"
     )
