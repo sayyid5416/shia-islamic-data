@@ -64,18 +64,17 @@ def add_ziyarah_data(inputFile: str, name: str):
         slug = name.lower().replace(" ", "-")
         languages = [("ar", 0), ("transliteration", 1), ("en", 2)]
 
-        for lang_code, idx in languages:
+        for langCode, idx in languages:
             lines = [b[idx] for b in blocks]
             data = {
                 "id": slug,
                 "title": name,
-                "language": lang_code,
+                "language": langCode,
                 "text": lines
             }
-            out_path = f"ziyarah/text/{lang_code}/{slug}.json"
-            prepare_file(out_path)
-            printStart(f"Writing to {out_path}...")
-            with open(out_path, "w", encoding="utf-8") as f:
+            outPath = f"ziyarah/text/{langCode}/{slug}.json"
+            printStart(f"Writing to {outPath}...")
+            with open(outPath, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
             printDone(f"Wrote {len(lines)} lines.")
 
