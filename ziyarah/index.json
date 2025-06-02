@@ -6,16 +6,16 @@
             "en": "Ziyarat al-Ashura",
             "transliteration": "Ziyarat al-Ashura"
         },
-        "total_lines": 2,
+        "total_lines": 105,
         "languages": ["ar", "en", "transliteration"],
         "description": "This Ziarat is recited for Imam Hussain(as)(ajtfs) on the day of Ashura & everyday. Highly Recommended for solutions to all major problems, if recited continiously for 40 days"
     },
     {
-        "id": "ziyarat-al-nahya",
+        "id": "ziyarat-al-nahiya",
         "title": {
             "ar": "زيارة الناحية",
-            "en": "Ziyarat al-Nahya",
-            "transliteration": "Ziyarat al-Nahya"
+            "en": "Ziyarat al-Nahiya",
+            "transliteration": "Ziyarat al-Nahiya"
         },
         "total_lines": 2,
         "languages": ["ar", "en", "transliteration"],
