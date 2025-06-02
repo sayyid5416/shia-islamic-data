@@ -46,6 +46,44 @@ def read_blocks(filePath: str) -> list[list[str]]:
     return blocks
 
 
+def update_index(name: str, totalLines: int):
+    printStart("Updating index...")
+    indexPath = "ziyarah/index.json"
+    slug = name.lower().replace(" ", "-")
+    entry = {
+        "id": slug,
+        "total_lines": totalLines,
+        "title": {
+            "ar": "",
+            "en": name,
+            "transliteration": name
+        },
+        "languages": ["ar", "en", "transliteration"],
+        "description": ""
+    }
+
+    # Load existing index or create new list
+    if os.path.exists(indexPath):
+        with open(indexPath, "r", encoding="utf-8") as f:
+            try:
+                index = json.load(f)
+            except json.JSONDecodeError:
+                index = []
+    else:
+        index = []
+
+    # Remove old entry with same id if exists
+    index = [item for item in index if item.get("id") != slug]
+
+    # Append new entry
+    index.append(entry)
+
+    # Save updated index
+    with open(indexPath, "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=4)
+    printDone(f"Updated index with {slug}.")
+
+
 def add_ziyarah_data(inputFile: str, name: str):
     try:
         prepare_file(inputFile)
@@ -77,6 +115,8 @@ def add_ziyarah_data(inputFile: str, name: str):
             with open(outPath, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
             printDone(f"Wrote {len(lines)} lines.")
+        
+        update_index(name=name, totalLines=len(blocks))
 
     except FileNotFoundError:
         printError(f"Error: File '{inputFile}' not found.")
@@ -86,9 +126,7 @@ def add_ziyarah_data(inputFile: str, name: str):
         printError(f"Unexpected error: {e}")
 
 
-
 if __name__ == "__main__":
-    add_ziyarah_data(
-        inputFile="raw.txt",
-        name="Ziyarat al-Nahiya"
-    )
+    ziyarahName = "name here"
+    totalLines = add_ziyarah_data(inputFile="raw.txt", name=ziyarahName)
+
