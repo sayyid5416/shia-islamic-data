@@ -58,5 +58,20 @@
             "transliteration": "Ziyarah H. Ali Akbar (as)"
         },
         "description": ""
+    },
+    {
+        "id": "ziyarah-al-shuhada",
+        "total_lines": 13,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة الشهداء",
+            "en": "Ziyarah al-Shuhada",
+            "transliteration": "Ziyarah al-Shuhada"
+        },
+        "description": ""
     }
 ]
