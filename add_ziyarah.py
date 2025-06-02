@@ -47,6 +47,7 @@ def read_blocks(filePath: str) -> list[list[str]]:
 
 
 def update_index(name: str, totalLines: int):
+    """Updates ziyarat index by adding/replacing entry and sorting by id."""
     printStart("Updating index...")
     indexPath = "ziyarah/index.json"
     slug = name.lower().replace(" ", "-")
@@ -77,6 +78,9 @@ def update_index(name: str, totalLines: int):
 
     # Append new entry
     index.append(entry)
+
+    # Sort by id
+    index.sort(key=lambda x: x.get("id", ""))
 
     # Save updated index
     with open(indexPath, "w", encoding="utf-8") as f:
