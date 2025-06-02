@@ -44,7 +44,7 @@ def extract_text(inputFile: str, outputFile: str):
         }
 
         printStart(f"Writing result to {outputFile}...")
-        with open(outputFile, "w") as f:
+        with open(outputFile, "w", encoding="utf-8") as f:
             json.dump(result, f, ensure_ascii=False, indent=4)
         printDone("Done.")
         
