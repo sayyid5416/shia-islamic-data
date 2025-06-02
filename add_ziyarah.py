@@ -131,6 +131,6 @@ def add_ziyarah_data(inputFile: str, name: str):
 
 
 if __name__ == "__main__":
-    ziyarahName = "Ziyarat al-Ashura"
+    ziyarahName = "test"
     totalLines = add_ziyarah_data(inputFile="raw.txt", name=ziyarahName)
 
