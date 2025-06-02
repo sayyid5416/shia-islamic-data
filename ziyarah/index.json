@@ -45,7 +45,7 @@
         "description": "This Ziyarat al-Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day. It is also a means to seek needs when recited with specific intentions"
     },
     {
-        "id": "ziyarat-h.-ali-akbar-(as)",
+        "id": "h.-ali-akbar-(as)",
         "total_lines": 15,
         "languages": [
             "ar",
@@ -54,8 +54,8 @@
         ],
         "title": {
             "ar": "زيارة ح. علي الأكبر (ع)",
-            "en": "Ziyarat H. Ali Akbar (as)",
-            "transliteration": "Ziyarat H. Ali Akbar (as)"
+            "en": "H. Ali Akbar (as)",
+            "transliteration": "H. Ali Akbar (as)"
         },
         "description": ""
     },
@@ -75,7 +75,7 @@
         "description": ""
     },
     {
-        "id": "ziyarat-abal-fadhl-'abbas-(as)",
+        "id": "h.-abal-fadhl-al-abbas-(as)",
         "total_lines": 7,
         "languages": [
             "ar",
@@ -84,8 +84,8 @@
         ],
         "title": {
             "ar": "زيارة أبي الفضل العباس (ع)",
-            "en": "Ziyarat Abal Fadhl 'Abbas (as)",
-            "transliteration": "Ziyarat Abal Fadhl 'Abbas (as)"
+            "en": "H. Abal-Fadhl al-Abbas (as)",
+            "transliteration": "H. Abal-Fadhl al-Abbas (as)"
         },
         "description": ""
     }
