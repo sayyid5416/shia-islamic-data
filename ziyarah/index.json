@@ -73,5 +73,20 @@
             "transliteration": "Ziyarah al-Shuhada"
         },
         "description": ""
+    },
+    {
+        "id": "ziyarah-abal-fadhl-'abbas-(as)",
+        "total_lines": 7,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة أبي الفضل العباس (ع)",
+            "en": "Ziyarah Abal Fadhl 'Abbas (as)",
+            "transliteration": "Ziyarah Abal Fadhl 'Abbas (as)"
+        },
+        "description": ""
     }
 ]
