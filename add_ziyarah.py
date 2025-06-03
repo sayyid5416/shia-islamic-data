@@ -12,7 +12,7 @@ DESCRIPTION = """
 
 # INFO - general
 HEADING_PREFIX = "INFO: "
-INPUT_FILE = ".temp/raw.txt"
+INPUT_FILE = "raw.txt"
 
 
 # INFO - generated
