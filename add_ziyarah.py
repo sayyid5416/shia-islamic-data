@@ -4,10 +4,9 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Mahdi (ajtfs) - for Friday"
-ZIYARAH_NAME_ARABIC = "الإمام المهدي (عجتفس) - ليوم الجمعة"
-DESCRIPTION = """
-"""
+ZIYARAH_NAME = "Imam Mahdi (ajtfs) - Ziyarat Ale Yasin"
+ZIYARAH_NAME_ARABIC = "الإمام المهدي (عجتفس) - زيارة آل ياسين"
+DESCRIPTION = "Ziarah Aal-e-Yaseen is an important Ziarah of Imam-e-Zaman (peace be upon him). It is actually a Hadith Qudsi (direct saying of Allah(swt)) as reported in Mafatih-al-Jinnan. According to the traditions, \"Aal-e-Yaseen\" is equivalent to \"Aal-e-Muhammad(peace be upon them)\" and is the correct pronunciation (Qira'at) of verse 37:130 of the Holy Quran. Beside its superb beauty, one of the interesting points about this Duaa is that, in it, we confess all the central beliefs one by one. It is also recommended to be recited to obtain relief from oppression.\n\nMafatih al-Jinan: Ziyarat Aal-i Yasin The honorable Shaykh Ahmad ibn Abi Talib Tabrisi in his valuable work (called) al-Ihtijaj has related that in his letter to Muhammad Himyari, answering the questions raised by him, Imam Mahdi (`a) wrote, \"In the Name of God, the Compassionate, the Merciful. Neither you understand His affair, nor do you accept from His friends, Mature wisdom; - but (the preaching of) Warners profits them not, (from those who have not faith), peace be upon us and all righteous servants of Allah. Whenever you want to pay attention to God through us and also to us, recite the following as God has said:\" (Allahumma inna hadhihi buq`atun tahhartaha...)\"\n\nAnother entrance leave: Allamah Majlisi has cited an entrance leave from an old manuscript that begins with \"O Allah! Verily this is the mausoleum You purified and is the locality You dignified..."
 
 
 # INFO - general
@@ -156,6 +155,82 @@ def add_ziyarah_data():
 
 
 
-if __name__ == "__main__":
-    add_ziyarah_data()
+def update_ziyarah(old_name: str, new_name: str, new_name_ar: str, new_description: str):
+    old_id = old_name.lower().replace(" ", "-")
+    new_id = new_name.lower().replace(" ", "-")
 
+    index_path = "ziyarah/index.json"
+    text_dir = "ziyarah/text"
+
+    if not os.path.exists(index_path):
+        print(f"[x] index.json not found.")
+        return
+
+    with open(index_path, "r", encoding="utf-8") as f:
+        try:
+            index = json.load(f)
+        except json.JSONDecodeError:
+            print(f"[x] index.json is invalid.")
+            return
+
+    matched = [z for z in index if z.get("id") == old_id]
+    if not matched:
+        print(f"[x] No entry with ID: {old_id}")
+        return
+
+    # Remove old entry
+    index = [z for z in index if z.get("id") != old_id]
+
+    # Add updated entry
+    updated = {
+        "id": new_id,
+        "total_lines": matched[0]["total_lines"],
+        "languages": matched[0]["languages"],
+        "title": {
+            "ar": new_name_ar,
+            "en": new_name,
+            "transliteration": new_name
+        },
+        "description": new_description.strip()
+    }
+    index.append(updated)
+    index.sort(key=lambda x: x["id"])
+
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=4)
+    print(f"✔ Updated index with ID: {new_id}")
+
+    # Rename text files
+    for lang in ["ar", "en", "transliteration"]:
+        old_path = f"{text_dir}/{lang}/{old_id}.json"
+        new_path = f"{text_dir}/{lang}/{new_id}.json"
+
+        if os.path.exists(old_path):
+            with open(old_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+
+            data["id"] = new_id
+            data["title"] = new_name_ar if lang == "ar" else new_name
+
+            with open(new_path, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)
+
+            os.remove(old_path)
+            print(f"✔ Updated: {old_path} → {new_path}")
+        else:
+            print(f"[!] File not found: {old_path}")
+
+
+
+
+
+
+if __name__ == "__main__":
+    # add_ziyarah_data()
+    
+    update_ziyarah(
+        "Ziyarat Ale Yasin - Imam Mahdi (ajtfs)",
+        ZIYARAH_NAME,
+        ZIYARAH_NAME_ARABIC,
+        DESCRIPTION
+    )
