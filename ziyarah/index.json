@@ -178,5 +178,20 @@
             "transliteration": "Ziyarat Jamia third"
         },
         "description": "The third Jamiah - Day of Arafah.\nThis form of ziyarah has been reported by Sayyid Ibn Tawus within the supplicatory prayers of the `Arafah Day from Imam al-Sadiq (as).\nIt can be said at visiting any shrine at any time, especially on the `Arafah Day."
+    },
+    {
+        "id": "ziyarat-rajabiyah-at-shrines",
+        "total_lines": 48,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة رجبية في المشاهد",
+            "en": "Ziyarat Rajabiyah at Shrines",
+            "transliteration": "Ziyarat Rajabiyah at Shrines"
+        },
+        "description": "From Sahifa Mahdivia (ajtfs)\n\nRecited at any shrine of Ahlulbayt(as) in month of Rajab\n\nShaykh al-Tusi has also reported the following words from Abu'l-Qasim ibn Ruh, the special Representative of Imam al-Mahdi (atfs): \n\"In Rajab, you may visit any of the shrines (of the Holy Infallibles) that are possible for you to visit, and say this ziyarah therein\""
     }
 ]
