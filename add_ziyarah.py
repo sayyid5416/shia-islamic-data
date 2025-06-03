@@ -4,9 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Mahdi (ajtfs) - Ziyarat Ale Yasin"
-ZIYARAH_NAME_ARABIC = "الإمام المهدي (عجتفس) - زيارة آل ياسين"
-DESCRIPTION = "Ziarah Aal-e-Yaseen is an important Ziarah of Imam-e-Zaman (peace be upon him). It is actually a Hadith Qudsi (direct saying of Allah(swt)) as reported in Mafatih-al-Jinnan. According to the traditions, \"Aal-e-Yaseen\" is equivalent to \"Aal-e-Muhammad(peace be upon them)\" and is the correct pronunciation (Qira'at) of verse 37:130 of the Holy Quran. Beside its superb beauty, one of the interesting points about this Duaa is that, in it, we confess all the central beliefs one by one. It is also recommended to be recited to obtain relief from oppression.\n\nMafatih al-Jinan: Ziyarat Aal-i Yasin The honorable Shaykh Ahmad ibn Abi Talib Tabrisi in his valuable work (called) al-Ihtijaj has related that in his letter to Muhammad Himyari, answering the questions raised by him, Imam Mahdi (`a) wrote, \"In the Name of God, the Compassionate, the Merciful. Neither you understand His affair, nor do you accept from His friends, Mature wisdom; - but (the preaching of) Warners profits them not, (from those who have not faith), peace be upon us and all righteous servants of Allah. Whenever you want to pay attention to God through us and also to us, recite the following as God has said:\" (Allahumma inna hadhihi buq`atun tahhartaha...)\"\n\nAnother entrance leave: Allamah Majlisi has cited an entrance leave from an old manuscript that begins with \"O Allah! Verily this is the mausoleum You purified and is the locality You dignified..."
+ZIYARAH_NAME = "Prophet Muhammad (saww) - at Shrine"
+ZIYARAH_NAME_ARABIC = "النبي محمد (صلى الله عليه وآله) - عند الضريح"
+DESCRIPTION = """
+"""
 
 
 # INFO - general
@@ -226,11 +227,11 @@ def update_ziyarah(old_name: str, new_name: str, new_name_ar: str, new_descripti
 
 
 if __name__ == "__main__":
-    # add_ziyarah_data()
+    add_ziyarah_data()
     
-    update_ziyarah(
-        "Ziyarat Ale Yasin - Imam Mahdi (ajtfs)",
-        ZIYARAH_NAME,
-        ZIYARAH_NAME_ARABIC,
-        DESCRIPTION
-    )
+    # update_ziyarah(
+    #     "Ziyarat Ale Yasin - Imam Mahdi (ajtfs)",
+    #     ZIYARAH_NAME,
+    #     ZIYARAH_NAME_ARABIC,
+    #     DESCRIPTION
+    # )
