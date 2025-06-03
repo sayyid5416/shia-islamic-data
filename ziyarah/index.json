@@ -30,6 +30,21 @@
         "description": ""
     },
     {
+        "id": "ziyarat-aimatul-momineen",
+        "total_lines": 309,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زیارة أئمة المؤمنين",
+            "en": "Ziyarat Aimatul Momineen",
+            "transliteration": "Ziyarat Aimatul Momineen"
+        },
+        "description": "This form of ziyarah can be said during visiting all the Holy Imams in all months and days.\n\nIn his book of Misbah al-Za'ir, Sayyid Ibn Tawus has reported this form of ziyarah from the Holy Imams (peace be upon them)"
+    },
+    {
         "id": "ziyarat-al-ashura",
         "total_lines": 147,
         "languages": [
