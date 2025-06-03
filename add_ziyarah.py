@@ -4,10 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali (as) - at Najaf Shrine 2"
-ZIYARAH_NAME_ARABIC = "2 الإمام علي (ع) - عند مرقد النجف"
+ZIYARAH_NAME = "Imam Ali (as) - at Najaf Shrine 3"
+ZIYARAH_NAME_ARABIC = "3 الإمام علي (ع) - عند مرقد النجف"
 DESCRIPTION = """
 This is the another form of Ziyarat of Imam Ali (as) - by Imam Jaffer al-Sadiq (as) 
+
+In Mustadrak al-Wasa'il, the following narration has been quoted from the book of al-Mazar al-Qadim on the authority of our master, Imam Muhammad al-Baqir (as)
 """
 
 
