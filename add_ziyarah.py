@@ -4,9 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Prophet Muhammad (saww) - at Shrine"
-ZIYARAH_NAME_ARABIC = "النبي محمد (صلى الله عليه وآله) - عند الضريح"
+ZIYARAH_NAME = "Prophet Muhammad (saww) - 17 Rabiul Awwal"
+ZIYARAH_NAME_ARABIC = "النبي محمد (صلى الله عليه وآله) - ١٧ ربيع الأول"
 DESCRIPTION = """
+In his book of Zad al-Ma`ad, `Allamah al-Majlisi, within the recommended acts on the Seventeenth of Rabi` al-Awwal; the Holy Prophet's (saww) birthday, says that Shaykh al-Mufid, Shaykh al-Shahid, and Sayyid Ibn Tawus instructed the following Ziarat.
+
+Also recite Ziyarat of Imam ali (as) on 17th Rabiul Awwal
 """
 
 
