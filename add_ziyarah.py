@@ -4,15 +4,15 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Ziyarat Ahlulbayt"
-ZIYARAH_NAME_ARABIC = "زيارة أهل البيت"
+ZIYARAH_NAME = "Imam Mahdi (ajtfs) - for Friday"
+ZIYARAH_NAME_ARABIC = "الإمام المهدي (عجتفس) - ليوم الجمعة"
 DESCRIPTION = """
 """
 
 
 # INFO - general
-# HEADING_PREFIX = "INFO: "
-HEADING_PREFIX = "DESC: "
+HEADING_PREFIX = "INFO: "
+# HEADING_PREFIX = "DESC: "
 INPUT_FILE = "raw.txt"
 
 
