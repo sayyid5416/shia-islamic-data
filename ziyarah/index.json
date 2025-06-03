@@ -255,6 +255,21 @@
         "description": ""
     },
     {
+        "id": "prophet-noah-(as)",
+        "total_lines": 9,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "النبي نوح (ع)",
+            "en": "Prophet Noah (as)",
+            "transliteration": "Prophet Noah (as)"
+        },
+        "description": "Recite this ziyarah when visiting Prophet Noah (pbuh)"
+    },
+    {
         "id": "ziyarat-ahlulbayt",
         "total_lines": 28,
         "languages": [

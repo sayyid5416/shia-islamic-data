@@ -4,10 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Prophet Adam (as)"
-ZIYARAH_NAME_ARABIC = "النبي آدم (ع)"
+ZIYARAH_NAME = "Prophet Noah (as)"
+ZIYARAH_NAME_ARABIC = "النبي نوح (ع)"
 DESCRIPTION = """
-Recite this ziyarah when visiting Prophet Adam (pbuh)
+Recite this ziyarah when visiting Prophet Noah (pbuh)
 """
 
 
