@@ -2,6 +2,20 @@
 import json, os
 
 
+# INFO
+INPUT_FILE = ".temp/raw.txt"
+ZIYARAH_NAME = "test"
+ZIYARAH_NAME_ARABIC = ""
+DESCRIPTION = """
+"""
+HEADING_PREFIX = "INFO: "
+
+
+# INFO - generated
+ziyarahId = ZIYARAH_NAME.lower().replace(" ", "-")
+
+
+
 def printStart(msg: str):
     print(f"> {msg}")
     
@@ -26,6 +40,7 @@ def prepare_file(filePath: str):
         printDone(f"Created empty file: {filePath}")
 
 
+
 def read_blocks(filePath: str) -> list[list[str]]:
     with open(filePath, "r", encoding="utf-8") as f:
         raw_lines = [line.strip() for line in f]
@@ -46,21 +61,21 @@ def read_blocks(filePath: str) -> list[list[str]]:
     return blocks
 
 
-def update_index(name: str, totalLines: int):
+
+def update_index(totalLines: int):
     """Updates ziyarat index by adding/replacing entry and sorting by id."""
     printStart("Updating index...")
     indexPath = "ziyarah/index.json"
-    slug = name.lower().replace(" ", "-")
     entry = {
-        "id": slug,
+        "id": ziyarahId,
         "total_lines": totalLines,
         "languages": ["ar", "en", "transliteration"],
         "title": {
-            "ar": "",
-            "en": name,
-            "transliteration": name
+            "ar": ZIYARAH_NAME_ARABIC,
+            "en": ZIYARAH_NAME,
+            "transliteration": ZIYARAH_NAME
         },
-        "description": ""
+        "description": DESCRIPTION.strip()
     }
 
     # Load existing index or create new list
@@ -74,7 +89,7 @@ def update_index(name: str, totalLines: int):
         index = []
 
     # Remove old entry with same id if exists
-    index = [item for item in index if item.get("id") != slug]
+    index = [item for item in index if item.get("id") != ziyarahId]
 
     # Append new entry
     index.append(entry)
@@ -85,52 +100,57 @@ def update_index(name: str, totalLines: int):
     # Save updated index
     with open(indexPath, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=4)
-    printDone(f"Updated index with {slug}.")
+    printDone(f"Updated index with {ziyarahId}.")
 
 
-def add_ziyarah_data(inputFile: str, name: str):
+
+def add_ziyarah_data():
     try:
-        prepare_file(inputFile)
+        prepare_file(INPUT_FILE)
 
-        printStart(f"Reading from {inputFile}...")
-        blocks = read_blocks(inputFile)
+        printStart(f"Reading from {INPUT_FILE}...")
+        blocks = read_blocks(INPUT_FILE)
         printDone(f"Total blocks read: {len(blocks)}")
 
         for i, block in enumerate(blocks):
             if len(block) == 1:
-                blocks[i] = block * 3
+                infoLine = f"{HEADING_PREFIX}{block[0]}"
+                blocks[i] = [infoLine, infoLine, infoLine]
             elif len(block) != 3:
                 printError(f"Block {i+1} has {len(block)} lines: {block}")
                 return
 
-        slug = name.lower().replace(" ", "-")
-        languages = [("ar", 0), ("transliteration", 1), ("en", 2)]
+        languages = [
+            ("ar", 0, ZIYARAH_NAME_ARABIC),
+            ("transliteration", 1, ZIYARAH_NAME), 
+            ("en", 2, ZIYARAH_NAME)
+        ]
 
-        for langCode, idx in languages:
+        for langCode, idx, title in languages:
             lines = [b[idx] for b in blocks]
             data = {
-                "id": slug,
-                "title": name,
+                "id": ziyarahId,
+                "title": title,
                 "language": langCode,
                 "text": lines
             }
-            outPath = f"ziyarah/text/{langCode}/{slug}.json"
+            outPath = f"ziyarah/text/{langCode}/{ziyarahId}.json"
             printStart(f"Writing to {outPath}...")
             with open(outPath, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
             printDone(f"Wrote {len(lines)} lines.")
         
-        update_index(name=name, totalLines=len(blocks))
+        update_index(totalLines=len(blocks))
 
     except FileNotFoundError:
-        printError(f"Error: File '{inputFile}' not found.")
+        printError(f"Error: File '{INPUT_FILE}' not found.")
     except IOError as e:
         printError(f"I/O error({e.errno}): {e.strerror}")
     except Exception as e:
         printError(f"Unexpected error: {e}")
 
 
+
 if __name__ == "__main__":
-    ziyarahName = "test"
-    totalLines = add_ziyarah_data(inputFile="raw.txt", name=ziyarahName)
+    add_ziyarah_data()
 
