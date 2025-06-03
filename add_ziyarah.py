@@ -4,14 +4,15 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "After Salat"
-ZIYARAH_NAME_ARABIC = "بعد الصلاة"
+ZIYARAH_NAME = "Ziyarat Ahlulbayt"
+ZIYARAH_NAME_ARABIC = "زيارة أهل البيت"
 DESCRIPTION = """
 """
 
 
 # INFO - general
-HEADING_PREFIX = "INFO: "
+# HEADING_PREFIX = "INFO: "
+HEADING_PREFIX = "DESC: "
 INPUT_FILE = "raw.txt"
 
 
