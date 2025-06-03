@@ -163,5 +163,20 @@
             "transliteration": "Ziyarat Jamia Saghira"
         },
         "description": "The Minor Comprehensive Form of Ziyarah In his book of Man La Yahdharul Faqih, Shaykh al-Saduq has reported that Imam al-Ridha (as) was once asked about the way of visiting Imam Musa Kadhim (as). \nHe answered, “You may pray in the mosques surrounding his tomb. It is however acceptable to say the following (form of ziyarah) at all shrines.”\n\nThis apparently means that it is acceptable to say this form of ziyarah at visiting the holy shrines of the Imams (peace be upon them) or even all other holy shrines, like those of the Prophets and the Prophet's successors"
+    },
+    {
+        "id": "ziyarat-jamia-third",
+        "total_lines": 75,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة الجامعة الثالثة",
+            "en": "Ziyarat Jamia third",
+            "transliteration": "Ziyarat Jamia third"
+        },
+        "description": "The third Jamiah - Day of Arafah.\nThis form of ziyarah has been reported by Sayyid Ibn Tawus within the supplicatory prayers of the `Arafah Day from Imam al-Sadiq (as).\nIt can be said at visiting any shrine at any time, especially on the `Arafah Day."
     }
 ]

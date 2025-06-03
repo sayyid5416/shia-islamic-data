@@ -4,13 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Ziyarat Jamia Saghira"
-ZIYARAH_NAME_ARABIC = "زيارة الجامعة الصغيرة"
+ZIYARAH_NAME = "Ziyarat Jamia third"
+ZIYARAH_NAME_ARABIC = "زيارة الجامعة الثالثة"
 DESCRIPTION = """
-The Minor Comprehensive Form of Ziyarah In his book of Man La Yahdharul Faqih, Shaykh al-Saduq has reported that Imam al-Ridha (as) was once asked about the way of visiting Imam Musa Kadhim (as). 
-He answered, “You may pray in the mosques surrounding his tomb. It is however acceptable to say the following (form of ziyarah) at all shrines.”
-
-This apparently means that it is acceptable to say this form of ziyarah at visiting the holy shrines of the Imams (peace be upon them) or even all other holy shrines, like those of the Prophets and the Prophet's successors
+The third Jamiah - Day of Arafah.
+This form of ziyarah has been reported by Sayyid Ibn Tawus within the supplicatory prayers of the `Arafah Day from Imam al-Sadiq (as).
+It can be said at visiting any shrine at any time, especially on the `Arafah Day.
 """
 
 
