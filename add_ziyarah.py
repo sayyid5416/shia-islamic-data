@@ -4,16 +4,16 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali (as) - at Najaf Shrine 1"
-ZIYARAH_NAME_ARABIC = "1 الإمام علي (ع) - عند مرقد النجف"
+ZIYARAH_NAME = "Imam Ali (as) - at Najaf Shrine 2"
+ZIYARAH_NAME_ARABIC = "2 الإمام علي (ع) - عند مرقد النجف"
 DESCRIPTION = """
-This is the first Main Form of Ziyarat of Imam Ali (as)
+This is the another form of Ziyarat of Imam Ali (as) - by Imam Jaffer al-Sadiq (as) 
 """
 
 
 # INFO - general
-HEADING_PREFIX = "INFO: "
-# HEADING_PREFIX = "DESC: "
+# HEADING_PREFIX = "INFO: "
+HEADING_PREFIX = "DESC: "
 INPUT_FILE = "raw.txt"
 
 

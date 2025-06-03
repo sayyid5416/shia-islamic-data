@@ -60,6 +60,21 @@
         "description": "This is the first Main Form of Ziyarat of Imam Ali (as)"
     },
     {
+        "id": "imam-ali-(as)---at-najaf-shrine-2",
+        "total_lines": 46,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "2 الإمام علي (ع) - عند مرقد النجف",
+            "en": "Imam Ali (as) - at Najaf Shrine 2",
+            "transliteration": "Imam Ali (as) - at Najaf Shrine 2"
+        },
+        "description": "This is the another form of Ziyarat of Imam Ali (as) - by Imam Jaffer al-Sadiq (as)"
+    },
+    {
         "id": "imam-ali-(as)---ziyarat-ameenallah",
         "total_lines": 71,
         "languages": [
