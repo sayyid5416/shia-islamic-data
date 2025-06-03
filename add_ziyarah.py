@@ -4,12 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali (as) - at Najaf Shrine 6"
-ZIYARAH_NAME_ARABIC = "6 الإمام علي (ع) - عند مرقد النجف"
+ZIYARAH_NAME = "Imam Ali (as) - at Najaf Shrine - Farewell"
+ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - عند مرقد النجف - الوداع"
 DESCRIPTION = """
-This is the another form of Ziyarat of Imam Ali (as)
+Bidding Farewell to Imam `Ali (as)
 
-This form of Ziyarah has been reported by Sayyid Ibn Tawus, in his book entitled Misbah al-Za'ir, who, instructing the method of this ziyarah.
+One who intends to leave the holy shrine of Imam `Ali (as) may say the following form of bidding farewell, which has been mentioned by the scholars.
 """
 
 

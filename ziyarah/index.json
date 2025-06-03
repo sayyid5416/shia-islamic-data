@@ -45,6 +45,21 @@
         "description": ""
     },
     {
+        "id": "imam-ali-(as)---at-najaf-shrine---farewell",
+        "total_lines": 37,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "الإمام علي (ع) - عند مرقد النجف - الوداع",
+            "en": "Imam Ali (as) - at Najaf Shrine - Farewell",
+            "transliteration": "Imam Ali (as) - at Najaf Shrine - Farewell"
+        },
+        "description": "Bidding Farewell to Imam `Ali (as)\n\nOne who intends to leave the holy shrine of Imam `Ali (as) may say the following form of bidding farewell, which has been mentioned by the scholars."
+    },
+    {
         "id": "imam-ali-(as)---at-najaf-shrine-1",
         "total_lines": 226,
         "languages": [
