@@ -45,6 +45,21 @@
         "description": ""
     },
     {
+        "id": "imam-ali-(as)---at-najaf-shrine---entrance",
+        "total_lines": 155,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "الإمام علي (ع) - عند مرقد النجف - الدخول",
+            "en": "Imam Ali (as) - at Najaf Shrine - Entrance",
+            "transliteration": "Imam Ali (as) - at Najaf Shrine - Entrance"
+        },
+        "description": "When going for the shrine of Imam `Ali (as)\n\nShaykh al-Mufid, al-Shahid, Sayyid Ibn Tawus, and others have mentioned the following form of Ziyarah"
+    },
+    {
         "id": "imam-ali-(as)---at-najaf-shrine---farewell",
         "total_lines": 37,
         "languages": [
