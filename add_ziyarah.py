@@ -4,15 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali (as) - at Najaf Shrine 5"
-ZIYARAH_NAME_ARABIC = "5 الإمام علي (ع) - عند مرقد النجف"
+ZIYARAH_NAME = "Imam Ali (as) - at Najaf Shrine 6"
+ZIYARAH_NAME_ARABIC = "6 الإمام علي (ع) - عند مرقد النجف"
 DESCRIPTION = """
-This is the another form of Ziyarat of Imam Ali (as) - by Imam Jaffar al-Sadiq (as) 
+This is the another form of Ziyarat of Imam Ali (as)
 
-The following form of Ziyarah has been mentioned by a number of our scholars among whom is Shaykh Muhammad ibn al-Mashhadi who quotes that Muhammad ibn Khalid al-Tayalisi has reported Sayf ibn `Umayrah to have related the following:
-
-A group of our acquaintances and I accompanied Safwan al-Jammal to al-Ghari for the purpose of visiting the tomb of Amir al-Mu'minin (as). When we accomplished ziyarah. 
-Safwan turned his face toward the tomb of Imam al-Husayn (as) and instructed that we should visit Imam al-Husayn ibn `Ali (as) from this place at the head's side of Imam `Ali's tomb. He then told us that he, once, accompanied Imam al-Sadiq (as) to this very place where the Imam (‘a) did the same thing that Safwan had just done and said the same supplication. Safwan added, “The Imam (‘a) then advised me to persist in this method and form of Ziyarah and to visit Imam `Ali and Imam al-Husayn (as) with this form, for he would guarantee, on behalf of Almighty Allah, that any one who visits them with this form of ziyarah and says this supplication, be it from close or far distance, will have his ziyarah accepted, his efforts rewarded, his greetings conveyed (to the Imams) without any barrier, and his requests granted by Almighty Allah whatever they are.”
+This form of Ziyarah has been reported by Sayyid Ibn Tawus, in his book entitled Misbah al-Za'ir, who, instructing the method of this ziyarah.
 """
 
 
