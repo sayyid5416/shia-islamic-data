@@ -45,6 +45,21 @@
         "description": ""
     },
     {
+        "id": "imam-ali-(as)---at-najaf-shrine-1",
+        "total_lines": 226,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "1 الإمام علي (ع) - عند مرقد النجف",
+            "en": "Imam Ali (as) - at Najaf Shrine 1",
+            "transliteration": "Imam Ali (as) - at Najaf Shrine 1"
+        },
+        "description": "This is the first Main Form of Ziyarat of Imam Ali (as)"
+    },
+    {
         "id": "imam-ali-(as)---ziyarat-ameenallah",
         "total_lines": 71,
         "languages": [
