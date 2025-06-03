@@ -2,13 +2,17 @@
 import json, os
 
 
+
 # INFO
-INPUT_FILE = ".temp/raw.txt"
 ZIYARAH_NAME = "test"
 ZIYARAH_NAME_ARABIC = ""
 DESCRIPTION = """
 """
+
+
+# INFO - general
 HEADING_PREFIX = "INFO: "
+INPUT_FILE = ".temp/raw.txt"
 
 
 # INFO - generated
