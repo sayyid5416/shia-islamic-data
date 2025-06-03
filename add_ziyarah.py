@@ -4,15 +4,9 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Ziyarat Rajabiyah at Shrines"
-ZIYARAH_NAME_ARABIC = "زيارة رجبية في المشاهد"
+ZIYARAH_NAME = "After Salat"
+ZIYARAH_NAME_ARABIC = "بعد الصلاة"
 DESCRIPTION = """
-From Sahifa Mahdivia (ajtfs)
-
-Recited at any shrine of Ahlulbayt(as) in month of Rajab
-
-Shaykh al-Tusi has also reported the following words from Abu'l-Qasim ibn Ruh, the special Representative of Imam al-Mahdi (atfs): 
-"In Rajab, you may visit any of the shrines (of the Holy Infallibles) that are possible for you to visit, and say this ziyarah therein"
 """
 
 
