@@ -4,12 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali (as) - at Najaf Shrine - Entrance"
-ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - عند مرقد النجف - الدخول"
+ZIYARAH_NAME = "Prophet Adam (as)"
+ZIYARAH_NAME_ARABIC = "النبي آدم (ع)"
 DESCRIPTION = """
-When going for the shrine of Imam `Ali (as)
-
-Shaykh al-Mufid, al-Shahid, Sayyid Ibn Tawus, and others have mentioned the following form of Ziyarah
+Recite this ziyarah when visiting Prophet Adam (pbuh)
 """
 
 
