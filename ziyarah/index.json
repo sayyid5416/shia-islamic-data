@@ -120,6 +120,21 @@
         "description": ""
     },
     {
+        "id": "h.-habib-ibn-mazahir-(as)",
+        "total_lines": 5,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "حضرت حبیب ابن مظاہر (ع)",
+            "en": "H. Habib Ibn Mazahir (as)",
+            "transliteration": "H. Habib Ibn Mazahir (as)"
+        },
+        "description": "companion of Imam Hussain (as) martyred in Kerbala"
+    },
+    {
         "id": "h.-ibrahim-son-of-prophet-(saww)",
         "total_lines": 53,
         "languages": [

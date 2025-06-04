@@ -4,14 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "H. Abu-Talib (as)"
-ZIYARAH_NAME_ARABIC = "حضرت أبو طالب (ع)"
+ZIYARAH_NAME = "H. Habib Ibn Mazahir (as)"
+ZIYARAH_NAME_ARABIC = "حضرت حبیب ابن مظاہر (ع)"
 DESCRIPTION = """
-The Great Guardian of Islam
-
-Abu Talib (as) supported the Holy Prophet (saww) in all the difficult situations.
-Buried in Makkah (Jannatul Maala cemetery).
-Father of Imam Ali (as) - the cousin, son in law and succesor of the Holy Prophet(saww)
+companion of Imam Hussain (as) martyred in Kerbala
 """
 
 
