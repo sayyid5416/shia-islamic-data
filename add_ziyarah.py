@@ -4,12 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali (as) - 27th Rajab"
-ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - ٢٧ رجب"
+ZIYARAH_NAME = "Imam Ali (as) - 21st Ramadan"
+ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - ٢١ رمضان"
 DESCRIPTION = """
-The ziyarah has been mentioned by Shaykh al-Mufid, Sayyid Ibn Tawus, and al-Shahid in the following form
+Hazrat Khidr (á)came hurriedly to Imam Ali's (á) house on the day of his martyrdom, while he was weeping and reciting 'Inna lillahahe wa Inna ilahay he rajeoon(2:156)'. He stood at the door of the Imam's home and said “Rahamkallah ho ya Abal Hassan” And enumerated many of his virtues.
 
-Interestingly this long ziyarat is a chronicle of the supreme position of Imam Ali (as) and the various events in his life in defense of the Prophet (saws) and Islam.
+The similar text that is considered as the Ziyarat of the Imam's (á) martyrdom day has been mentioned in “Hadiyyat al-Za'ir”. These words, quoted from al-Kafi 1:454,
 """
 
 
