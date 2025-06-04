@@ -4,9 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Fatima Zahra (sa)"
-ZIYARAH_NAME_ARABIC = "سَيِّدَةُ فَاطِمَةَ الزَّهْرَاء (س)"
+ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - From Mafatih Jinan"
+ZIYARAH_NAME_ARABIC = "سَيِّدَةُ فَاطِمَةَ الزَّهْرَاء (س) - مِنْ مَفَاتِيحِ الْجِنَانِ"
 DESCRIPTION = """
+Also recited on date of Martyrdom
+
+Scholars have mentioned another form of ziyarah whose statements are similar to the statements of the aforementioned ziyarah that has been quoted from Shaykh al-Tusi.
 """
 
 
