@@ -4,15 +4,13 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "H. Abd al-ʿAẓīm al-Ḥasanī (as)"
-ZIYARAH_NAME_ARABIC = "حضرت عبد العظيم الحسني (ع)"
+ZIYARAH_NAME = "Descendants of Holy Imams - 1"
+ZIYARAH_NAME_ARABIC = "ذريّة الأئمة الأطهار - ١"
 DESCRIPTION = """
-Al-Sayyid ʿAbd al-ʿAẓīm al-Ḥasanī commonly khown as Sayyid al-Karīm and Shah ʿAbd al-ʿAzīm is among the famous scholars of the progeny of Imām al-Ḥasan(a) and a transmitter of ḥadīth.
+In his book of Misbah al-Za'ir, the sublime Sayyid `Ali ibn Tawus has mentioned two forms of ziyarah of the Holy Imam's descendants.
 
-Abd al-ʿAẓīm al-Ḥasanī had the opportunity to meet Imām al-Riḍā(a), Imām al-Jawād(a) and Imām al-Hādī(a) before passing away. His mausoleum is in the city of Ray, Tehran, in Iran. It is mentioned in some ḥadīth that the reward for visiting his grave is equal to the reward for visiting Imām al-Ḥusayn's tomb. 
-
-Imām al-Hādī (a) was once accompanied in a journey by ʿAbd al-ʿAẓīm al-Ḥasanī and addressed him saying, 
-“O Abū al-Qāsim! You surely are our wali… you have received the religion from us which God loves… May God support you in this world and in the hereafter.”
+First Form of Ziyarah: 
+If you intend to visit one of the Holy Imam's descendants, such as al-Qasim the son of Imam al-Kazim, al-`Abbas the son of Imam `Ali, or `Ali the son of Imam al-Husayn who was martyred at the Battle of al-Taff, or any other son or descendant of one of the Holy Imams, you should stop at the tomb and say the following ziyarah.
 """
 
 
