@@ -4,12 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Descendants of Holy Imams - 1"
-ZIYARAH_NAME_ARABIC = "ذريّة الأئمة الأطهار - ١"
+ZIYARAH_NAME = "Descendants of Holy Imams - 2"
+ZIYARAH_NAME_ARABIC = "ذريّة الأئمة الأطهار - 2"
 DESCRIPTION = """
 In his book of Misbah al-Za'ir, the sublime Sayyid `Ali ibn Tawus has mentioned two forms of ziyarah of the Holy Imam's descendants.
 
-First Form of Ziyarah: 
+Second Form of Ziyarah: 
 If you intend to visit one of the Holy Imam's descendants, such as al-Qasim the son of Imam al-Kazim, al-`Abbas the son of Imam `Ali, or `Ali the son of Imam al-Husayn who was martyred at the Battle of al-Taff, or any other son or descendant of one of the Holy Imams, you should stop at the tomb and say the following ziyarah.
 """
 
