@@ -465,6 +465,21 @@
         "description": ""
     },
     {
+        "id": "lady-fatima-bintul-asad---mother-of-imam-ali-(as)",
+        "total_lines": 38,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "السيدة فاطمة بنت الأسد - أم الإمام علي (ع)",
+            "en": "Lady Fatima bintul Asad - Mother of Imam Ali (as)",
+            "transliteration": "Lady Fatima bintul Asad - Mother of Imam Ali (as)"
+        },
+        "description": ""
+    },
+    {
         "id": "lady-haleema-sadiya",
         "total_lines": 10,
         "languages": [

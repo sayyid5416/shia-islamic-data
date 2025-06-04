@@ -4,8 +4,8 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Wives of Holy Prophet (saww)"
-ZIYARAH_NAME_ARABIC = "زوجات النبي (ص)"
+ZIYARAH_NAME = "Lady Fatima bintul Asad - Mother of Imam Ali (as)"
+ZIYARAH_NAME_ARABIC = "السيدة فاطمة بنت الأسد - أم الإمام علي (ع)"
 DESCRIPTION = """
 """
 
