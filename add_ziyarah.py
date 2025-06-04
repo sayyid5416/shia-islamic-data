@@ -4,10 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali (as) - 18 Zilhajj"
-ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - ١٨ ذو الحجة"
+ZIYARAH_NAME = "Imam Ali (as) - 18 Zilhajj (short)"
+ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - ١٨ ذي الحجة (قصير)"
 DESCRIPTION = """
-Though authoritative chains of authority, It is narrated that Imam `Ali ibn Muhammad al-Hadi (peace be upon him) said the following form of ziyarah at the holy tomb of Imam `Ali Amir al-Mu'minin (peace be upon him) on the Ghadir day when he was summoned by the `Abbasid ruler, al-Mu`tasim, to be present before him in Iraq. (It contains a full overview of events in his life.)
+This form of ziyarah has been mentioned in Iqbal al-A`mal by Sayyid Ibn Tawus who has reported it from Imam Sadiq (peace be upon him).
 """
 
 
