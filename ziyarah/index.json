@@ -450,6 +450,21 @@
         "description": ""
     },
     {
+        "id": "syeda-fatima-zahra-(sa)---ziyarat-nama",
+        "total_lines": 7,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "السيّدة فاطمة الزهراء (ع) - زيارة‌نامة",
+            "en": "Syeda Fatima Zahra (sa) - Ziyarat Nama",
+            "transliteration": "Syeda Fatima Zahra (sa) - Ziyarat Nama"
+        },
+        "description": "Shaikh Tusi says... Whenever you want to submit your gratitude in service of Lady Fatima Zahra, (sa), read this Ziarat Nama because it filled with the pious legacy of inner knowledge in each of these sentences.\n\nTry to meditate on each of it so you can enhance it step by step on the ladder of inner knowledge as you moves forward. There are great secrets hidden in these short sentences, try to discover them."
+    },
+    {
         "id": "ziyarat-ahlulbayt",
         "total_lines": 28,
         "languages": [
