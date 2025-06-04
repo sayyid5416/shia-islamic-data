@@ -60,6 +60,21 @@
         "description": "The Prophet's uncle, Abbas bin Abdul Muttalib (as) holds an esteemed position. \nHe has given many sacrifices for Islam. Recite his Ziarat in his honor."
     },
     {
+        "id": "h.-abd-al-ʿaẓīm-al-ḥasanī-(as)",
+        "total_lines": 30,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "حضرت عبد العظيم الحسني (ع)",
+            "en": "H. Abd al-ʿAẓīm al-Ḥasanī (as)",
+            "transliteration": "H. Abd al-ʿAẓīm al-Ḥasanī (as)"
+        },
+        "description": "Al-Sayyid ʿAbd al-ʿAẓīm al-Ḥasanī commonly khown as Sayyid al-Karīm and Shah ʿAbd al-ʿAzīm is among the famous scholars of the progeny of Imām al-Ḥasan(a) and a transmitter of ḥadīth.\n\nAbd al-ʿAẓīm al-Ḥasanī had the opportunity to meet Imām al-Riḍā(a), Imām al-Jawād(a) and Imām al-Hādī(a) before passing away. His mausoleum is in the city of Ray, Tehran, in Iran. It is mentioned in some ḥadīth that the reward for visiting his grave is equal to the reward for visiting Imām al-Ḥusayn's tomb. \n\nImām al-Hādī (a) was once accompanied in a journey by ʿAbd al-ʿAẓīm al-Ḥasanī and addressed him saying, \n“O Abū al-Qāsim! You surely are our wali… you have received the religion from us which God loves… May God support you in this world and in the hereafter.”"
+    },
+    {
         "id": "h.-abdullah---father-of-holy-prophet-(saws)",
         "total_lines": 21,
         "languages": [

@@ -4,9 +4,15 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "H. Maytham al-Tammār (as)"
-ZIYARAH_NAME_ARABIC = "حضرت میثم تمار (ع)"
+ZIYARAH_NAME = "H. Abd al-ʿAẓīm al-Ḥasanī (as)"
+ZIYARAH_NAME_ARABIC = "حضرت عبد العظيم الحسني (ع)"
 DESCRIPTION = """
+Al-Sayyid ʿAbd al-ʿAẓīm al-Ḥasanī commonly khown as Sayyid al-Karīm and Shah ʿAbd al-ʿAzīm is among the famous scholars of the progeny of Imām al-Ḥasan(a) and a transmitter of ḥadīth.
+
+Abd al-ʿAẓīm al-Ḥasanī had the opportunity to meet Imām al-Riḍā(a), Imām al-Jawād(a) and Imām al-Hādī(a) before passing away. His mausoleum is in the city of Ray, Tehran, in Iran. It is mentioned in some ḥadīth that the reward for visiting his grave is equal to the reward for visiting Imām al-Ḥusayn's tomb. 
+
+Imām al-Hādī (a) was once accompanied in a journey by ʿAbd al-ʿAẓīm al-Ḥasanī and addressed him saying, 
+“O Abū al-Qāsim! You surely are our wali… you have received the religion from us which God loves… May God support you in this world and in the hereafter.”
 """
 
 
