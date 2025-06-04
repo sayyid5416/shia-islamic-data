@@ -405,6 +405,21 @@
         "description": ""
     },
     {
+        "id": "imam-mahdi-(ajtfs)",
+        "total_lines": 7,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "الإمام المهدي (عج)",
+            "en": "Imam Mahdi (ajtfs)",
+            "transliteration": "Imam Mahdi (ajtfs)"
+        },
+        "description": "This brief ziyaarat has been emphasized immensely by our master Imam-e-Zamaan (ajtfs) in a true dream, where he says,:\n\n\"Surely I love this ziyaarat.\"\n\n- Source: Fawz-e-Akbar by Shaykh Faqeeh al-Imaani, p. 711"
+    },
+    {
         "id": "imam-mahdi-(ajtfs)---ahad-fajr",
         "total_lines": 37,
         "languages": [

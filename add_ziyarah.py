@@ -4,10 +4,14 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Mahdi (ajtfs) - Ahad Fajr"
-ZIYARAH_NAME_ARABIC = "الإمام المهدي (عج) - فجر الأحد"
+ZIYARAH_NAME = "Imam Mahdi (ajtfs)"
+ZIYARAH_NAME_ARABIC = "الإمام المهدي (عج)"
 DESCRIPTION = """
-This Ziarat is recited after Fajr prayer for Imam Mahdi (ajtfs). The following form of ziyarah of our Master, the Patron of the Age is said after every Fajr (dawn) Prayer - followed by a dua from Imam Reza (as)
+This brief ziyaarat has been emphasized immensely by our master Imam-e-Zamaan (ajtfs) in a true dream, where he says,:
+
+"Surely I love this ziyaarat."
+
+- Source: Fawz-e-Akbar by Shaykh Faqeeh al-Imaani, p. 711
 """
 
 
