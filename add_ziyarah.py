@@ -4,8 +4,8 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "H. Aqeel & H. Abdullah (a)"
-ZIYARAH_NAME_ARABIC = "ح. عقيل و ح. عبد الله (ع)"
+ZIYARAH_NAME = "Wives of Holy Prophet (saww)"
+ZIYARAH_NAME_ARABIC = "زوجات النبي (ص)"
 DESCRIPTION = """
 """
 
