@@ -4,13 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Lady Ummul Baneen (sa) - 3"
+ZIYARAH_NAME = "Imam Mahdi (ajtfs) - Ahad Fajr"
 ZIYARAH_NAME_ARABIC = "السيدة أم البنين (س)"
 DESCRIPTION = """
-Syeda Fatima bint-e-Hizam - Mother of Hz Abbas Ibn Ali (as) Wife of Imam Ali (as) - buried in Baqi Medina
-
-Ummul Banin and Ali (as) had four sons, of which the eldest was Al-Abbas ibn Ali (as) (the martyred commander of Husayn ibn Ali's (as) forces at the Battle of Karbala). 
-The other 3 sons Uthman ibn Ali, Abdullah ibn Ali and Jafar ibn Ali were also martyred
+This Ziarat is recited after Fajr prayer for Imam Mahdi (ajtfs). The following form of ziyarah of our Master, the Patron of the Age is said after every Fajr (dawn) Prayer - followed by a dua from Imam Reza (as)
 """
 
 
