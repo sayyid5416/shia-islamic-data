@@ -4,12 +4,9 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - on Martyrdom date 2"
-ZIYARAH_NAME_ARABIC = "السيدة فاطمة الزهراء (ع) - حول تاريخ الاستشهاد (2)"
+ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - short 1"
+ZIYARAH_NAME_ARABIC = "السيدة فاطمة الزهراء (ع) - قصير 1"
 DESCRIPTION = """
-In Tahdhib al-Ahkam, Shaykh al-Tusi says that the narrations dealing with the merits and rewards of visiting the tomb of Lady Fatimah al-Zahra’ (as) are too numerous to be counted.
-
-From the book of Misbah al-Anwar, ‘Allamah al-Majlisi has reported Lady Fatimah al-Zahra’ (as) as saying, “My father said to me: If one invokes Almighty Allah’s blessings upon you, Almighty Allah will forgive him and will join him to me in Paradise wherever I am.”
 """
 
 
