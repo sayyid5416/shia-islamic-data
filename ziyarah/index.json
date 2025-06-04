@@ -345,6 +345,21 @@
         "description": ""
     },
     {
+        "id": "imam-mohammed-baqer-(as)---other-form",
+        "total_lines": 11,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "الإمام محمد الباقر (ع) — صيغة أخرى",
+            "en": "Imam Mohammed Baqer (as) - other form",
+            "transliteration": "Imam Mohammed Baqer (as) - other form"
+        },
+        "description": ""
+    },
+    {
         "id": "prophet-adam-(as)",
         "total_lines": 10,
         "languages": [
