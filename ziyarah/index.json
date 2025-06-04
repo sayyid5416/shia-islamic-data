@@ -165,6 +165,21 @@
         "description": ""
     },
     {
+        "id": "h.-maytham-al-tammār-(as)",
+        "total_lines": 11,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "حضرت میثم تمار (ع)",
+            "en": "H. Maytham al-Tammār (as)",
+            "transliteration": "H. Maytham al-Tammār (as)"
+        },
+        "description": ""
+    },
+    {
         "id": "hurra-and-ohad-martyrs",
         "total_lines": 11,
         "languages": [

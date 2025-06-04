@@ -4,10 +4,9 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "H. Habib Ibn Mazahir (as)"
-ZIYARAH_NAME_ARABIC = "حضرت حبیب ابن مظاہر (ع)"
+ZIYARAH_NAME = "H. Maytham al-Tammār (as)"
+ZIYARAH_NAME_ARABIC = "حضرت میثم تمار (ع)"
 DESCRIPTION = """
-companion of Imam Hussain (as) martyred in Kerbala
 """
 
 
