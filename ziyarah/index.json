@@ -585,6 +585,21 @@
         "description": "This form of ziyarah can be said during visiting all the Holy Imams in all months and days.\n\nIn his book of Misbah al-Za'ir, Sayyid Ibn Tawus has reported this form of ziyarah from the Holy Imams (peace be upon them)"
     },
     {
+        "id": "ziyarat-aimmatul-baqi",
+        "total_lines": 97,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "زيارة أئمة البقي",
+            "en": "Ziyarat Aimmatul Baqi",
+            "transliteration": "Ziyarat Aimmatul Baqi"
+        },
+        "description": ""
+    },
+    {
         "id": "ziyarat-al-ashura",
         "total_lines": 147,
         "languages": [

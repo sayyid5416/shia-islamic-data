@@ -4,8 +4,8 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Jafar as Sadiq (as) - other form"
-ZIYARAH_NAME_ARABIC = "الإمام جعفر الصادق (ع) — صيغة أخرى"
+ZIYARAH_NAME = "Ziyarat Aimmatul Baqi"
+ZIYARAH_NAME_ARABIC = "زيارة أئمة البقي"
 DESCRIPTION = """
 """
 
