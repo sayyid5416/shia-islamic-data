@@ -4,14 +4,9 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Asking permission for entering the holy shrines"
-ZIYARAH_NAME_ARABIC = "الاِسْتِئْذَانُ لِدُخُولِ الحَرَمِ المُقَدَّس"
+ZIYARAH_NAME = "Imam Hassan Al Askari (as)"
+ZIYARAH_NAME_ARABIC = "الإمام الحسن العسكري (ع)"
 DESCRIPTION = """
-Two forms of asking permission for entering the holy shrines (isti'dhan).
-
-First: In the word of Shaykh al-Kaf'ami, when you intend to enter the Holy Prophet's (saww) Mosque in al-Madinah or any of the holy shrines of the Imams (as), 
-
-Second: Reported by `Allamah al-Majlisi - from an old copy of a book written by one of our old scholars who had mentioned that it is a form of asking permission to enter the Holy Vault (Sirdab) and the illuminative shrines of the Holy Imams (as):
 """
 
 

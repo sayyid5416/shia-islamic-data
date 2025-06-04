@@ -390,6 +390,21 @@
         "description": ""
     },
     {
+        "id": "imam-hassan-al-askari-(as)",
+        "total_lines": 84,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "الإمام الحسن العسكري (ع)",
+            "en": "Imam Hassan Al Askari (as)",
+            "transliteration": "Imam Hassan Al Askari (as)"
+        },
+        "description": ""
+    },
+    {
         "id": "imam-hussain-(as)---from-imam-ali-(as)-shrine",
         "total_lines": 30,
         "languages": [
