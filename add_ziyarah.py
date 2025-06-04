@@ -14,8 +14,8 @@ The author of al-Mustadrak has reported from the book of al-Mazar by Muhammad ib
 
 
 # INFO - general
-HEADING_PREFIX = "INFO: "
-# HEADING_PREFIX = "DESC: "
+# HEADING_PREFIX = "INFO: "
+HEADING_PREFIX = "DESC: "
 INPUT_FILE = "raw.txt"
 
 
