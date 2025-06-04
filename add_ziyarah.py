@@ -4,11 +4,9 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "H. Ibrahim son of Prophet (saww)"
-ZIYARAH_NAME_ARABIC = "ح. إِبْرَاهِيم بْنُ النَّبِيِّ (ص)"
+ZIYARAH_NAME = "H. Aqeel & H. Abdullah (a)"
+ZIYARAH_NAME_ARABIC = "ح. عقيل و ح. عبد الله (ع)"
 DESCRIPTION = """
-The Prophet's uncle, Abbas bin Abdul Muttalib (as) holds an esteemed position. 
-He has given many sacrifices for Islam. Recite his Ziarat in his honor.
 """
 
 

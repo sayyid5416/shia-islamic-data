@@ -75,6 +75,21 @@
         "description": ""
     },
     {
+        "id": "h.-aqeel-&-h.-abdullah-(a)",
+        "total_lines": 13,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "ح. عقيل و ح. عبد الله (ع)",
+            "en": "H. Aqeel & H. Abdullah (a)",
+            "transliteration": "H. Aqeel & H. Abdullah (a)"
+        },
+        "description": ""
+    },
+    {
         "id": "h.-ibrahim-son-of-prophet-(saww)",
         "total_lines": 53,
         "languages": [
