@@ -4,7 +4,7 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Lady Ummul Baneen (sa) - 2"
+ZIYARAH_NAME = "Lady Ummul Baneen (sa) - 3"
 ZIYARAH_NAME_ARABIC = "السيدة أم البنين (س)"
 DESCRIPTION = """
 Syeda Fatima bint-e-Hizam - Mother of Hz Abbas Ibn Ali (as) Wife of Imam Ali (as) - buried in Baqi Medina
