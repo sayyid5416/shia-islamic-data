@@ -4,14 +4,14 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Mahdi (ajtfs)"
-ZIYARAH_NAME_ARABIC = "الإمام المهدي (عج)"
+ZIYARAH_NAME = "Asking permission for entering the holy shrines"
+ZIYARAH_NAME_ARABIC = "الاِسْتِئْذَانُ لِدُخُولِ الحَرَمِ المُقَدَّس"
 DESCRIPTION = """
-This brief ziyaarat has been emphasized immensely by our master Imam-e-Zamaan (ajtfs) in a true dream, where he says,:
+Two forms of asking permission for entering the holy shrines (isti'dhan).
 
-"Surely I love this ziyaarat."
+First: In the word of Shaykh al-Kaf'ami, when you intend to enter the Holy Prophet's (saww) Mosque in al-Madinah or any of the holy shrines of the Imams (as), 
 
-- Source: Fawz-e-Akbar by Shaykh Faqeeh al-Imaani, p. 711
+Second: Reported by `Allamah al-Majlisi - from an old copy of a book written by one of our old scholars who had mentioned that it is a form of asking permission to enter the Holy Vault (Sirdab) and the illuminative shrines of the Holy Imams (as):
 """
 
 

@@ -15,6 +15,21 @@
         "description": ""
     },
     {
+        "id": "asking-permission-for-entering-the-holy-shrines",
+        "total_lines": 94,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "الاِسْتِئْذَانُ لِدُخُولِ الحَرَمِ المُقَدَّس",
+            "en": "Asking permission for entering the holy shrines",
+            "transliteration": "Asking permission for entering the holy shrines"
+        },
+        "description": "Two forms of asking permission for entering the holy shrines (isti'dhan).\n\nFirst: In the word of Shaykh al-Kaf'ami, when you intend to enter the Holy Prophet's (saww) Mosque in al-Madinah or any of the holy shrines of the Imams (as), \n\nSecond: Reported by `Allamah al-Majlisi - from an old copy of a book written by one of our old scholars who had mentioned that it is a form of asking permission to enter the Holy Vault (Sirdab) and the illuminative shrines of the Holy Imams (as):"
+    },
+    {
         "id": "h.-abal-fadhl-al-abbas-(as)",
         "total_lines": 7,
         "languages": [
