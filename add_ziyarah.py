@@ -4,8 +4,8 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - Sunday"
-ZIYARAH_NAME_ARABIC = "السيدة فاطمة الزهراء (ع) - الأحد"
+ZIYARAH_NAME = "Imam Hassan (as)"
+ZIYARAH_NAME_ARABIC = "الإمام الحسن (ع)"
 DESCRIPTION = """
 """
 
