@@ -60,6 +60,21 @@
         "description": ""
     },
     {
+        "id": "h.-ismail-son-of-imam-sadiq-(as)",
+        "total_lines": 17,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "ح. إسماعيل بن الإمام الصادق (ع)",
+            "en": "H. Ismail son of Imam Sadiq (as)",
+            "transliteration": "H. Ismail son of Imam Sadiq (as)"
+        },
+        "description": ""
+    },
+    {
         "id": "imam-ali-(as)---17th-rabiul-awwal",
         "total_lines": 201,
         "languages": [
