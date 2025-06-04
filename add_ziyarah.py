@@ -4,9 +4,11 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Hurra and Ohad Martyrs"
-ZIYARAH_NAME_ARABIC = "الحُرَّة وشُهَدَاء أُحُد"
+ZIYARAH_NAME = "H. Abbas bin Abdul Muttalib (as)"
+ZIYARAH_NAME_ARABIC = "ح. العباس بن عبد المطلب (ع)"
 DESCRIPTION = """
+The Prophet's uncle, Abbas bin Abdul Muttalib (as) holds an esteemed position. 
+He has given many sacrifices for Islam. Recite his Ziarat in his honor.
 """
 
 
