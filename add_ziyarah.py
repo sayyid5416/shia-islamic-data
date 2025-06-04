@@ -4,12 +4,14 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Hussain (as) - from Imam Ali (as) Shrine"
-ZIYARAH_NAME_ARABIC = "الإمام الحسين (ع) - من حرم الإمام علي (ع)"
+ZIYARAH_NAME = "Imam Ali (as) - 17th Rabiul Awwal"
+ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - ١٧ ربيع الأول"
 DESCRIPTION = """
-It is also recommended to visit the head of Imam al-Husayn (as) from the tomb of Imam `Ali (as). In the two books of al-Wasa'il and al-Mustadrak, an entire chapter has been dedicated to mentioning the forms of such Ziyarah.
+Al-Shahid, Shaykh a-Mufid, and Sayyid Ibn Tawus—all those have reported that Imam al-Sadiq (peace be upon him) visited the holy tomb of Imam `Ali Amir al-Mu'minin (peace be upon him) on the seventeenth of Rabi` al-Awwal, which is the birthday of the Holy Prophet (peace and blessings upon him and his family), with the following form of ziyarah:
 
-The author of al-Mustadrak has reported from the book of al-Mazar by Muhammad ibn al-Mashhadi that Imam al-Sadiq (as) visited the head of Imam al-Husayn (as) while he was at the head's side of the tomb of Imam `Ali (as) where he offered four units of prayer and said the following form of Ziyarah
+Teaching the lofty, trustworthy scholar Muhammad ibn Muslim al-Thaqafi, Imam al-Sadiq (peace be upon him) said :
+
+When you approach the holy shrine of Amir al-Mu'minin (peace be upon him), you may first wash yourself before visiting, put on the cleanest of your clothes, use a perfume, and walk towards the shrine with tranquility.
 """
 
 

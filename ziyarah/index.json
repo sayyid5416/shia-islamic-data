@@ -45,6 +45,21 @@
         "description": ""
     },
     {
+        "id": "imam-ali-(as)---17th-rabiul-awwal",
+        "total_lines": 201,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "الإمام علي (ع) - ١٧ ربيع الأول",
+            "en": "Imam Ali (as) - 17th Rabiul Awwal",
+            "transliteration": "Imam Ali (as) - 17th Rabiul Awwal"
+        },
+        "description": "Al-Shahid, Shaykh a-Mufid, and Sayyid Ibn Tawus—all those have reported that Imam al-Sadiq (peace be upon him) visited the holy tomb of Imam `Ali Amir al-Mu'minin (peace be upon him) on the seventeenth of Rabi` al-Awwal, which is the birthday of the Holy Prophet (peace and blessings upon him and his family), with the following form of ziyarah:\n\nTeaching the lofty, trustworthy scholar Muhammad ibn Muslim al-Thaqafi, Imam al-Sadiq (peace be upon him) said :\n\nWhen you approach the holy shrine of Amir al-Mu'minin (peace be upon him), you may first wash yourself before visiting, put on the cleanest of your clothes, use a perfume, and walk towards the shrine with tranquility."
+    },
+    {
         "id": "imam-ali-(as)---at-najaf-shrine---entrance",
         "total_lines": 155,
         "languages": [
