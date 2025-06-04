@@ -13,6 +13,7 @@ DESCRIPTION = """
 # INFO - general
 HEADING_PREFIX = "INFO: "
 # HEADING_PREFIX = "DESC: "
+HEADING_PREFIX_LIST = ["INFO: ", "DESC: "]
 INPUT_FILE = "raw.txt"
 
 
@@ -119,7 +120,11 @@ def add_ziyarah_data():
 
         for i, block in enumerate(blocks):
             if len(block) == 1:
-                infoLine = f"{HEADING_PREFIX}{block[0]}"
+                textLine = block[0]
+                if not any(textLine.startswith(prefix) for prefix in HEADING_PREFIX_LIST):
+                    infoLine = f"{HEADING_PREFIX}{textLine}"
+                else:
+                    infoLine = textLine
                 blocks[i] = [infoLine, infoLine, infoLine]
             elif len(block) != 3:
                 printError(f"Block {i+1} has {len(block)} lines: {block}")
