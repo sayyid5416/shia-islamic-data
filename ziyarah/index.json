@@ -420,6 +420,21 @@
         "description": ""
     },
     {
+        "id": "paternal-aunts-of-the-holy-prophet-(saww)",
+        "total_lines": 7,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "عمّات النّبيّ الأكرم (ص)",
+            "en": "Paternal Aunts of the Holy Prophet (saww)",
+            "transliteration": "Paternal Aunts of the Holy Prophet (saww)"
+        },
+        "description": ""
+    },
+    {
         "id": "prophet-adam-(as)",
         "total_lines": 10,
         "languages": [
