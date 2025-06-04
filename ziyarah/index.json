@@ -360,6 +360,21 @@
         "description": "Recite this ziyarah when visiting Prophet Noah (pbuh)"
     },
     {
+        "id": "syeda-fatima-zahra-(sa)",
+        "total_lines": 62,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "سَيِّدَةُ فَاطِمَةَ الزَّهْرَاء (س)",
+            "en": "Syeda Fatima Zahra (sa)",
+            "transliteration": "Syeda Fatima Zahra (sa)"
+        },
+        "description": ""
+    },
+    {
         "id": "ziyarat-ahlulbayt",
         "total_lines": 28,
         "languages": [

@@ -4,10 +4,9 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali (as) - 18 Zilhajj (short)"
-ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - ١٨ ذي الحجة (قصير)"
+ZIYARAH_NAME = "Syeda Fatima Zahra (sa)"
+ZIYARAH_NAME_ARABIC = "سَيِّدَةُ فَاطِمَةَ الزَّهْرَاء (س)"
 DESCRIPTION = """
-This form of ziyarah has been mentioned in Iqbal al-A`mal by Sayyid Ibn Tawus who has reported it from Imam Sadiq (peace be upon him).
 """
 
 
