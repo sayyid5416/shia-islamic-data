@@ -390,6 +390,21 @@
         "description": ""
     },
     {
+        "id": "lady-haleema-sadiya",
+        "total_lines": 10,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "السيدة حليمة السعدية",
+            "en": "Lady Haleema Sadiya",
+            "transliteration": "Lady Haleema Sadiya"
+        },
+        "description": ""
+    },
+    {
         "id": "prophet-adam-(as)",
         "total_lines": 10,
         "languages": [
