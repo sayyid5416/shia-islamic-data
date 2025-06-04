@@ -450,6 +450,21 @@
         "description": ""
     },
     {
+        "id": "syeda-fatima-zahra-(sa)---sunday",
+        "total_lines": 10,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "السيدة فاطمة الزهراء (ع) - الأحد",
+            "en": "Syeda Fatima Zahra (sa) - Sunday",
+            "transliteration": "Syeda Fatima Zahra (sa) - Sunday"
+        },
+        "description": ""
+    },
+    {
         "id": "syeda-fatima-zahra-(sa)---ziyarat-nama",
         "total_lines": 7,
         "languages": [

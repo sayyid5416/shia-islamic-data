@@ -4,12 +4,9 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - Ziyarat Nama"
-ZIYARAH_NAME_ARABIC = "السيّدة فاطمة الزهراء (ع) - زيارة‌نامة"
+ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - Sunday"
+ZIYARAH_NAME_ARABIC = "السيدة فاطمة الزهراء (ع) - الأحد"
 DESCRIPTION = """
-Shaikh Tusi says... Whenever you want to submit your gratitude in service of Lady Fatima Zahra, (sa), read this Ziarat Nama because it filled with the pious legacy of inner knowledge in each of these sentences.
-
-Try to meditate on each of it so you can enhance it step by step on the ladder of inner knowledge as you moves forward. There are great secrets hidden in these short sentences, try to discover them.
 """
 
 
