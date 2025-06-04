@@ -4,20 +4,18 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali (as) - 17th Rabiul Awwal"
-ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - ١٧ ربيع الأول"
+ZIYARAH_NAME = "Imam Ali (as) - 27th Rajab"
+ZIYARAH_NAME_ARABIC = "الإمام علي (ع) - ٢٧ رجب"
 DESCRIPTION = """
-Al-Shahid, Shaykh a-Mufid, and Sayyid Ibn Tawus—all those have reported that Imam al-Sadiq (peace be upon him) visited the holy tomb of Imam `Ali Amir al-Mu'minin (peace be upon him) on the seventeenth of Rabi` al-Awwal, which is the birthday of the Holy Prophet (peace and blessings upon him and his family), with the following form of ziyarah:
+The ziyarah has been mentioned by Shaykh al-Mufid, Sayyid Ibn Tawus, and al-Shahid in the following form
 
-Teaching the lofty, trustworthy scholar Muhammad ibn Muslim al-Thaqafi, Imam al-Sadiq (peace be upon him) said :
-
-When you approach the holy shrine of Amir al-Mu'minin (peace be upon him), you may first wash yourself before visiting, put on the cleanest of your clothes, use a perfume, and walk towards the shrine with tranquility.
+Interestingly this long ziyarat is a chronicle of the supreme position of Imam Ali (as) and the various events in his life in defense of the Prophet (saws) and Islam.
 """
 
 
 # INFO - general
-# HEADING_PREFIX = "INFO: "
-HEADING_PREFIX = "DESC: "
+HEADING_PREFIX = "INFO: "
+# HEADING_PREFIX = "DESC: "
 INPUT_FILE = "raw.txt"
 
 
