@@ -4,10 +4,9 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Ziyarah Taziyah"
-ZIYARAH_NAME_ARABIC = "زيارة التعزية"
+ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 2"
+ZIYARAH_NAME_ARABIC = "سيدة زينب بنت علي (ع)"
 DESCRIPTION = """
-In the last hours on 'Ashura Day it is recommended to stand up and address and offer condolences to the Holy Prophet, Imam `Ali, Lady Fatimah al-Zahra', Imam al-Hasan, and the Holy Imams from the offspring of Imam al-Husayn—the chief of martyrs— (peace be upon them all) on the astounding misfortunes that befell the Ahlulbayt on the Day of 'Ashura with a passionate heart and teary eyes. Then, it is recommended to address them with the following form of Ziyarah
 """
 
 
