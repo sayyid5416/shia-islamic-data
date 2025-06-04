@@ -30,6 +30,21 @@
         "description": ""
     },
     {
+        "id": "h.-abdullah---father-of-holy-prophet-(saws)",
+        "total_lines": 21,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "ح. عبد الله - والد النبي (ص)",
+            "en": "H. Abdullah - Father of Holy Prophet (saws)",
+            "transliteration": "H. Abdullah - Father of Holy Prophet (saws)"
+        },
+        "description": ""
+    },
+    {
         "id": "h.-ali-akbar-(as)",
         "total_lines": 15,
         "languages": [
