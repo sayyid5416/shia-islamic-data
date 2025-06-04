@@ -4,12 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - From Mafatih Jinan"
+ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - in Medina"
 ZIYARAH_NAME_ARABIC = "سَيِّدَةُ فَاطِمَةَ الزَّهْرَاء (س) - مِنْ مَفَاتِيحِ الْجِنَانِ"
 DESCRIPTION = """
-Also recited on date of Martyrdom
-
-Scholars have mentioned another form of ziyarah whose statements are similar to the statements of the aforementioned ziyarah that has been quoted from Shaykh al-Tusi.
+In Tahdhib al-Ahkam, Shaykh al-Tusi says that the narrations dealing with the merits and rewards of visiting the tomb of Lady Fatimah al-Zahra (sa) are too numerous to be counted.
 """
 
 

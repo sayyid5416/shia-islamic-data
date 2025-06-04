@@ -390,6 +390,21 @@
         "description": "Also recited on date of Martyrdom\n\nScholars have mentioned another form of ziyarah whose statements are similar to the statements of the aforementioned ziyarah that has been quoted from Shaykh al-Tusi."
     },
     {
+        "id": "syeda-fatima-zahra-(sa)---in-medina",
+        "total_lines": 61,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "سَيِّدَةُ فَاطِمَةَ الزَّهْرَاء (س) - مِنْ مَفَاتِيحِ الْجِنَانِ",
+            "en": "Syeda Fatima Zahra (sa) - in Medina",
+            "transliteration": "Syeda Fatima Zahra (sa) - in Medina"
+        },
+        "description": "In Tahdhib al-Ahkam, Shaykh al-Tusi says that the narrations dealing with the merits and rewards of visiting the tomb of Lady Fatimah al-Zahra (sa) are too numerous to be counted."
+    },
+    {
         "id": "ziyarat-ahlulbayt",
         "total_lines": 28,
         "languages": [
