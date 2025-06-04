@@ -4,11 +4,14 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Khadija bint-e-Khawailad (sa)"
-ZIYARAH_NAME_ARABIC = "سيدة خديجة بنت خويلد (ص)"
+ZIYARAH_NAME = "H. Abu-Talib (as)"
+ZIYARAH_NAME_ARABIC = "حضرت أبو طالب (ع)"
 DESCRIPTION = """
-First and Most Beloved Wife of Holy Prophet(saw).
-Mother of Syeda Fatima Zahra (sa)
+The Great Guardian of Islam
+
+Abu Talib (as) supported the Holy Prophet (saww) in all the difficult situations.
+Buried in Makkah (Jannatul Maala cemetery).
+Father of Imam Ali (as) - the cousin, son in law and succesor of the Holy Prophet(saww)
 """
 
 

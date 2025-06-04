@@ -75,6 +75,21 @@
         "description": ""
     },
     {
+        "id": "h.-abu-talib-(as)",
+        "total_lines": 17,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "حضرت أبو طالب (ع)",
+            "en": "H. Abu-Talib (as)",
+            "transliteration": "H. Abu-Talib (as)"
+        },
+        "description": "The Great Guardian of Islam\n\nAbu Talib (as) supported the Holy Prophet (saww) in all the difficult situations.\nBuried in Makkah (Jannatul Maala cemetery).\nFather of Imam Ali (as) - the cousin, son in law and succesor of the Holy Prophet(saww)"
+    },
+    {
         "id": "h.-ali-akbar-(as)",
         "total_lines": 15,
         "languages": [
