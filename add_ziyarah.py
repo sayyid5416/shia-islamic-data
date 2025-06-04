@@ -4,7 +4,7 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 1"
+ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 2"
 ZIYARAH_NAME_ARABIC = "سيدة زينب بنت علي (ع)"
 DESCRIPTION = """
 """

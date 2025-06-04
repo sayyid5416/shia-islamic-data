@@ -855,6 +855,21 @@
         "description": ""
     },
     {
+        "id": "syeda-zainab-binte-ali-(sa)---2",
+        "total_lines": 64,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "سيدة زينب بنت علي (ع)",
+            "en": "Syeda Zainab binte Ali (sa) - 2",
+            "transliteration": "Syeda Zainab binte Ali (sa) - 2"
+        },
+        "description": ""
+    },
+    {
         "id": "wives-of-holy-prophet-(saww)",
         "total_lines": 7,
         "languages": [
