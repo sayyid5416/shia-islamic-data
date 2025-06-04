@@ -4,10 +4,14 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - in Medina"
-ZIYARAH_NAME_ARABIC = "سَيِّدَةُ فَاطِمَةَ الزَّهْرَاء (س) - مِنْ مَفَاتِيحِ الْجِنَانِ"
+ZIYARAH_NAME = "Syeda Fatima Zahra (sa) - on Martyrdom date 1"
+ZIYARAH_NAME_ARABIC = "السيدة فاطمة الزهراء (ع) - حول تاريخ الاستشهاد (1)"
 DESCRIPTION = """
-In Tahdhib al-Ahkam, Shaykh al-Tusi says that the narrations dealing with the merits and rewards of visiting the tomb of Lady Fatimah al-Zahra (sa) are too numerous to be counted.
+Ziyarah has been mentioned by the son of Sayyid Ibn Tawus in his book entitled ‘Zawa'id al-Fawaid ‘adding that it is dedicated to the day of Lady Fatimah’s demise.
+
+He adds that the method of saying this Ziyarah is to begin with offering the Ziyarah Prayer  which is a two unit prayer at each of which Surah al-Fatihah is recited once and Surah al-Tawhid repeated sixty times (if possible).
+
+Otherwise Surah al-Fatihah and Surah al-Tawhid are recited in the first unit and Surah al-Fatihah and Surah al-Kafirun in the second. After this prayer this Ziyarah is recited.
 """
 
 
