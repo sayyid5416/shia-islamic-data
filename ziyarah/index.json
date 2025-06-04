@@ -705,6 +705,21 @@
         "description": ""
     },
     {
+        "id": "syeda-fatima-masooma-qom-(sa)",
+        "total_lines": 82,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "سيدة فاطمة المعصومة قم (ص)",
+            "en": "Syeda Fatima Masooma Qom (sa)",
+            "transliteration": "Syeda Fatima Masooma Qom (sa)"
+        },
+        "description": "Sister of Imam Ridha (as) Daughter of Imam Musa Al Kazim (as)"
+    },
+    {
         "id": "syeda-fatima-zahra-(sa)",
         "total_lines": 62,
         "languages": [

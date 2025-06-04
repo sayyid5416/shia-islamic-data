@@ -4,9 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 2"
-ZIYARAH_NAME_ARABIC = "سيدة زينب بنت علي (ع)"
+ZIYARAH_NAME = "Syeda Fatima Masooma Qom (sa)"
+ZIYARAH_NAME_ARABIC = "سيدة فاطمة المعصومة قم (ص)"
 DESCRIPTION = """
+Sister of Imam Ridha (as) Daughter of Imam Musa Al Kazim (as)
 """
 
 
