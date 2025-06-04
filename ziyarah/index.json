@@ -690,6 +690,21 @@
         "description": "Recite this ziyarah when visiting Prophet Noah (pbuh)"
     },
     {
+        "id": "sayed-ibrahim-al-mujab",
+        "total_lines": 13,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "السيّد إبراهيم المجاب",
+            "en": "Sayed Ibrahim Al-Mujab",
+            "transliteration": "Sayed Ibrahim Al-Mujab"
+        },
+        "description": ""
+    },
+    {
         "id": "syeda-fatima-zahra-(sa)",
         "total_lines": 62,
         "languages": [
