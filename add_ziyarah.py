@@ -4,10 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Prophet Noah (as)"
-ZIYARAH_NAME_ARABIC = "النبي نوح (ع)"
+ZIYARAH_NAME = "Imam Hussain (as) - from Imam Ali (as) Shrine"
+ZIYARAH_NAME_ARABIC = "الإمام الحسين (ع) - من حرم الإمام علي (ع)"
 DESCRIPTION = """
-Recite this ziyarah when visiting Prophet Noah (pbuh)
+It is also recommended to visit the head of Imam al-Husayn (as) from the tomb of Imam `Ali (as). In the two books of al-Wasa'il and al-Mustadrak, an entire chapter has been dedicated to mentioning the forms of such Ziyarah.
+
+The author of al-Mustadrak has reported from the book of al-Mazar by Muhammad ibn al-Mashhadi that Imam al-Sadiq (as) visited the head of Imam al-Husayn (as) while he was at the head's side of the tomb of Imam `Ali (as) where he offered four units of prayer and said the following form of Ziyarah
 """
 
 
