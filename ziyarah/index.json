@@ -840,6 +840,21 @@
         "description": "Shaikh Tusi says... Whenever you want to submit your gratitude in service of Lady Fatima Zahra, (sa), read this Ziarat Nama because it filled with the pious legacy of inner knowledge in each of these sentences.\n\nTry to meditate on each of it so you can enhance it step by step on the ladder of inner knowledge as you moves forward. There are great secrets hidden in these short sentences, try to discover them."
     },
     {
+        "id": "syeda-khadija-bint-e-khawailad-(sa)",
+        "total_lines": 16,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "سيدة خديجة بنت خويلد (ص)",
+            "en": "Syeda Khadija bint-e-Khawailad (sa)",
+            "transliteration": "Syeda Khadija bint-e-Khawailad (sa)"
+        },
+        "description": "First and Most Beloved Wife of Holy Prophet(saw).\nMother of Syeda Fatima Zahra (sa)"
+    },
+    {
         "id": "syeda-zainab-binte-ali-(sa)",
         "total_lines": 22,
         "languages": [

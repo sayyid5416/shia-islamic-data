@@ -4,10 +4,11 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Fatima Masooma Qom (sa)"
-ZIYARAH_NAME_ARABIC = "سيدة فاطمة المعصومة قم (ص)"
+ZIYARAH_NAME = "Syeda Khadija bint-e-Khawailad (sa)"
+ZIYARAH_NAME_ARABIC = "سيدة خديجة بنت خويلد (ص)"
 DESCRIPTION = """
-Sister of Imam Ridha (as) Daughter of Imam Musa Al Kazim (as)
+First and Most Beloved Wife of Holy Prophet(saw).
+Mother of Syeda Fatima Zahra (sa)
 """
 
 
