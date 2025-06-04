@@ -5,7 +5,7 @@ import json, os
 
 # INFO
 ZIYARAH_NAME = "Imam Mahdi (ajtfs) - Ahad Fajr"
-ZIYARAH_NAME_ARABIC = "السيدة أم البنين (س)"
+ZIYARAH_NAME_ARABIC = "الإمام المهدي (عج) - فجر الأحد"
 DESCRIPTION = """
 This Ziarat is recited after Fajr prayer for Imam Mahdi (ajtfs). The following form of ziyarah of our Master, the Patron of the Age is said after every Fajr (dawn) Prayer - followed by a dua from Imam Reza (as)
 """
