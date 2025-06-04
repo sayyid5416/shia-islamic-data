@@ -4,8 +4,8 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Paternal Aunts of the Holy Prophet (saww)"
-ZIYARAH_NAME_ARABIC = "عمّات النّبيّ الأكرم (ص)"
+ZIYARAH_NAME = "Hurra and Ohad Martyrs"
+ZIYARAH_NAME_ARABIC = "الحُرَّة وشُهَدَاء أُحُد"
 DESCRIPTION = """
 """
 

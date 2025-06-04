@@ -75,6 +75,21 @@
         "description": ""
     },
     {
+        "id": "hurra-and-ohad-martyrs",
+        "total_lines": 11,
+        "languages": [
+            "ar",
+            "en",
+            "transliteration"
+        ],
+        "title": {
+            "ar": "الحُرَّة وشُهَدَاء أُحُد",
+            "en": "Hurra and Ohad Martyrs",
+            "transliteration": "Hurra and Ohad Martyrs"
+        },
+        "description": ""
+    },
+    {
         "id": "imam-ali-(as)---17th-rabiul-awwal",
         "total_lines": 201,
         "languages": [
