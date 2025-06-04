@@ -4,13 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Descendants of Holy Imams - 2"
-ZIYARAH_NAME_ARABIC = "ذريّة الأئمة الأطهار - 2"
+ZIYARAH_NAME = "Ziyarah Taziyah"
+ZIYARAH_NAME_ARABIC = "زيارة التعزية"
 DESCRIPTION = """
-In his book of Misbah al-Za'ir, the sublime Sayyid `Ali ibn Tawus has mentioned two forms of ziyarah of the Holy Imam's descendants.
-
-Second Form of Ziyarah: 
-If you intend to visit one of the Holy Imam's descendants, such as al-Qasim the son of Imam al-Kazim, al-`Abbas the son of Imam `Ali, or `Ali the son of Imam al-Husayn who was martyred at the Battle of al-Taff, or any other son or descendant of one of the Holy Imams, you should stop at the tomb and say the following ziyarah.
+In the last hours on 'Ashura Day it is recommended to stand up and address and offer condolences to the Holy Prophet, Imam `Ali, Lady Fatimah al-Zahra', Imam al-Hasan, and the Holy Imams from the offspring of Imam al-Husayn—the chief of martyrs— (peace be upon them all) on the astounding misfortunes that befell the Ahlulbayt on the Day of 'Ashura with a passionate heart and teary eyes. Then, it is recommended to address them with the following form of Ziyarah
 """
 
 
