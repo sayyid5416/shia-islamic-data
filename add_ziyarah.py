@@ -4,9 +4,8 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Nargis (sa)"
+ZIYARAH_NAME = "Syeda Hakimah (sa)"
 DESCRIPTION = """
-[1] Misbah uz Zaaer: p. 413; Al Mazar ul Kabeer: p. 660; Al Bihar: 102/70
 """
 LANGUAGES = ["ar", "transliteration", "en"]
 
