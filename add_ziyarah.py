@@ -158,65 +158,67 @@ def add_ziyarah_data():
 
 
 
-def update_ziyarah(old_name: str, new_name: str, new_description: str):
-    old_id = getZiyarahId(old_name)
-    new_id = getZiyarahId(new_name)
-
+def change_ziyarah_metadata(
+    current_id: str,
+    new_title: str | None = None,
+    new_description: str | None = None
+):
     if not os.path.exists(INDEX_JSON_PATH):
-        print(f"[x] {INDEX_JSON_PATH} not found.")
+        printError(f"{INDEX_JSON_PATH} not found.")
         return
 
     with open(INDEX_JSON_PATH, "r", encoding="utf-8") as f:
         try:
             index = json.load(f)
         except json.JSONDecodeError:
-            print(f"[x] {INDEX_JSON_PATH} is invalid.")
+            printError(f"{INDEX_JSON_PATH} is invalid.")
             return
 
-    matched = [z for z in index if z.get("id") == old_id]
+    matched = [z for z in index if z.get("id") == current_id]
     if not matched:
-        print(f"[x] No entry with ID: {old_id}")
+        printError(f"No entry with ID: {current_id}")
         return
 
-    # Remove old entry
-    index = [z for z in index if z.get("id") != old_id]
+    entry = matched[0]
+    updated_title = new_title or entry["title"]
+    updated_id = getZiyarahId(updated_title)
+    updated_description = new_description.strip() if new_description is not None else entry.get("description", "")
 
-    # Add updated entry
-    updated = {
-        "id": new_id,
-        "total_lines": matched[0]["total_lines"],
-        "languages": matched[0]["languages"],
-        "title": new_name,
-        "description": new_description.strip()
-    }
-    index.append(updated)
+    index = [z for z in index if z.get("id") != current_id]
+    index.append(
+        {
+            "id": updated_id,
+            "title": updated_title,
+            "description": updated_description,
+            "languages": entry["languages"],
+            "total_lines": entry["total_lines"]
+        }
+    )
     index.sort(key=lambda x: x["id"])
 
     with open(INDEX_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=4)
-    print(f"✔ Updated index with ID: {new_id}")
+    printDone(f"Updated index with ID: {updated_id}")
 
-    # Rename text files
-    for lang in LANGUAGES:
-        old_path = f"{TEXT_DIR}/{lang}/{old_id}.json"
-        new_path = f"{TEXT_DIR}/{lang}/{new_id}.json"
+    if updated_id != current_id or new_title:
+        for lang in entry["languages"]:
+            old_path = f"{TEXT_DIR}/{lang}/{current_id}.json"
+            new_path = f"{TEXT_DIR}/{lang}/{updated_id}.json"
 
-        if os.path.exists(old_path):
-            with open(old_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
+            if os.path.exists(old_path):
+                with open(old_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
 
-            data["id"] = new_id
-            data["title"] = new_name
+                data["id"] = updated_id
+                data["title"] = updated_title
 
-            with open(new_path, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
+                with open(new_path, "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=4)
 
-            os.remove(old_path)
-            print(f"✔ Updated: {old_path} → {new_path}")
-        else:
-            print(f"[!] File not found: {old_path}")
-
-
+                os.remove(old_path)
+                printDone(f"Renamed {old_path} → {new_path}")
+            else:
+                printError(f"File not found: {old_path}")
 
 
 
@@ -224,8 +226,5 @@ def update_ziyarah(old_name: str, new_name: str, new_description: str):
 if __name__ == "__main__":
     add_ziyarah_data()
     
-    # update_ziyarah(
-    #     "Ziyarat Ale Yasin - Imam Mahdi (ajtfs)",
-    #     ZIYARAH_NAME,
-    #     DESCRIPTION
-    # )
+    # change_ziyarah_metadata("")
+    
