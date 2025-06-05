@@ -16,6 +16,7 @@ HEADING_PREFIX = "INFO: "
 # HEADING_PREFIX = "DESC: "
 HEADING_PREFIX_LIST = ["INFO: ", "DESC: "]
 INPUT_FILE = "raw.txt"
+INDEX_JSON_PATH = "ziyarah/index.json"
 
 
 # INFO - generated
@@ -72,7 +73,6 @@ def read_blocks(filePath: str) -> list[list[str]]:
 def update_index(totalLines: int):
     """Updates ziyarat index by adding/replacing entry and sorting by id."""
     printStart("Updating index...")
-    indexPath = "ziyarah/index.json"
     entry = {
         "id": ziyarahId,
         "total_lines": totalLines,
@@ -86,8 +86,8 @@ def update_index(totalLines: int):
     }
 
     # Load existing index or create new list
-    if os.path.exists(indexPath):
-        with open(indexPath, "r", encoding="utf-8") as f:
+    if os.path.exists(INDEX_JSON_PATH):
+        with open(INDEX_JSON_PATH, "r", encoding="utf-8") as f:
             try:
                 index = json.load(f)
             except json.JSONDecodeError:
@@ -105,7 +105,7 @@ def update_index(totalLines: int):
     index.sort(key=lambda x: x.get("id", ""))
 
     # Save updated index
-    with open(indexPath, "w", encoding="utf-8") as f:
+    with open(INDEX_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=4)
     printDone(f"Updated index with {ziyarahId}.")
 
@@ -166,18 +166,17 @@ def update_ziyarah(old_name: str, new_name: str, new_name_ar: str, new_descripti
     old_id = old_name.lower().replace(" ", "-")
     new_id = new_name.lower().replace(" ", "-")
 
-    index_path = "ziyarah/index.json"
     text_dir = "ziyarah/text"
 
-    if not os.path.exists(index_path):
-        print(f"[x] index.json not found.")
+    if not os.path.exists(INDEX_JSON_PATH):
+        print(f"[x] {INDEX_JSON_PATH} not found.")
         return
 
-    with open(index_path, "r", encoding="utf-8") as f:
+    with open(INDEX_JSON_PATH, "r", encoding="utf-8") as f:
         try:
             index = json.load(f)
         except json.JSONDecodeError:
-            print(f"[x] index.json is invalid.")
+            print(f"[x] {INDEX_JSON_PATH} is invalid.")
             return
 
     matched = [z for z in index if z.get("id") == old_id]
@@ -203,7 +202,7 @@ def update_ziyarah(old_name: str, new_name: str, new_name_ar: str, new_descripti
     index.append(updated)
     index.sort(key=lambda x: x["id"])
 
-    with open(index_path, "w", encoding="utf-8") as f:
+    with open(INDEX_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=4)
     print(f"✔ Updated index with ID: {new_id}")
 
