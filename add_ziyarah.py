@@ -4,11 +4,10 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Sakina (Ruqayya) Bintul Hussain (sa)"
+ZIYARAH_NAME = "H. Muslim ibn Aqeel (as)"
 DESCRIPTION = """
-The Opressed daughter of Imam Hussain (as)
 """
-LANGUAGES = ["ar", "en"]
+LANGUAGES = ["ar", "transliteration", "en"]
 
 
 # INFO - general
