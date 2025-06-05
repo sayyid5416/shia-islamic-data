@@ -8,6 +8,7 @@ ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 2"
 ZIYARAH_NAME_ARABIC = "سيدة زينب بنت علي (ع)"
 DESCRIPTION = """
 """
+LANGUAGES = ["ar", "en", "transliteration"]
 
 
 # INFO - general
@@ -75,7 +76,7 @@ def update_index(totalLines: int):
     entry = {
         "id": ziyarahId,
         "total_lines": totalLines,
-        "languages": ["ar", "en", "transliteration"],
+        "languages": LANGUAGES,
         "title": {
             "ar": ZIYARAH_NAME_ARABIC,
             "en": ZIYARAH_NAME,
@@ -207,7 +208,7 @@ def update_ziyarah(old_name: str, new_name: str, new_name_ar: str, new_descripti
     print(f"✔ Updated index with ID: {new_id}")
 
     # Rename text files
-    for lang in ["ar", "en", "transliteration"]:
+    for lang in LANGUAGES:
         old_path = f"{text_dir}/{lang}/{old_id}.json"
         new_path = f"{text_dir}/{lang}/{new_id}.json"
 
