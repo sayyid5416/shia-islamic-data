@@ -4,8 +4,12 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Hakimah (sa)"
+ZIYARAH_NAME = "H. Abal-Fadhl al-Abbas (as) - 1"
 DESCRIPTION = """
+The noble Shaykh Ja`far ibn Qawlawayh al-Qummi has reported through a chain of authority that Abu-Hamzah al-Thumali reported 
+Imam al-Sadiq (as) as saying: 
+
+"If you intend to visit the tomb of al-`Abbas ibn `Ali (as) that lies on the bank of the River Euphrates opposite to al-Ha'ir, you should stop at the gate of the shed (precinct) and say this ziyarah"
 """
 LANGUAGES = ["ar", "transliteration", "en"]
 
