@@ -7,7 +7,7 @@ import json, os
 ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 2"
 DESCRIPTION = """
 """
-LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["ar", "jp"]
 
 
 # INFO - general
@@ -23,7 +23,7 @@ TEXT_DIR = "ziyarah/text"
 def getZiyarahId(name: str):
     return name.lower().replace(" ", "-")
 
-ziyarahId = getZiyarahId(ZIYARAH_NAME)
+ZIYARAH_ID = getZiyarahId(ZIYARAH_NAME)
 
 
 
@@ -79,10 +79,10 @@ def update_index(totalLines: int):
     """Updates ziyarat index by adding/replacing entry and sorting by id."""
     printStart("Updating index...")
     entry = {
-        "id": ziyarahId,
+        "id": ZIYARAH_ID,
+        "title": ZIYARAH_NAME,
         "total_lines": totalLines,
         "languages": LANGUAGES,
-        "title": ZIYARAH_NAME,
         "description": DESCRIPTION.strip()
     }
 
@@ -97,7 +97,7 @@ def update_index(totalLines: int):
         index = []
 
     # Remove old entry with same id if exists
-    index = [item for item in index if item.get("id") != ziyarahId]
+    index = [item for item in index if item.get("id") != ZIYARAH_ID]
 
     # Append new entry
     index.append(entry)
@@ -108,7 +108,7 @@ def update_index(totalLines: int):
     # Save updated index
     with open(INDEX_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=4)
-    printDone(f"Updated index with {ziyarahId}.")
+    printDone(f"Updated index with {ZIYARAH_ID}.")
 
 
 
@@ -128,19 +128,20 @@ def add_ziyarah_data():
                 else:
                     infoLine = textLine
                 blocks[i] = [infoLine, infoLine, infoLine]
-            elif len(block) != 3:
+            elif len(block) != len(LANGUAGES):
                 printError(f"Block {i+1} has {len(block)} lines: {block}")
                 return
 
         for idx, langCode in enumerate(LANGUAGES):
             lines = [b[idx] for b in blocks]
             data = {
-                "id": ziyarahId,
+                "id": ZIYARAH_ID,
                 "title": ZIYARAH_NAME,
                 "language": langCode,
                 "text": lines
             }
-            outPath = f"ziyarah/text/{langCode}/{ziyarahId}.json"
+            outPath = f"ziyarah/text/{langCode}/{ZIYARAH_ID}.json"
+            prepare_file(outPath)
             printStart(f"Writing to {outPath}...")
             with open(outPath, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
@@ -220,7 +221,7 @@ def update_ziyarah(old_name: str, new_name: str, new_description: str):
 
 
 
-# if __name__ == "__main__":
+if __name__ == "__main__":
     add_ziyarah_data()
     
     # update_ziyarah(
