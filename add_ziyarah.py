@@ -4,10 +4,11 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "After Salat"
+ZIYARAH_NAME = "Syeda Sakina (Ruqayya) Bintul Hussain (sa)"
 DESCRIPTION = """
+The Opressed daughter of Imam Hussain (as)
 """
-LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["ar", "en"]
 
 
 # INFO - general
@@ -270,9 +271,9 @@ def regenerate_raw_file(ziyarah_id: str):
 if __name__ == "__main__":
     print("\n------------------ STARTING ------------------\n")
     
-    regenerate_raw_file(ZIYARAH_ID)
+    # regenerate_raw_file(ZIYARAH_ID)
     
-    input(">>>>>> Enter to add again")
+    # input(">>>>>> Enter to add again")
     
     add_new_ziyarah_or_update_existing_from_raw()
     
