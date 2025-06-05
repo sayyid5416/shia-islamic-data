@@ -219,44 +219,11 @@ def update_ziyarah(old_name: str, new_name: str, new_description: str):
 
 
 
-def load_titles(index_path: str):
-    """Load ID → title mapping from index.json"""
-    with open(index_path, "r", encoding="utf-8") as f:
-        index = json.load(f)
-    return {item["id"]: item["title"] for item in index if "id" in item and "title" in item}
-
-
-def update_titles(root_dir: str, id_title_map) -> None:
-    """Update 'title' key in all JSON files based on ID"""
-    for dirpath, _, filenames in os.walk(root_dir):
-        for filename in filenames:
-            if filename.endswith(".json"):
-                path = os.path.join(dirpath, filename)
-                try:
-                    with open(path, "r", encoding="utf-8") as f:
-                        data = json.load(f)
-
-                    if isinstance(data, dict) and "id" in data:
-                        zid = data["id"]
-                        if zid in id_title_map:
-                            data["title"] = id_title_map[zid]
-                            with open(path, "w", encoding="utf-8") as f:
-                                json.dump(data, f, ensure_ascii=False, indent=4)
-                            print(f"✔ Updated title in: {path}")
-
-                except Exception as e:
-                    print(f"[!] Error in {path}: {e}")
-
-
-if __name__ == "__main__":
-    index_path = "ziyarah/index.json"
-    id_title_map = load_titles(index_path)
-    update_titles(".", id_title_map)
 
 
 
 # if __name__ == "__main__":
-#     add_ziyarah_data()
+    add_ziyarah_data()
     
     # update_ziyarah(
     #     "Ziyarat Ale Yasin - Imam Mahdi (ajtfs)",
