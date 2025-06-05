@@ -215,11 +215,54 @@ def change_ziyarah_metadata(
             else:
                 printError(f"File not found: {old_path}")
 
+def regenerate_raw_file(ziyarah_id: str):
+    """Rebuilds raw.txt from existing JSON files using languages from index.json."""
+    if not os.path.exists(INDEX_JSON_PATH):
+        printError(f"{INDEX_JSON_PATH} not found.")
+        return
+
+    with open(INDEX_JSON_PATH, "r", encoding="utf-8") as f:
+        try:
+            index = json.load(f)
+        except json.JSONDecodeError:
+            printError(f"{INDEX_JSON_PATH} is invalid.")
+            return
+
+    matched = next((z for z in index if z.get("id") == ziyarah_id), None)
+    if not matched:
+        printError(f"No entry with ID: {ziyarah_id}")
+        return
+
+    languages = matched.get("languages", [])
+    lang_data: dict[str, list[str]] = {}
+
+    for lang in languages:
+        path = f"{TEXT_DIR}/{lang}/{ziyarah_id}.json"
+        if not os.path.exists(path):
+            printError(f"Missing file: {path}")
+            return
+        with open(path, "r", encoding="utf-8") as f:
+            lang_data[lang] = json.load(f).get("text", [])
+
+    total_lines = len(next(iter(lang_data.values())))
+    if not all(len(lang_data[lang]) == total_lines for lang in languages):
+        printError("Mismatch in line counts across language files.")
+        return
+
+    printStart("Rebuilding raw.txt...")
+    with open(INPUT_FILE, "w", encoding="utf-8") as f:
+        for i in range(total_lines):
+            for lang in languages:
+                f.write(lang_data[lang][i].strip() + "\n")
+            f.write("\n")
+    printDone(f"Generated {INPUT_FILE} with {total_lines} blocks.")
 
 
 
 if __name__ == "__main__":
+    print("\n------------------ STARTING ------------------\n")
+    
     add_new_ziyarah_or_update_existing_from_raw()
     
-    # change_ziyarah_metadata("")
+    print("\n------------------ DONE ------------------\n")
     
