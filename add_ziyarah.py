@@ -7,7 +7,7 @@ import json, os
 ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 2"
 DESCRIPTION = """
 """
-LANGUAGES = ["ar", "jp"]
+LANGUAGES = ["ar", "transliteration", "en"]
 
 
 # INFO - general
