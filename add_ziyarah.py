@@ -4,7 +4,7 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 2"
+ZIYARAH_NAME = "H. Abdullah - Father of Holy Prophet (saws)"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "transliteration", "en"]
@@ -252,15 +252,27 @@ def regenerate_raw_file(ziyarah_id: str):
     printStart("Rebuilding raw.txt...")
     with open(INPUT_FILE, "w", encoding="utf-8") as f:
         for i in range(total_lines):
-            for lang in languages:
-                f.write(lang_data[lang][i].strip() + "\n")
-            f.write("\n")
+            lines = [lang_data[lang][i].strip() for lang in languages]
+            unique_lines = set(lines)
+            if len(unique_lines) == 1:
+                line = lines[0]
+                if not any(line.startswith(prefix) for prefix in HEADING_PREFIX_LIST):
+                    line = f"{HEADING_PREFIX}{line}"
+                f.write(line + "\n\n")
+            else:
+                for line in lines:
+                    f.write(line + "\n")
+                f.write("\n")
     printDone(f"Generated {INPUT_FILE} with {total_lines} blocks.")
 
 
 
 if __name__ == "__main__":
     print("\n------------------ STARTING ------------------\n")
+    
+    regenerate_raw_file(ZIYARAH_ID)
+    
+    input(">>>>>> Enter to add again")
     
     add_new_ziyarah_or_update_existing_from_raw()
     
