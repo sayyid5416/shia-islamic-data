@@ -143,6 +143,17 @@
         "description": "companion of Imam Hussain (as) martyred in Kerbala"
     },
     {
+        "id": "h.-hani'-ibn-`urwah-(as)",
+        "title": "H. Hani' ibn `Urwah (as)",
+        "description": "",
+        "total_lines": 21,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "h.-ibrahim-son-of-prophet-(saww)",
         "total_lines": 53,
         "languages": [

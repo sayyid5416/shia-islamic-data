@@ -4,7 +4,7 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "H. Muslim ibn Aqeel (as)"
+ZIYARAH_NAME = "H. Hani' ibn `Urwah (as)"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "transliteration", "en"]
