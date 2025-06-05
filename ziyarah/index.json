@@ -176,6 +176,17 @@
         "description": ""
     },
     {
+        "id": "h.-muslim-ibn-aqeel-(as)",
+        "title": "H. Muslim ibn Aqeel (as)",
+        "description": "",
+        "total_lines": 107,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "hurra-and-ohad-martyrs",
         "total_lines": 11,
         "languages": [
