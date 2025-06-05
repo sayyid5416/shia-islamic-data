@@ -7,7 +7,7 @@ import json, os
 ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 2"
 DESCRIPTION = """
 """
-LANGUAGES = ["ar", "en", "transliteration"]
+LANGUAGES = ["ar", "transliteration", "en"]
 
 
 # INFO - general
@@ -16,10 +16,14 @@ HEADING_PREFIX = "INFO: "
 HEADING_PREFIX_LIST = ["INFO: ", "DESC: "]
 INPUT_FILE = "raw.txt"
 INDEX_JSON_PATH = "ziyarah/index.json"
+TEXT_DIR = "ziyarah/text"
 
 
 # INFO - generated
-ziyarahId = ZIYARAH_NAME.lower().replace(" ", "-")
+def getZiyarahId(name: str):
+    return name.lower().replace(" ", "-")
+
+ziyarahId = getZiyarahId(ZIYARAH_NAME)
 
 
 
@@ -31,6 +35,8 @@ def printDone(msg: str):
     
 def printError(msg: str):
     print(f"    [x] {msg}")
+    
+    
 
 
 def prepare_file(filePath: str):
@@ -126,13 +132,7 @@ def add_ziyarah_data():
                 printError(f"Block {i+1} has {len(block)} lines: {block}")
                 return
 
-        languages = [
-            ("ar", 0),
-            ("transliteration", 1), 
-            ("en", 2)
-        ]
-
-        for langCode, idx in languages:
+        for idx, langCode in enumerate(LANGUAGES):
             lines = [b[idx] for b in blocks]
             data = {
                 "id": ziyarahId,
@@ -158,10 +158,8 @@ def add_ziyarah_data():
 
 
 def update_ziyarah(old_name: str, new_name: str, new_description: str):
-    old_id = old_name.lower().replace(" ", "-")
-    new_id = new_name.lower().replace(" ", "-")
-
-    text_dir = "ziyarah/text"
+    old_id = getZiyarahId(old_name)
+    new_id = getZiyarahId(new_name)
 
     if not os.path.exists(INDEX_JSON_PATH):
         print(f"[x] {INDEX_JSON_PATH} not found.")
@@ -199,8 +197,8 @@ def update_ziyarah(old_name: str, new_name: str, new_description: str):
 
     # Rename text files
     for lang in LANGUAGES:
-        old_path = f"{text_dir}/{lang}/{old_id}.json"
-        new_path = f"{text_dir}/{lang}/{new_id}.json"
+        old_path = f"{TEXT_DIR}/{lang}/{old_id}.json"
+        new_path = f"{TEXT_DIR}/{lang}/{new_id}.json"
 
         if os.path.exists(old_path):
             with open(old_path, "r", encoding="utf-8") as f:
