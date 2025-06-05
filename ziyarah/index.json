@@ -1,14 +1,14 @@
 [
     {
         "id": "after-salat",
-        "total_lines": 35,
+        "title": "After Salat",
+        "description": "",
+        "total_lines": 59,
         "languages": [
             "ar",
             "transliteration",
             "en"
-        ],
-        "title": "After Salat",
-        "description": ""
+        ]
     },
     {
         "id": "asking-permission-for-entering-the-holy-shrines",

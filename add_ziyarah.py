@@ -4,7 +4,7 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Asking permission for entering the holy shrines - 1"
+ZIYARAH_NAME = "After Salat"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "transliteration", "en"]
@@ -270,9 +270,9 @@ def regenerate_raw_file(ziyarah_id: str):
 if __name__ == "__main__":
     print("\n------------------ STARTING ------------------\n")
     
-    # regenerate_raw_file(ZIYARAH_ID)
+    regenerate_raw_file(ZIYARAH_ID)
     
-    # input(">>>>>> Enter to add again")
+    input(">>>>>> Enter to add again")
     
     add_new_ziyarah_or_update_existing_from_raw()
     
