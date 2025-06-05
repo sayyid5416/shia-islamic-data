@@ -27,6 +27,7 @@ ZIYARAH_ID = getZiyarahId(ZIYARAH_NAME)
 
 
 
+# ---------------------------- Helpers ---------------------------- #
 def printStart(msg: str):
     print(f"> {msg}")
     
@@ -35,8 +36,6 @@ def printDone(msg: str):
     
 def printError(msg: str):
     print(f"    [x] {msg}")
-    
-    
 
 
 def prepare_file(filePath: str):
@@ -51,8 +50,6 @@ def prepare_file(filePath: str):
         with open(filePath, "w", encoding="utf-8") as f:
             pass
         printDone(f"Created empty file: {filePath}")
-
-
 
 def read_blocks(filePath: str) -> list[list[str]]:
     with open(filePath, "r", encoding="utf-8") as f:
@@ -73,9 +70,7 @@ def read_blocks(filePath: str) -> list[list[str]]:
 
     return blocks
 
-
-
-def update_index(totalLines: int):
+def update_index_after_adding_new_ziyarah(totalLines: int):
     """Updates ziyarat index by adding/replacing entry and sorting by id."""
     printStart("Updating index...")
     entry = {
@@ -112,7 +107,9 @@ def update_index(totalLines: int):
 
 
 
-def add_ziyarah_data():
+
+# ---------------------------- Main functions ---------------------------- #
+def add_new_ziyarah_or_update_existing_from_raw():
     try:
         prepare_file(INPUT_FILE)
 
@@ -147,7 +144,7 @@ def add_ziyarah_data():
                 json.dump(data, f, ensure_ascii=False, indent=4)
             printDone(f"Wrote {len(lines)} lines.")
         
-        update_index(totalLines=len(blocks))
+        update_index_after_adding_new_ziyarah(totalLines=len(blocks))
 
     except FileNotFoundError:
         printError(f"Error: File '{INPUT_FILE}' not found.")
@@ -155,8 +152,6 @@ def add_ziyarah_data():
         printError(f"I/O error({e.errno}): {e.strerror}")
     except Exception as e:
         printError(f"Unexpected error: {e}")
-
-
 
 def change_ziyarah_metadata(
     current_id: str,
@@ -224,7 +219,7 @@ def change_ziyarah_metadata(
 
 
 if __name__ == "__main__":
-    add_ziyarah_data()
+    add_new_ziyarah_or_update_existing_from_raw()
     
     # change_ziyarah_metadata("")
     
