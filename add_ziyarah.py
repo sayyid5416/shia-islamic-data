@@ -265,16 +265,38 @@ def regenerate_raw_file(ziyarah_id: str):
                 f.write("\n")
     printDone(f"Generated {INPUT_FILE} with {total_lines} blocks.")
 
+def reorder_json_keys():
+    with open(INDEX_JSON_PATH, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    reordered = [
+        {
+            "id": item["id"],
+            "title": item["title"],
+            "description": item["description"],
+            "total_lines": item["total_lines"],
+            "languages": item["languages"]
+        }
+        for item in data
+    ]
+
+    with open(INDEX_JSON_PATH, 'w', encoding='utf-8') as f:
+        json.dump(reordered, f, ensure_ascii=False, indent=4)
+        
+
 
 
 if __name__ == "__main__":
     print("\n------------------ STARTING ------------------\n")
+    
     
     # regenerate_raw_file(ZIYARAH_ID)
     
     # input(">>>>>> Enter to add again")
     
     add_new_ziyarah_or_update_existing_from_raw()
+    
+    reorder_json_keys()
     
     print("\n------------------ DONE ------------------\n")
     
