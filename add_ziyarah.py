@@ -5,7 +5,6 @@ import json, os
 
 # INFO
 ZIYARAH_NAME = "Syeda Zainab binte Ali (sa) - 2"
-ZIYARAH_NAME_ARABIC = "سيدة زينب بنت علي (ع)"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "en", "transliteration"]
@@ -77,11 +76,7 @@ def update_index(totalLines: int):
         "id": ziyarahId,
         "total_lines": totalLines,
         "languages": LANGUAGES,
-        "title": {
-            "ar": ZIYARAH_NAME_ARABIC,
-            "en": ZIYARAH_NAME,
-            "transliteration": ZIYARAH_NAME
-        },
+        "title": ZIYARAH_NAME,
         "description": DESCRIPTION.strip()
     }
 
@@ -132,16 +127,16 @@ def add_ziyarah_data():
                 return
 
         languages = [
-            ("ar", 0, ZIYARAH_NAME_ARABIC),
-            ("transliteration", 1, ZIYARAH_NAME), 
-            ("en", 2, ZIYARAH_NAME)
+            ("ar", 0),
+            ("transliteration", 1), 
+            ("en", 2)
         ]
 
-        for langCode, idx, title in languages:
+        for langCode, idx in languages:
             lines = [b[idx] for b in blocks]
             data = {
                 "id": ziyarahId,
-                "title": title,
+                "title": ZIYARAH_NAME,
                 "language": langCode,
                 "text": lines
             }
@@ -162,7 +157,7 @@ def add_ziyarah_data():
 
 
 
-def update_ziyarah(old_name: str, new_name: str, new_name_ar: str, new_description: str):
+def update_ziyarah(old_name: str, new_name: str, new_description: str):
     old_id = old_name.lower().replace(" ", "-")
     new_id = new_name.lower().replace(" ", "-")
 
@@ -192,11 +187,7 @@ def update_ziyarah(old_name: str, new_name: str, new_name_ar: str, new_descripti
         "id": new_id,
         "total_lines": matched[0]["total_lines"],
         "languages": matched[0]["languages"],
-        "title": {
-            "ar": new_name_ar,
-            "en": new_name,
-            "transliteration": new_name
-        },
+        "title": new_name,
         "description": new_description.strip()
     }
     index.append(updated)
@@ -216,7 +207,7 @@ def update_ziyarah(old_name: str, new_name: str, new_name_ar: str, new_descripti
                 data = json.load(f)
 
             data["id"] = new_id
-            data["title"] = new_name_ar if lang == "ar" else new_name
+            data["title"] = new_name
 
             with open(new_path, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=4)
@@ -237,6 +228,5 @@ if __name__ == "__main__":
     # update_ziyarah(
     #     "Ziyarat Ale Yasin - Imam Mahdi (ajtfs)",
     #     ZIYARAH_NAME,
-    #     ZIYARAH_NAME_ARABIC,
     #     DESCRIPTION
     # )
