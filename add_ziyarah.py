@@ -81,9 +81,9 @@ def update_index(totalLines: int):
     entry = {
         "id": ZIYARAH_ID,
         "title": ZIYARAH_NAME,
+        "description": DESCRIPTION.strip(),
         "total_lines": totalLines,
         "languages": LANGUAGES,
-        "description": DESCRIPTION.strip()
     }
 
     # Load existing index or create new list
@@ -190,8 +190,8 @@ def change_ziyarah_metadata(
             "id": updated_id,
             "title": updated_title,
             "description": updated_description,
+            "total_lines": entry["total_lines"],
             "languages": entry["languages"],
-            "total_lines": entry["total_lines"]
         }
     )
     index.sort(key=lambda x: x["id"])
