@@ -4,9 +4,8 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "H. Abal-Fadhl al-Abbas (as) & H. Muslim ibn Aqeel (as) - Farewell"
+ZIYARAH_NAME = "Imam Ali Naqi Al Hadi (as)"
 DESCRIPTION = """
-This has been reported from Abu-Hamzah al-Thumali and have been mentioned by other scholars
 """
 LANGUAGES = ["ar", "transliteration", "en"]
 
