@@ -4,7 +4,7 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali al-Naqi and Imam al-Hasan al-Askari (as)"
+ZIYARAH_NAME = "Imam Ali al-Naqi and Imam al-Hasan al-Askari (as) - Farewell"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "transliteration", "en"]
