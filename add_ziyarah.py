@@ -4,7 +4,7 @@ import json, os
 
 
 # INFO
-ZIYARAH_NAME = "Imam Ali al-Naqi and Imam al-Hasan al-Askari (as) - Farewell"
+ZIYARAH_NAME = "After Salat"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "transliteration", "en"]
@@ -71,7 +71,7 @@ def read_blocks(filePath: str) -> list[list[str]]:
     return blocks
 
 def update_index_after_adding_new_ziyarah(totalLines: int):
-    """Updates ziyarat index by adding/replacing entry and sorting by id."""
+    """Updates ziyarat index by adding/replacing entry"""
     printStart("Updating index...")
     entry = {
         "id": ZIYARAH_ID,
@@ -96,9 +96,6 @@ def update_index_after_adding_new_ziyarah(totalLines: int):
 
     # Append new entry
     index.append(entry)
-
-    # Sort by id
-    index.sort(key=lambda x: x.get("id", ""))
 
     # Save updated index
     with open(INDEX_JSON_PATH, "w", encoding="utf-8") as f:
@@ -189,7 +186,6 @@ def change_ziyarah_metadata(
             "languages": entry["languages"],
         }
     )
-    index.sort(key=lambda x: x["id"])
 
     with open(INDEX_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=4)
@@ -279,6 +275,8 @@ def reorder_json_keys():
         }
         for item in data
     ]
+    
+    reordered.sort(key=lambda x: x.get("id", ""))
 
     with open(INDEX_JSON_PATH, 'w', encoding='utf-8') as f:
         json.dump(reordered, f, ensure_ascii=False, indent=4)
