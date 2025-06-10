@@ -190,24 +190,30 @@
         }
     },
     {
-        "id": "",
-        "name": "",
-        "full_name": "",
-        "father_name": "",
-        "mother_name": "",
-        "agnomen": "",
-        "titles": [],
-        "age": "",
-        "birth_date": "",
-        "birth_place": "",
-        "duration_of_imamat": "",
+        "id": "6",
+        "name": "Ali",
+        "full_name": "Imam Zayn al-Abidin - Ali ibn Husayn (as)",
+        "father_name": "Imam Husayn ibn Ali (as)",
+        "mother_name": "Shahrbanu (sa)",
+        "agnomen": "Abu Muhammad",
+        "titles": [
+            "Fourth Imam", 
+            "Sajjad",
+            "Zayn al-Abidin",
+            "Sayed as-Sajideen",
+            "Imam of the Worshippers"
+        ],
+        "age": "57",
+        "birth_date": "5 Sha'ban, 38 AH (658 AD)",
+        "birth_place": "Medina",
+        "duration_of_imamat": "34 years",
         "for_martyred": {
-            "martyrdom_date": "",
-            "martyrdom_place": "",
-            "cause_of_martyrdom": "",
-            "holy_shrine_lat": "",
-            "holy_shrine_long": "",
-            "holy_shrine": ""
+            "martyrdom_date": "25 Muharram 95 AH (713 AD)",
+            "martyrdom_place": "Medina",
+            "cause_of_martyrdom": "Poisoned by Abu Abul Malik",
+            "holy_shrine_lat": "24.466529005823908",
+            "holy_shrine_long": "39.6172363524477",
+            "holy_shrine": "Jannat-ul-Baqi"
         },
         "for_imam_al_zaman": {
             "minor_occultation": "",
