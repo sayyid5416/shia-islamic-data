@@ -1,0 +1,478 @@
+[
+    {
+        "number": "1",
+        "name": "Muhammad",
+        "full_name": "Holy Prophet Muhammad (saww)",
+        "father_name": "Abdullah ibn Abdul-Muttalib (as)",
+        "mother_name": "Aminah bint Wahb (as)",
+        "agnomen": "Abul Qasim",
+        "titles": [
+            "Prophet",
+            "Seal of the Prophets",
+            "Khatam al-Nabiyyin",
+            "Rasul-e-Khuda",
+            "Rehmatul-lil-Aalameen",
+            "Mustafa",
+            "Sadiq",
+            "Ameen",
+            "Taha",
+            "Yaseen",
+            "e.t.c"
+        ],
+        "age": "63",
+        "birth_date": "Friday, 17th Rabi-ul-Awwal, 570 AD",
+        "birth_place": "Makkah",
+        "duration_of_imamat": "23",
+        "for_martyred": {
+            "martyrdom_date": "28th Safar, 11 AH - 632 AD",
+            "martyrdom_place": "Medina",
+            "cause_of_martyrdom": "Poison",
+            "holy_shrine_lat": "24.46772375019173",
+            "holy_shrine_long": "39.61159466346971",
+            "holy_shrine": "Al-Masjid an-Nabawi, Medina"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "2",
+        "name": "Fatimah",
+        "full_name": "Sayyida Fatimah az-Zahra (sa)",
+        "father_name": "Holy Prophet Hz. Muhammad ibn Abdullah (saww)",
+        "mother_name": "Khadijah bint Khuwaylid (as)",
+        "agnomen": "az-Zahra",
+        "titles": [
+            "Leader of the Women of Paradise",
+            "Zahra",
+            "Siddiqa",
+            "Tahira",
+            "Raaziya",
+            "Insiya",
+            "Marziya",
+            "Batool",
+            "Hamida",
+            "Muhaddisa",
+            "Khayr-un-nisa",
+            "Ummul-Hassanain",
+            "Umme-Abeeha",
+            "Ummul-Aimmah"
+        ],
+        "age": "18",
+        "birth_date": "Friday, 20th Jamadi-ul-Akhir",
+        "birth_place": "Makkah",
+        "duration_of_imamat": "",
+        "for_martyred": {
+            "martyrdom_date": "13th Jamadi-ul-Awwal or 3rd Jamadi-ul-Akhir, 11 AH",
+            "martyrdom_place": "Medina",
+            "cause_of_martyrdom": "Due to injury inflicted upon her by falling of the door by Umar ibn Khattab, during defending Imam Ali (as) against Abu Bakr",
+            "holy_shrine_lat": "24.466529005823908",
+            "holy_shrine_long": "39.6172363524477",
+            "holy_shrine": "Jannat-ul-Baqi"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "3",
+        "name": "Ali",
+        "full_name": "Imam Ali (as)",
+        "father_name": "Abu Talib ibn Abdul-Muttalib (as)",
+        "mother_name": "Fatimah bint Asad (as)",
+        "agnomen": "Abul Hasan",
+        "titles": [
+            "First Imam",
+            "Lion of God",
+            "Murtaza",
+            "Haider",
+            "Maula",
+            "Haider-e-Karrar",
+            "Asad-Allah",
+            "Al-Ghalib",
+            "Sher-e-Yazdan",
+            "Mushkil kusha",
+            "Shah-e-Awliya",
+            "Abu-Turab",
+            "Amir-ul-Momineen",
+            "Imam-ul-Muttaqeen",
+            "Sayyid-ul-Arab",
+            "Baab-ul-Ilm"
+        ],
+        "age": "63",
+        "birth_date": "13 Rajab, 600 AD, 30 Aamul-Feel",
+        "birth_place": "Al-Kaaba, Makkah",
+        "duration_of_imamat": "30 years (Khilafat-e-zahiree 5 years)",
+        "for_martyred": {
+            "martyrdom_date": "21 Ramadan 40 AH",
+            "martyrdom_place": "Kufa",
+            "cause_of_martyrdom": "On the 19th Ramadan 40 hijri when Imam Ali (as) was praying Fajr salat in mosque of Kufa. Abdul Rehman ibn Muljim attacked on Imam Ali's (as) head with poisoned sword while he was in sajdah.",
+            "holy_shrine_lat": "31.995965285568335",
+            "holy_shrine_long": "44.31472488114222",
+            "holy_shrine": "Imam Ali Holy Shrine, Najaf, Iraq"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "4",
+        "name": "Hasan",
+        "full_name": "Imam Hasan (as)",
+        "father_name": "Imam Ali ibn Abi Talib (as)",
+        "mother_name": "S. Fatimah bint Muhammad (sa)",
+        "agnomen": "Abu Abdullah, Abul Aimmah, Abul Masakeen",
+        "titles": [
+            "Second Imam",
+            "Mujtaba",
+            "Sayed-ul-Wasiyeen",
+            "Sayed Zaki",
+            "Sibt-e-Mustafa",
+            "Naqui",
+            "Tayyab",
+            "Wali",
+            "Qasim",
+            "Abu Muhammad"
+        ],
+        "age": "47",
+        "birth_date": "15 Ramadan, 3 AH (624 AD)",
+        "birth_place": "Medina",
+        "duration_of_imamat": "10 Years (Khilafat-e-zahiree 4 months 3 days)",
+        "for_martyred": {
+            "martyrdom_date": "28 Safar, 50 AH (670 AD)",
+            "martyrdom_place": "Medina",
+            "cause_of_martyrdom": "In regime of Muavia ibn Abu-sufyan, Poisoned.",
+            "holy_shrine_lat": "24.466529005823908",
+            "holy_shrine_long": "39.6172363524477",
+            "holy_shrine": "Jannat-ul-Baqi"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "5",
+        "name": "Husayn",
+        "full_name": "Imam Husayn (as)",
+        "father_name": "Imam Ali ibn Abi Talib (as)",
+        "mother_name": "S. Fatimah bint Muhammad (sa)",
+        "agnomen": "Abu-Abdullah",
+        "titles": [
+            "Third Imam",
+            "Sayyid ash-Shuhada",
+            "Mazloom-e-Karbala",
+            "Ghareeb-e-Nainawa"
+        ],
+        "age": "57",
+        "birth_date": "3 Shaban 4 AH (625 AD)",
+        "birth_place": "Medina",
+        "duration_of_imamat": "10 Years",
+        "for_martyred": {
+            "martyrdom_date": "10 Muharram 61 AH (680 AD)",
+            "martyrdom_place": "Karbala, Iraq",
+            "cause_of_martyrdom": "At the hands of Yazeed through Shimr-e-Malaoon - after 3 days hunger & thirst for the safety of faith and securing the practices of Islam",
+            "holy_shrine_lat": "32.616371880436446",
+            "holy_shrine_long": "44.03266999887886",
+            "holy_shrine": "Holy Shrine Of Imam Husayn, Karbala, Iraq"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "6",
+        "name": "Ali",
+        "full_name": "Imam Zayn al-Abidin (as)",
+        "father_name": "Imam Husayn ibn Ali (as)",
+        "mother_name": "Shahrbanu (as)",
+        "agnomen": "Abu Muhammad",
+        "titles": [
+            "Fourth Imam",
+            "Sajjad",
+            "Zayn al-Abidin",
+            "Sayed as-Sajideen",
+            "Imam of the Worshippers"
+        ],
+        "age": "57",
+        "birth_date": "5 Sha'ban, 38 AH (658 AD)",
+        "birth_place": "Medina",
+        "duration_of_imamat": "34 years",
+        "for_martyred": {
+            "martyrdom_date": "25 Muharram 95 AH (713 AD)",
+            "martyrdom_place": "Medina",
+            "cause_of_martyrdom": "Poisoned by Abu Abul Malik",
+            "holy_shrine_lat": "24.466529005823908",
+            "holy_shrine_long": "39.6172363524477",
+            "holy_shrine": "Jannat-ul-Baqi"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "7",
+        "name": "Muhammad",
+        "full_name": "Imam Muhammad al-Baqir (as)",
+        "father_name": "Imam Zayn al-Abidin (as)",
+        "mother_name": "Fatima bint Al-Hasan (as)",
+        "agnomen": "Abu Ja'far",
+        "titles": [
+            "Fifth Imam",
+            "al-Baqir",
+            "Baqir ul-Uloom",
+            "Shakir",
+            "Hadi"
+        ],
+        "age": "57",
+        "birth_date": "1 Rajab, 57 AH (675 AD)",
+        "birth_place": "Medina",
+        "duration_of_imamat": "19 years",
+        "for_martyred": {
+            "martyrdom_date": "7 Zil-Hijjah, 114 AH (732 AD)",
+            "martyrdom_place": "Medina",
+            "cause_of_martyrdom": "Poisoned by Ibrahim bin Walid on orders of Hashsham bin Abdul Malik",
+            "holy_shrine_lat": "24.466529005823908",
+            "holy_shrine_long": "39.6172363524477",
+            "holy_shrine": "Jannat-ul-Baqi"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "8",
+        "name": "Ja'far",
+        "full_name": "Imam Ja'far al-Sadiq (as)",
+        "father_name": "Imam Muhammad al-Baqir (as)",
+        "mother_name": "Umm Farwah (as)",
+        "agnomen": "Abu Abdullah",
+        "titles": [
+            "Sixth Imam",
+            "al-Sadiq",
+            "Sadiq-e-Aal-e-Muhammad",
+            "al-Fadil",
+            "al-Tahir"
+        ],
+        "age": "65",
+        "birth_date": "17 Rabi' al-Awwal, 83 AH (702 AD)",
+        "birth_place": "Medina",
+        "duration_of_imamat": "34 years",
+        "for_martyred": {
+            "martyrdom_date": "25 Shawwal or 15 Rajab, 148 AH (765 AD)",
+            "martyrdom_place": "Medina",
+            "cause_of_martyrdom": "Poisoned by Abbasid caliph Mansoor",
+            "holy_shrine_lat": "24.466529005823908",
+            "holy_shrine_long": "39.6172363524477",
+            "holy_shrine": "Jannat-ul-Baqi"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "9",
+        "name": "Moosa",
+        "full_name": "Imam Moosa al-Kazim (as)",
+        "father_name": "Imam Ja'far al-Sadiq (as)",
+        "mother_name": "Hameeda Khatoon (as)",
+        "agnomen": "Abul Hasan, Abu Ibrahim, Abu Abdullah",
+        "titles": [
+            "Seventh Imam",
+            "al-Kazim",
+            "al-Azim",
+            "Abd-e-Saleh"
+        ],
+        "age": "55",
+        "birth_date": "7 Safar, 128 AH (744 AD)",
+        "birth_place": "ABWA a place between Makkah and Medina",
+        "duration_of_imamat": "35 years",
+        "for_martyred": {
+            "martyrdom_date": "25 Rajab, 183 AH (799 AD)",
+            "martyrdom_place": "Baghdad",
+            "cause_of_martyrdom": "Poisoned by Abbasid caliph Haroon Rasheed",
+            "holy_shrine_lat": "33.38007607958682",
+            "holy_shrine_long": "44.338397328709064",
+            "holy_shrine": "al-Kadhimiya, Baghdad, Iraq"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "10",
+        "name": "Ali",
+        "full_name": "Imam Ali al-Reza (as)",
+        "father_name": "Imam Musa al-Kazim (as)",
+        "mother_name": "Najma Khatoon (as)",
+        "agnomen": "Abul Hasan",
+        "titles": [
+            "Eighth Imam",
+            "al-Reza",
+            "Ghareeb-al-Ghuraba",
+            "Moeen-uz-Zoafa-e-wal-Fuqara",
+            "Shah-e-Khurasaan"
+        ],
+        "age": "55",
+        "birth_date": "11 Dhul-Qadah, 148 AH (765 AD)",
+        "birth_place": "Medina",
+        "duration_of_imamat": "20 years",
+        "for_martyred": {
+            "martyrdom_date": "23 Dhul-Qadah or 17 Safar 203 AH (817 AD)",
+            "martyrdom_place": "Mashhad",
+            "cause_of_martyrdom": "",
+            "holy_shrine_lat": "36.288019184459664",
+            "holy_shrine_long": "59.6161679521857",
+            "holy_shrine": "Imam Reza Holy Shrine, Mashhad, Iran"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "11",
+        "name": "Muhammad",
+        "full_name": "Imam Muhammad al-Jawad (as)",
+        "father_name": "Imam Ali al-Reza (as)",
+        "mother_name": "Sabika Khatoon (as) - also known as Khaizuran (as)",
+        "agnomen": "Abu Ja'far",
+        "titles": [
+            "Ninth Imam",
+            "al-Jawad",
+            "at-Taqi"
+        ],
+        "age": "25",
+        "birth_date": "10 Rajab, 195 AH (809 AD)",
+        "birth_place": "Medina",
+        "duration_of_imamat": "17 years",
+        "for_martyred": {
+            "martyrdom_date": "29 Dhul-Qadah, 220 AH (835 AD)",
+            "martyrdom_place": "Kazmain",
+            "cause_of_martyrdom": "Poisoned by Abbasid caliph Moatasim",
+            "holy_shrine_lat": "33.38007607958682",
+            "holy_shrine_long": "44.338397328709064",
+            "holy_shrine": "al-Kadhimiya, Baghdad, Iraq"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "12",
+        "name": "Ali",
+        "full_name": "Imam Ali al-Hadi (as)",
+        "father_name": "Imam Muhammad al-Jawad (as)",
+        "mother_name": "Samana (as)",
+        "agnomen": "Abul Hasan",
+        "titles": [
+            "Tenth Imam",
+            "al-Hadi",
+            "an-Naqi"
+        ],
+        "age": "42",
+        "birth_date": "15 Dhu al-Hijjah, 214 AH (817 AD)",
+        "birth_place": "Suryah, Medina",
+        "duration_of_imamat": "34 years",
+        "for_martyred": {
+            "martyrdom_date": "3 Rajab, 254 AH (868 AD)",
+            "martyrdom_place": "Samarra",
+            "cause_of_martyrdom": "Poisoned by Abbasid caliph al-Mutazz",
+            "holy_shrine_lat": "34.1994116115114",
+            "holy_shrine_long": "43.874238320125734",
+            "holy_shrine": "Samarra, Iraq"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "13",
+        "name": "Hasan",
+        "full_name": "Imam Hasan al-Askari (as)",
+        "father_name": "Imam Ali al-Hadi (as)",
+        "mother_name": "Hadithah (as) - also known as Saleel",
+        "agnomen": "Abu Muhammad",
+        "titles": [
+            "Eleventh Imam",
+            "al-Askari"
+        ],
+        "age": "28",
+        "birth_date": "10 Rabi' al-Thani, 232 AH (845 AD)",
+        "birth_place": "Medina",
+        "duration_of_imamat": "6 years",
+        "for_martyred": {
+            "martyrdom_date": "8 Rabi' al-Awwal, 260 AH (872 AD)",
+            "martyrdom_place": "Samarra",
+            "cause_of_martyrdom": "Poisoned by Abbasid caliph al-Mutamid",
+            "holy_shrine_lat": "34.19910222063711",
+            "holy_shrine_long": "43.87387751818513",
+            "holy_shrine": "Samarra, Iraq"
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "",
+            "major_occultation": "",
+            "representatives_during_minor_occultation": []
+        }
+    },
+    {
+        "number": "14",
+        "name": "Muhammad",
+        "full_name": "Imam Mahdi (ajtfs)",
+        "father_name": "Imam Hasan al-Askari (as)",
+        "mother_name": "Narjis Khatoon (as)",
+        "agnomen": "Abul Qasim",
+        "titles": [
+            "Twelfth Imam",
+            "al-Mahdi",
+            "al-Hujjah",
+            "al-Qa'im",
+            "al-Gha'ib",
+            "Sahibu'z-Zaman"
+        ],
+        "age": "Alive, Alhamdulillah but is in occultation by the will of Allah (swt)",
+        "birth_date": "15 Sha'ban, 255 AH (868 AD)",
+        "birth_place": "Samarra",
+        "duration_of_imamat": "from 260 AH (872 AD) - present (occultation)",
+        "for_martyred": {
+            "martyrdom_date": "",
+            "martyrdom_place": "",
+            "cause_of_martyrdom": "",
+            "holy_shrine_lat": "",
+            "holy_shrine_long": "",
+            "holy_shrine": ""
+        },
+        "for_imam_al_zaman": {
+            "minor_occultation": "8 Rabi' al-Awwal 260 AH (872 AD)",
+            "major_occultation": "10 Shawwal 329 AH (939 AD)",
+            "representatives_during_minor_occultation": [
+                "Abu Amr Usman Ibne Saeed Amri (r)",
+                "Abu Jafar Mohammad Ibne Usman Ibne Saeed Amri (r)",
+                "Abul Qasim Husain Ibne Rauh Nawbakhti (r)",
+                "Abul Hasan Ali Ibne Mohammad Seymouri (r)"
+            ]
+        }
+    }
+]
