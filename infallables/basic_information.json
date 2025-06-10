@@ -34,7 +34,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -75,7 +75,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -118,7 +118,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -155,7 +155,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -186,7 +186,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -218,7 +218,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -250,7 +250,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -282,7 +282,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -313,7 +313,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -345,7 +345,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -375,7 +375,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -405,7 +405,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -434,7 +434,7 @@
         "for_imam_al_zaman": {
             "minor_occultation": "",
             "major_occultation": "",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": []
         }
     },
     {
@@ -467,7 +467,9 @@
         "for_imam_al_zaman": {
             "minor_occultation": "8 Rabi' al-Awwal 260 AH (872 AD)",
             "major_occultation": "10 Shawwal 329 AH (939 AD)",
-            "representatives_during_minor_occultation": ""
+            "representatives_during_minor_occultation": [
+                
+            ]
         }
     }
 ]
