@@ -4,8 +4,8 @@ from collections import OrderedDict
 from helper_ziyarah import printDone, printError, printStart
 
 
-INPUT_FILE = "infallables/template.json"
-OUTPUT_FILE = "infallables/basic_information.json"
+INPUT_FILE = "infallibles/template.json"
+OUTPUT_FILE = "infallibles/basic_information.json"
 
 
 
