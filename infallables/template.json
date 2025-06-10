@@ -6,23 +6,24 @@
     "mother_name": "",
     "agnomen": "",
     "titles": [],
+    "age": "",
     "birth_date": "",
+    "birth_place": "",
+    "duration_of_imamat": "",
 
     "for_martyred": {
         "martyrdom_date": "",
-        "martyrdom_place_coordinates": "",
-        "martyrdom_place_earlier_name": "",
+        "martyrdom_place": "",
         "cause_of_martyrdom": "",
-        "holy_shrine_coordinates": "",
-        "holy_shrine_place_earlier_name": ""
+        "holy_shrine_lat": "",
+        "holy_shrine_long": "",
+        "holy_shrine": ""
     },
 
     "for_imam_al_zaman": {
         "minor_occultation": "",
         "major_occultation": "",
         "representatives_during_minor_occultation": ""
-    },
+    }
 
-    "duration_of_imamat": "",
-    "age": ""
 }
