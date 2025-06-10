@@ -9,7 +9,7 @@ OUTPUT_FILE = "infallables/basic_information.json"
 
 
 
-def sync_with_template(entry: dict, template: OrderedDict) -> OrderedDict:
+def sync_with_template(entry: dict, template: dict) -> OrderedDict:
     synced = OrderedDict()
     for key, value in template.items():
         if key in entry:
