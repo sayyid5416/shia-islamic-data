@@ -204,7 +204,7 @@
             "Imam of the Worshippers"
         ],
         "age": "57",
-        "birth_date": "5 Sha'ban, 38 AH (658 AD)",
+        "birth_date": "5 Sha'ban or 15 Jamadi-ul-Awwal, 38 AH (658 AD)",
         "birth_place": "Medina",
         "duration_of_imamat": "34 years",
         "for_martyred": {
@@ -335,7 +335,7 @@
         "birth_place": "Medina",
         "duration_of_imamat": "20 years",
         "for_martyred": {
-            "martyrdom_date": "23 Dhul-Qadah or 17 Safar 203 AH (817 AD)",
+            "martyrdom_date": "23 Dhul-Qadah or 17 Safar or 29 Safar 203 AH (817 AD)",
             "martyrdom_place": "Mashhad",
             "cause_of_martyrdom": "",
             "holy_shrine_lat": "36.288019184459664",
@@ -391,11 +391,11 @@
             "an-Naqi"
         ],
         "age": "42",
-        "birth_date": "15 Dhu al-Hijjah, 214 AH (817 AD)",
+        "birth_date": "15 Dhu al-Hijjah or 2/5 Rajab, 214 AH (817 AD)",
         "birth_place": "Suryah, Medina",
         "duration_of_imamat": "34 years",
         "for_martyred": {
-            "martyrdom_date": "3 Rajab, 254 AH (868 AD)",
+            "martyrdom_date": "3 Rajab or 26 Jamadi-ul-Akhir, 254 AH (868 AD)",
             "martyrdom_place": "Samarra",
             "cause_of_martyrdom": "Poisoned by Abbasid caliph al-Mutazz",
             "holy_shrine_lat": "34.1994116115114",
@@ -420,7 +420,7 @@
             "al-Askari"
         ],
         "age": "28",
-        "birth_date": "10 Rabi' al-Thani, 232 AH (845 AD)",
+        "birth_date": "24 Rabi' al-Awwal or 8/10 Rabi' al-Thani, 232 AH (845 AD)",
         "birth_place": "Medina",
         "duration_of_imamat": "6 years",
         "for_martyred": {
