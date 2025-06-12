@@ -4,11 +4,29 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Dua Ahad"
+ZIYARAH_NAME = "Dua Nudba"
 DESCRIPTION = """
-Imam Sadiq (a.s) narrates that “one who recites this supplication for 40 mornings; he will be accounted amongst the helpers of Imam Mahdi (ajtfs). And if he happens to die before the reappearance of Imam Mahdi (ajtfs), Allah will raise him up from his grave so that he may assist the holy Imam (ajtfs).
+Among the most important supplications within our tradition is Dua al-Nudbah. It is an invocation where we pray for the hastening of the return of our twelfth Imam, Imam Mahdi (p), and also eloquently build a spiritual link with him. We are taught through traditions to recite this particular prayer on the four festive holidays, Eid al-Fitr, Eid al-Adha, Eid al-Ghadeer, and on Fridays.1 This is a beautiful portrayal of what it means to devote ourselves to the Imam of our time during the period of his occultation. Though the Imam is not in our physical company, we have an opportunity to connect with him on a spiritual level and demonstrating our commitment to him by reciting the powerful words of the supplication.
 
-For every word that he recites in this supplication, Allah will grant him 1000 good deeds and will erase from his scroll of deeds 1000 sins”. As the title suggests, this supplication is of allegiance (ahad) to the holy Imam (ajtfs). Its recitation every morning ensures the renewal of this covenant as taught by Imam Ali ibne Abi Talib (as)
+The Importance of Dua al-Nudbah
+Dua al-Nudba, or the “supplication of lamentation” is traditionally recited weekly on the day of Friday. The supplication is narrated by Sayed Ibn Tawus, who was one of the greatest scholars within the school of Ahl al-Bayt (p), in one of his famous works.2 Ibn Mashadi, who is also one of the greatest scholars, narrates it in his famous encyclopedic work of supplications and visitations of the Holy Household.3 It is known as the “supplication of lamentation” because it brings the believers to tears during the course of its recitation, due to the fact that the Imam is in occultation when we are in great need and desire for his presence. From its early onset, upon praising God and sending salutations upon the Prophet Muhammad and his progeny (pbut), we immediately enter into the emotional invocation.
+
+Themes of Dua al-Nudbah
+There are numerous themes that this invocation emphasizes.
+
+1. God's Wisdom in Choosing Representatives:
+Dua al-Nudbah, like many of the other prayers left as a legacy for us by the Holy Household (pbht) begins with a praise of God, and immediately begins to explain God's wisdom in choosing His divine representatives on earth. It is vital to keep in mind that the focal point of this prayer is to connect us with Imam Mahdi (p), and thus the frame of the introduction speaks to God’s chosen guides, the prophets, messengers, and imams. We state, “Praise be to God, the Lord of the worlds. And blessings of God be upon our Leader Muhammad, His Prophet, and on his progeny. O God! All praise is for You for that which You decided upon and resolved in the matter of Your close servants, whom You chosen for Yourself and Your religion.”4
+Within a contemporary frame, that guide for us is Imam Mahdi (p), the son of Imam Hassan al-Askari (p).
+
+2. Lamentation Over the Tragedy of the Ahl al-Bayt:
+The second theme within the dua is the beginning of the lamentation—lamentation for the oppression that the Prophet and his family had to endure so patiently and gracefully. The Imam eloquently speaks to the merit of Imam Ali (p), but also how quickly his station in the early Muslim community was neglected, eventually leading to his martyrdom and that of his blessed sons. We state, “The community [of people who stood against Ahlulbayt] flocked together to cut off [and abandon] His kinship [Ahlulbayt] and excluded his decedents [from their rightful position in succeeding of the Prophet, and leading the Muslims] except a handful of sincere faithful ones [true Shia] who kept their promise and dutifully upheld the rights of his descendants; Some [of Ahl al-Bayt] were slain, some were taken as captives and some were banished, and [divine] decree was set for them [in bearing the greatest calamities] For which they are expected to receive the best reward).” These lines shake our hearts and core, as we move to the next stage of the prayer, where we earnestly call upon the Awaited Savior (p).
+
+3. Calling Upon Imam Mahdi (p):
+Although we may not easily see Imam Mahdi (p) during his occultation, it is imperative that we recognize the potential to still form a strong link to him by finding time to speak with him in solitude as we do during the course of Dua al-Nudbah. We call out to the Imam by some of his titles and attributes. We state, “Where is the everlasting legacy of God which the guiding [prophetic] progeny is never vacant of (i.e., there is always a living representative of God from Ahl al-bayt)? Where is the one intended for eliminating the roots of the oppressors? Where is the one awaited for pulling down the foundations of confusion and hypocrisy? Where is the one hoped for removing oppression and aggression? Where is the one spared for reviving the duties and traditions? ”6
+As numerous traditions demonstrate, with the advent of the Imam, peace and justice will be established, overriding injustice and oppression.
+
+4. Demonstration of Our Desperation for the Awaited Savior (p): When supplicating for the Imam (p), it is important that we seek him in a state of desperation because we have such an intense need to be in his company with all the injustice that surrounds us. We should have a true, sincere desire to be in his blessed company. In this dua, we state, “Oh God] grant us his compassion, mercy, prayer, and his benevolence through which we receive ampleness from Your mercy and victory [in achieving the everlasting happiness in paradise]. [Oh God] And by him [through the intercession of Imam Mahdi (p)], accept our prayers, forgive our sins, fulfill our desires, give us means of livelihood, unrestricted, lessen our hardships, and grant us our desires.”7
+Through the demonstration of our sincere desire to be in his presence, the aspiration is that God will allow us to be among his helpers and supporters upon the conclusion of his occultation. It is recommended to recite this on Fridays & the 4 Idd days; the Idd ulFitr (1st Shawwal), the Idd al-Azha day (10th of Dhu’l-hijjah), the `Eid al-Ghadir day (18th of Du’l-hijjah).
 """
 LANGUAGES = ["ar", "transliteration", "en"]
 
