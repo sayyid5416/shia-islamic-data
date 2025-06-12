@@ -4,17 +4,14 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Dua Kumayl"
+ZIYARAH_NAME = "Dua Tawassul"
 DESCRIPTION = """
-Kumayl Ibn Ziyad Nakha'i was a confidant amongst the companions of Imam Ali Ibn Abi Talib (as) and this sublime Du'a was first heard from the beautiful, though anguished, voice of Imam Ali.
+Shaykh Tusi says, in his book Misbah, that Imam Hassan bin Ali Al Askari (as) wrote this dua'a for Abu Muhammad who requested him to teach him the proper way of reciting salawat.
 
-According to Allama Majlisi, Kumayl had attended an assembly in the Mosque at Basra which was addressed by Imam Ali in the course of which the night of the 15th of Shaban was mentioned. 
+Allamah al-Majlisi has quoted some books to have mentioned that Muhammad ibn Babawayh reported this supplication of Seeking Intercession (Du`a' al-Tawassul) from the Holy Imams (peace be upon them). Commenting, he added, “Whenever I said this supplication for any matter, I could find the traces of response immediately.”
 
-Imam Ali said - "Whosoever keeps awake in devoutness on this night and recites the Du'a of Prophet Khizr, undoubtedly that person's supplication will be responded to and granted."
-
-When the assembly at the Mosque had dispersed, Kumayl called at the house where Imam Ali was staying, and requested him to acquaint him with Prophet Khizr's "Du'a". Imam Ali asked Kumayl to sit down, record and memorise the "Du'a" which Imam Ali dictated to Kumayl.
-
-Imam Ali then advised Kumayl to recite this "Du'a" on the eve of (i.e. evening preceding) every Friday, or once a month or at least once in every year so that, added Imam Ali, "Allah may protect thee from the evils of the enemies and the plots contrived by impostors. O' Kumayl! in consideration of thy companionship and understanding, I grant thee this honour of entrusting this "Du'a" to thee."
+Article on Tawassul:
+The merciful Allah is beseeched in the name of and for the sake of the Holy prophet and his Ahl ul Bayt. who are amongst the best human beings in status with HIM . It is also known as "quick-fulfillment-of-all-legitimate-desires" dua'a.
 """
 LANGUAGES = ["ar", "transliteration", "en"]
 
