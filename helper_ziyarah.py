@@ -3,20 +3,24 @@ import json, os
 
 
 
-# INFO
-ZIYARAH_NAME = "After Salat"
+# ITEM
+ZIYARAH_NAME = "Hadith al-Kisa"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "transliteration", "en"]
 
+# PATH
+# INDEX_JSON_PATH = "ziyarah/index.json"
+# TEXT_DIR = "ziyarah/text"
+INDEX_JSON_PATH = "dhikr/index.json"
+TEXT_DIR = "dhikr/text"
 
 # INFO - general
 HEADING_PREFIX = "INFO: "
 # HEADING_PREFIX = "DESC: "
 HEADING_PREFIX_LIST = ["INFO: ", "DESC: "]
 INPUT_FILE = "raw.txt"
-INDEX_JSON_PATH = "ziyarah/index.json"
-TEXT_DIR = "ziyarah/text"
+
 
 
 # INFO - generated
@@ -134,7 +138,7 @@ def add_new_ziyarah_or_update_existing_from_raw():
                 "language": langCode,
                 "text": lines
             }
-            outPath = f"ziyarah/text/{langCode}/{ZIYARAH_ID}.json"
+            outPath = f"{TEXT_DIR}/{langCode}/{ZIYARAH_ID}.json"
             prepare_file(outPath)
             printStart(f"Writing to {outPath}...")
             with open(outPath, "w", encoding="utf-8") as f:
