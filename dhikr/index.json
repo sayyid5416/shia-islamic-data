@@ -1,5 +1,16 @@
 [
     {
+        "id": "a-test-entry",
+        "title": "A test entry",
+        "description": "",
+        "total_lines": 3,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "hadith-al-kisa",
         "title": "Hadith al-Kisa",
         "description": "",
