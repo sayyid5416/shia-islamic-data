@@ -4,14 +4,11 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Dua Tawassul"
+ZIYARAH_NAME = "Dua Ahad"
 DESCRIPTION = """
-Shaykh Tusi says, in his book Misbah, that Imam Hassan bin Ali Al Askari (as) wrote this dua'a for Abu Muhammad who requested him to teach him the proper way of reciting salawat.
+Imam Sadiq (a.s) narrates that “one who recites this supplication for 40 mornings; he will be accounted amongst the helpers of Imam Mahdi (ajtfs). And if he happens to die before the reappearance of Imam Mahdi (ajtfs), Allah will raise him up from his grave so that he may assist the holy Imam (ajtfs).
 
-Allamah al-Majlisi has quoted some books to have mentioned that Muhammad ibn Babawayh reported this supplication of Seeking Intercession (Du`a' al-Tawassul) from the Holy Imams (peace be upon them). Commenting, he added, “Whenever I said this supplication for any matter, I could find the traces of response immediately.”
-
-Article on Tawassul:
-The merciful Allah is beseeched in the name of and for the sake of the Holy prophet and his Ahl ul Bayt. who are amongst the best human beings in status with HIM . It is also known as "quick-fulfillment-of-all-legitimate-desires" dua'a.
+For every word that he recites in this supplication, Allah will grant him 1000 good deeds and will erase from his scroll of deeds 1000 sins”. As the title suggests, this supplication is of allegiance (ahad) to the holy Imam (ajtfs). Its recitation every morning ensures the renewal of this covenant as taught by Imam Ali ibne Abi Talib (as)
 """
 LANGUAGES = ["ar", "transliteration", "en"]
 
