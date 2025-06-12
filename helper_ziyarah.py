@@ -4,16 +4,25 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Hadith al-Kisa"
+ZIYARAH_NAME = "Tasbih - Syeda Fatima az-Zahra (sa)"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "transliteration", "en"]
 
-# PATH
+
+# PATH - Ziyarah
 # INDEX_JSON_PATH = "ziyarah/index.json"
 # TEXT_DIR = "ziyarah/text"
+
+# PATH - Dhikr
 INDEX_JSON_PATH = "dhikr/index.json"
 TEXT_DIR = "dhikr/text"
+
+# PATH - Sermon
+# INDEX_JSON_PATH = "sermon/index.json"
+# TEXT_DIR = "sermon/text"
+
+
 
 # INFO - general
 HEADING_PREFIX = "INFO: "
