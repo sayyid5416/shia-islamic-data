@@ -4,11 +4,12 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Naad e Ali"
+ZIYARAH_NAME = "Eid al-Adha"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "transliteration", "en"]
-FOLDER = "duas"
+FOLDER = "salat"
+# FOLDER = "dua"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 
@@ -20,7 +21,7 @@ TEXT_DIR = f"{FOLDER}/text"
 
 # INFO - general
 HEADING_PREFIX = "INFO: "
-# HEADING_PREFIX = "DESC: "
+HEADING_PREFIX = "DESC: "
 HEADING_PREFIX_LIST = ["INFO: ", "DESC: "]
 INPUT_FILE = "raw.txt"
 
@@ -114,48 +115,41 @@ def update_index_after_adding_new_ziyarah(totalLines: int):
 
 # ---------------------------- Main functions ---------------------------- #
 def add_new_ziyarah_or_update_existing_from_raw():
-    try:
-        prepare_file(INPUT_FILE)
+    prepare_file(INPUT_FILE)
 
-        printStart(f"Reading from {INPUT_FILE}...")
-        blocks = read_blocks(INPUT_FILE)
-        printDone(f"Total blocks read: {len(blocks)}")
+    printStart(f"Reading from {INPUT_FILE}...")
+    blocks = read_blocks(INPUT_FILE)
+    printDone(f"Total blocks read: {len(blocks)}")
 
-        for i, block in enumerate(blocks):
-            if len(block) == 1:
-                textLine = block[0]
-                if not any(textLine.startswith(prefix) for prefix in HEADING_PREFIX_LIST):
-                    infoLine = f"{HEADING_PREFIX}{textLine}"
-                else:
-                    infoLine = textLine
-                blocks[i] = [infoLine, infoLine, infoLine]
-            elif len(block) != len(LANGUAGES):
-                printError(f"Block {i+1} has {len(block)} lines: {block}")
-                return
+    for i, block in enumerate(blocks):
+        if len(block) == 1:
+            textLine = block[0]
+            if not any(textLine.startswith(prefix) for prefix in HEADING_PREFIX_LIST):
+                infoLine = f"{HEADING_PREFIX}{textLine}"
+            else:
+                infoLine = textLine
+            blocks[i] = [infoLine, infoLine, infoLine]
+        elif len(block) != len(LANGUAGES):
+            printError(f"Block {i+1} has {len(block)} lines: {block}")
+            return
 
-        for idx, langCode in enumerate(LANGUAGES):
-            lines = [b[idx] for b in blocks]
-            data = {
-                "id": ZIYARAH_ID,
-                "title": ZIYARAH_NAME,
-                "language": langCode,
-                "text": lines
-            }
-            outPath = f"{TEXT_DIR}/{langCode}/{ZIYARAH_ID}.json"
-            prepare_file(outPath)
-            printStart(f"Writing to {outPath}...")
-            with open(outPath, "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=4)
-            printDone(f"Wrote {len(lines)} lines.")
-        
-        update_index_after_adding_new_ziyarah(totalLines=len(blocks))
+    for idx, langCode in enumerate(LANGUAGES):
+        lines = [b[idx] for b in blocks]
+        data = {
+            "id": ZIYARAH_ID,
+            "title": ZIYARAH_NAME,
+            "language": langCode,
+            "text": lines
+        }
+        outPath = f"{TEXT_DIR}/{langCode}/{ZIYARAH_ID}.json"
+        prepare_file(outPath)
+        printStart(f"Writing to {outPath}...")
+        with open(outPath, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+        printDone(f"Wrote {len(lines)} lines.")
+    
+    update_index_after_adding_new_ziyarah(totalLines=len(blocks))
 
-    except FileNotFoundError:
-        printError(f"Error: File '{INPUT_FILE}' not found.")
-    except IOError as e:
-        printError(f"I/O error({e.errno}): {e.strerror}")
-    except Exception as e:
-        printError(f"Unexpected error: {e}")
 
 def change_ziyarah_metadata(
     current_id: str,
@@ -294,14 +288,22 @@ def reorder_json_keys():
 if __name__ == "__main__":
     print("\n------------------ STARTING ------------------\n")
     
+    try:
+        
+        # regenerate_raw_file(ZIYARAH_ID)
+        
+        # input(">>>>>> Enter to add again")
+        
+        add_new_ziyarah_or_update_existing_from_raw()
+        
+        reorder_json_keys()
     
-    # regenerate_raw_file(ZIYARAH_ID)
-    
-    # input(">>>>>> Enter to add again")
-    
-    add_new_ziyarah_or_update_existing_from_raw()
-    
-    reorder_json_keys()
-    
+    except FileNotFoundError:
+        printError(f"Error: File '{INPUT_FILE}' not found.")
+    except IOError as e:
+        printError(f"I/O error({e.errno}): {e.strerror}")
+    except Exception as e:
+        printError(f"Unexpected error: {e}")
+        
     print("\n------------------ DONE ------------------\n")
     
