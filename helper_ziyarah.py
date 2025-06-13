@@ -8,7 +8,7 @@ ZIYARAH_NAME = "Eid al-Adha"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar", "transliteration", "en"]
-FOLDER = "salat"
+FOLDER = "salah"
 # FOLDER = "dua"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
