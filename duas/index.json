@@ -42,5 +42,16 @@
             "transliteration",
             "en"
         ]
+    },
+    {
+        "id": "naad-e-ali",
+        "title": "Naad e Ali",
+        "description": "",
+        "total_lines": 45,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
     }
 ]
