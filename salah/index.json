@@ -20,5 +20,14 @@
             "transliteration",
             "en"
         ]
+    },
+    {
+        "id": "isteghfar",
+        "title": "Isteghfar",
+        "description": "",
+        "total_lines": 34,
+        "languages": [
+            "en"
+        ]
     }
 ]
