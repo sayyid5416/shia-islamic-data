@@ -4,104 +4,10 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Tahajjud - Salatul Layl"
+ZIYARAH_NAME = "Nafilah"
 DESCRIPTION = """
-AHADEETH ON SALATUL LAYL
-Hadith 1
-Salatul Layl In the Words of Allah (swt)
-Imam as-Sadiq (AS) has said:
-"The reward of every good action that a person with true faith performs has been mentioned in the Quran, except for Salatul Layl, since due to the importance (and high status) of it, Allah (SWT) has not explicitly mentioned it and has only said the following (in regards to it):
-"Those who forsake their beds to cry unto their Lord in fear and hope, and spend out of that which We have bestowed upon them." Surah as-Sajdah (32:16)
-
-Hadith 2
-Purification of the Soul by Salatul Layl
-Allah (SWT) in explaining Salatul Layl and those who stay up during the night (doing Ibadaat) has said:
-"Surely the rising by night is the firmest way to tread and the best corrective of speech. Surely you have in the day time a long occupation." Surah Muzzammil (73:6-7)
-Hadith 3
-Salatul Layl and the Nafilah-e-Subh
-
-Allah (SWT) says:
-"And in the night, give Him glory too, and at the setting of the stars." Surah Tur (52:49)
-
-Hadith 4
-The Worship of the Sincere Ones
-Allah (SWT) says:
-"And they who pass the night prostrating themselves before their Lord and standing."
-Surah Furqaan (25:64)
-
-Hadith 5
-Explaining the Pious Ones (Muttaqeen)
-Allah (SWT) says:
-"They used to sleep but little in the night. And in the morning they asked for forgiveness." Surah Zariyat (51:17-18)
-
-
-Hadith 6 Seeking Forgiveness at the Time of Sahr
-Allah (SWT) says:
-"The patient, and the truthful, and the obedient, and those who spend (benevolently) and those who ask forgiveness in the morning times." Surah Ale Imran (3:17)
-
-Hadith 7 Salatul Layl Having Been Waajib (Obligatory) for the Prophet of Allah (SWT)
-Allah (SWT) says:
-"And during a part of the night, pray Tahajjud beyond what is incumbent on you; maybe your Lord will raise you to a position of great glory." Surah Bani Israeel (17:79)
-
-Hadith 8
-Wake up for Salatul Layl
-Allah (SWT) says:
-(O you who have wrapped up in your garments! Rise to pray in the night except a little.) Surah Muzzammil (73:1-2)
-
-Hadith 9
-Wake up for Salatul Layl
-"Rise to pray in the night except a little, Half of it, or lessen it a little, Or add to it, and recite the Quran as it ought to be recited."
-Surah Muzzammil (73:2-4)
-
-Hadith 10 Those Who Prostrate
-Allah (SWT) says:
-"And rely on the Mighty, the Merciful. Who sees you when you stand up. And your turning over and over among those who prostrate themselves before Allah." Surah Shuara (26:217-219)
-
-Hadith 11 Describing Those Who Stay Up in the Night
-Allah (SWT) says:
-"(Can he who passes his night in sajdah (adoration), standing up or on his knees, who dreads the terrors of the life to come and hopes to earn the mercy of his Lord, (be compared to the unbeliever?"
-Surah Zumar (39:9)
-
-Hadith 12 Pleasure of Allah (SWT) Imam Ja'far as-Sadiq (AS) has said:"The pleasure of Allah (SWT) lies in Salatul-Layl."
-
-Hadith 13 Sign of True Faith in Allah (SWT) and Belief in the Day of Judgement Imam Muhammad al-Baqir(AS) has said: "One who has true faith in Allah (SWT) and the last day, will not allow the night to pass into the day without performing Salatul-Witr."
-
-Hadith 14 The Greatness of a Believer
-Imam Ja'far as-Sadiq (AS) has said: "The greatness of a believer is his Salat in the night and his dignity lies in not asking others for his needs."
-
-Hadith 15
-Beauty of the Next Life
-Imam Ja'far as-Sadiq (AS) has said: "Allah (SWT) - the Noble and the Great has said that the wealth and children are a beautification of this world and surely the 8 Rakat (of Salatul Layl) that a servant performs at the end of the night is a beautification for the next life."
-
-MERITS
-By praying Salatul-Layl one’s livelihood is increased, one passes easily through “Sakaraat” (great and grueling pain a dying person suffers at the time of death) and finds happiness in “Barzakh” (the Spiritual world where the departed souls stay either in happiness or misery, until the Day of Resurrection).
-Imam Jaffar Sadiq (a.s.) quotes Imam Ali (as) as saying that the Prophet (saww) said that a person who prays Salatul-Layl gets the following twenty four kinds of benefits:
-Secures Allah’s pleasure.
-Makes friendship with Angels.
-Is the Sunnat of the Prophets (a.s.)
-Provides the means to pursue knowledge.
-Constitutes the root of our faith.
-Keeps one physically fit.
-Drives Shaytan away.
-Protects one from enemies.
-Serves as a means of acceptance of one’s Duas and good deeds.
-Increases one’s livelihood.
-Intercedes with the Angel of Death.
-Lights up the grave.
-Provides comfortable bedding in the grave.
-Helps answering with ease the questioning of Munkar and Nakir in the grave.
-Gives companionship in the grave.
-Provides shelter on the Day of Judgment.
-Crowns one on the Day of Reckoning.
-Clothes one on the Day of Resurrection.
-Provides one with light on the Day of Judgment.
-Forms a barrier against the fire of Hell.
-Gets Allah’s pardon on the Day of Judgment.
-Increases the weight of good deeds on the scale.
-Helps one crossing the Bridge of “Siraat” without any difficulty.
-Forms the key to the Paradise.
 """
-LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["en"]
 FOLDER = "salah"
 # FOLDER = "dua"
 # FOLDER = "dhikr"
