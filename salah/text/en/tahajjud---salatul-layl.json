@@ -3,10 +3,9 @@
     "title": "Tahajjud - Salatul Layl",
     "language": "en",
     "text": [
-        "DESC: Night Prayer To be offered after Midnight",
-        "DESC: Salatul-Layl consists up of 11 (eleven) Rak’ats",
-        "INFO: Nawafilatul-Layl",
-        "DESC: The first 8 Rak’ats are prayed as normal (like Fajr) in pairs of two Rak’ats each with the niyyah of \"Nawafilatul-Layl\"",
+        "DESC: Night Prayer To be offered after Midnight. It consists up of 11 Rak’ats.",
+        "INFO: Nawafilatul-Layl x 4",
+        "DESC: The first 8 Rak’ats are prayed as normal (like Fajr) in pairs of 2 Rak’ats each with the niyyah of \"Nawafilatul-Layl\"",
         "INFO: Salatul Shif’a",
         "DESC: The next 2 Rak’ats are prayed (like Fajr) with the Niyyah of \"Salatul Shif’a\"",
         "INFO: Salatul Witr",
