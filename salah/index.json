@@ -9,5 +9,16 @@
             "transliteration",
             "en"
         ]
+    },
+    {
+        "id": "eid-al-fitr",
+        "title": "Eid al-Fitr",
+        "description": "",
+        "total_lines": 32,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
     }
 ]
