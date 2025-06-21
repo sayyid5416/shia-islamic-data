@@ -44,6 +44,17 @@
         ]
     },
     {
+        "id": "eid-al-ghadeer-eve",
+        "title": "Eid al-Ghadeer Eve",
+        "description": "",
+        "total_lines": 20,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "naad-e-ali",
         "title": "Naad e Ali",
         "description": "",
