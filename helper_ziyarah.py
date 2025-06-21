@@ -4,15 +4,16 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Eid al-Ghadeer Eve"
+ZIYARAH_NAME = "Ghadir Khumm"
 DESCRIPTION = """
 """
-LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["en"]
 # LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 # FOLDER = "duas"
 # FOLDER = "dhikr"
-FOLDER = "ziyarah"
+# FOLDER = "ziyarah"
+FOLDER = "sermon"
 
 
 
@@ -295,12 +296,12 @@ if __name__ == "__main__":
         
         # input(">>>>>> Enter to add again")
         
-        # add_new_ziyarah_or_update_existing_from_raw()
+        add_new_ziyarah_or_update_existing_from_raw()
         
-        change_ziyarah_metadata(
-            current_id = "imam-ali-(as)---27th-rajab",
-            new_title = "Imam Ali (as) - on Mi'raj Day",
-        )
+        # change_ziyarah_metadata(
+        #     current_id = "imam-ali-(as)---27th-rajab",
+        #     new_title = "Imam Ali (as) - on Mi'raj Day",
+        # )
         
         reorder_json_keys()
     
