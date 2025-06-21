@@ -231,61 +231,6 @@
         ]
     },
     {
-        "id": "imam-ali-(as)---17th-rabiul-awwal",
-        "title": "Imam Ali (as) - 17th Rabiul Awwal",
-        "description": "Al-Shahid, Shaykh a-Mufid, and Sayyid Ibn Tawus—all those have reported that Imam al-Sadiq (peace be upon him) visited the holy tomb of Imam `Ali Amir al-Mu'minin (peace be upon him) on the seventeenth of Rabi` al-Awwal, which is the birthday of the Holy Prophet (peace and blessings upon him and his family), with the following form of ziyarah:\n\nTeaching the lofty, trustworthy scholar Muhammad ibn Muslim al-Thaqafi, Imam al-Sadiq (peace be upon him) said :\n\nWhen you approach the holy shrine of Amir al-Mu'minin (peace be upon him), you may first wash yourself before visiting, put on the cleanest of your clothes, use a perfume, and walk towards the shrine with tranquility.",
-        "total_lines": 201,
-        "languages": [
-            "ar",
-            "transliteration",
-            "en"
-        ]
-    },
-    {
-        "id": "imam-ali-(as)---18-zilhajj",
-        "title": "Imam Ali (as) - 18 Zilhajj",
-        "description": "Though authoritative chains of authority, It is narrated that Imam `Ali ibn Muhammad al-Hadi (peace be upon him) said the following form of ziyarah at the holy tomb of Imam `Ali Amir al-Mu'minin (peace be upon him) on the Ghadir day when he was summoned by the `Abbasid ruler, al-Mu`tasim, to be present before him in Iraq. (It contains a full overview of events in his life.)",
-        "total_lines": 569,
-        "languages": [
-            "ar",
-            "transliteration",
-            "en"
-        ]
-    },
-    {
-        "id": "imam-ali-(as)---18-zilhajj-(short)",
-        "title": "Imam Ali (as) - 18 Zilhajj (short)",
-        "description": "This form of ziyarah has been mentioned in Iqbal al-A`mal by Sayyid Ibn Tawus who has reported it from Imam Sadiq (peace be upon him).",
-        "total_lines": 45,
-        "languages": [
-            "ar",
-            "transliteration",
-            "en"
-        ]
-    },
-    {
-        "id": "imam-ali-(as)---21st-ramadan",
-        "title": "Imam Ali (as) - 21st Ramadan",
-        "description": "Hazrat Khidr (á)came hurriedly to Imam Ali's (á) house on the day of his martyrdom, while he was weeping and reciting 'Inna lillahahe wa Inna ilahay he rajeoon(2:156)'. He stood at the door of the Imam's home and said “Rahamkallah ho ya Abal Hassan” And enumerated many of his virtues.\n\nThe similar text that is considered as the Ziyarat of the Imam's (á) martyrdom day has been mentioned in “Hadiyyat al-Za'ir”. These words, quoted from al-Kafi 1:454,",
-        "total_lines": 65,
-        "languages": [
-            "ar",
-            "transliteration",
-            "en"
-        ]
-    },
-    {
-        "id": "imam-ali-(as)---27th-rajab",
-        "title": "Imam Ali (as) - 27th Rajab",
-        "description": "The ziyarah has been mentioned by Shaykh al-Mufid, Sayyid Ibn Tawus, and al-Shahid in the following form\n\nInterestingly this long ziyarat is a chronicle of the supreme position of Imam Ali (as) and the various events in his life in defense of the Prophet (saws) and Islam.",
-        "total_lines": 276,
-        "languages": [
-            "ar",
-            "transliteration",
-            "en"
-        ]
-    },
-    {
         "id": "imam-ali-(as)---at-najaf-shrine---entrance",
         "title": "Imam Ali (as) - at Najaf Shrine - Entrance",
         "description": "When going for the shrine of Imam `Ali (as)\n\nShaykh al-Mufid, al-Shahid, Sayyid Ibn Tawus, and others have mentioned the following form of Ziyarah",
@@ -367,6 +312,61 @@
         "title": "Imam Ali (as) - at Najaf Shrine 6",
         "description": "This is the another form of Ziyarat of Imam Ali (as)\n\nThis form of Ziyarah has been reported by Sayyid Ibn Tawus, in his book entitled Misbah al-Za'ir, who, instructing the method of this ziyarah.",
         "total_lines": 141,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
+        "id": "imam-ali-(as)---eid-al-ghadeer",
+        "title": "Imam Ali (as) - Eid al-Ghadeer",
+        "description": 569,
+        "total_lines": 569,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
+        "id": "imam-ali-(as)---eid-al-ghadeer-(short)",
+        "title": "Imam Ali (as) - Eid al-Ghadeer (short)",
+        "description": 45,
+        "total_lines": 45,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
+        "id": "imam-ali-(as)---on-holy-prophet's-(s)-birthday",
+        "title": "Imam Ali (as) - on Holy Prophet's (s) Birthday",
+        "description": 201,
+        "total_lines": 201,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
+        "id": "imam-ali-(as)---on-martyrdom-day",
+        "title": "Imam Ali (as) - on Martyrdom Day",
+        "description": 65,
+        "total_lines": 65,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
+        "id": "imam-ali-(as)---on-mi'raj-day",
+        "title": "Imam Ali (as) - on Mi'raj Day",
+        "description": 276,
+        "total_lines": 276,
         "languages": [
             "ar",
             "transliteration",

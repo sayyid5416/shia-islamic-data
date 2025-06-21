@@ -10,9 +10,9 @@ DESCRIPTION = """
 LANGUAGES = ["ar", "transliteration", "en"]
 # LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
-FOLDER = "duas"
+# FOLDER = "duas"
 # FOLDER = "dhikr"
-# FOLDER = "ziyarah"
+FOLDER = "ziyarah"
 
 
 
@@ -155,7 +155,7 @@ def add_new_ziyarah_or_update_existing_from_raw():
 def change_ziyarah_metadata(
     current_id: str,
     new_title: str | None = None,
-    new_description: str | None = None
+    # new_description: str | None = None
 ):
     if not os.path.exists(INDEX_JSON_PATH):
         printError(f"{INDEX_JSON_PATH} not found.")
@@ -176,14 +176,14 @@ def change_ziyarah_metadata(
     entry = matched[0]
     updated_title = new_title or entry["title"]
     updated_id = getZiyarahId(updated_title)
-    updated_description = new_description.strip() if new_description is not None else entry.get("description", "")
+    # updated_description = new_description.strip() if new_description is not None else entry.get("description", "")
 
     index = [z for z in index if z.get("id") != current_id]
     index.append(
         {
             "id": updated_id,
             "title": updated_title,
-            "description": updated_description,
+            "description": entry["total_lines"],
             "total_lines": entry["total_lines"],
             "languages": entry["languages"],
         }
@@ -295,7 +295,12 @@ if __name__ == "__main__":
         
         # input(">>>>>> Enter to add again")
         
-        add_new_ziyarah_or_update_existing_from_raw()
+        # add_new_ziyarah_or_update_existing_from_raw()
+        
+        change_ziyarah_metadata(
+            current_id = "imam-ali-(as)---27th-rajab",
+            new_title = "Imam Ali (as) - on Mi'raj Day",
+        )
         
         reorder_json_keys()
     
