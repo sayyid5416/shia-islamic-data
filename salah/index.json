@@ -22,6 +22,16 @@
         ]
     },
     {
+        "id": "eid-al-mubahila",
+        "title": "Eid al-Mubahila",
+        "description": "",
+        "total_lines": 42,
+        "languages": [
+            "ar",
+            "en"
+        ]
+    },
+    {
         "id": "isteghfar",
         "title": "Isteghfar",
         "description": "",

@@ -4,10 +4,10 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Nafilah"
+ZIYARAH_NAME = "Eid al-Mubahila"
 DESCRIPTION = """
 """
-LANGUAGES = ["en"]
+LANGUAGES = ["ar", "en"]
 FOLDER = "salah"
 # FOLDER = "dua"
 # FOLDER = "dhikr"
@@ -20,7 +20,7 @@ INDEX_JSON_PATH = f"{FOLDER}/index.json"
 TEXT_DIR = f"{FOLDER}/text"
 
 # INFO - general
-HEADING_PREFIX = "INFO: "
+# HEADING_PREFIX = "INFO: "
 HEADING_PREFIX = "DESC: "
 HEADING_PREFIX_LIST = ["INFO: ", "DESC: "]
 INPUT_FILE = "raw.txt"
