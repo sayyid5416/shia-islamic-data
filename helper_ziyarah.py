@@ -6,15 +6,24 @@ import json, os
 # ITEM
 ZIYARAH_NAME = "Eid al-Mubahila"
 DESCRIPTION = """
+This supplication recorded in Shaykh al-Tusi's book of Misbah al-Mutahajjid and reported from Imam Ja`far al-Sadiq (as)
+
+About this dua from Iqbal Aamal
+
+The following is narrated through a chain of documents to Sheikh Abil Faraj Muhammad ibn Abi Qara, with a chain of documents on the authority of Muhammad ibn Suleiman al-Datimy, on the authority of Al-Hussein ibn Khalid, on the authority of Abi Abdullah (as), on the authority of Abu Ja‟far (as): “If we say that God‟s greatest name is expressed in these supplications, it would be right. If the people knew how fast this prayer is fulfilled, they would rush to learn it. I recite it before my needs and they all get fulfilled.
+
+This is the Mubahila supplication in the Words of the Sublime God, "say: "Come! let us gather together,- our sons and your sons, our women and your women, ourselves and yourselves: Then let us earnestly pray, and invoke the curse of Allah on those who lie!""
+
+Gabriel descended to the Prophet of God and informed him about this call. He told the Prophet to depart with his Trustee, sons, wife and tribe and challenge them by reciting these supplications. Abu Abdullah As-Sadiq (as) said, “Whenever you say these supplications, ask for what is the best near God and what is more eternal. This is one of the treasures of knowledge. Ask God for intercession with it, and hide it from the unwise and the hypocrites."
 """
 LANGUAGES = ["en"]
-# LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 FOLDER = "duas"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 # FOLDER = "sermon"
-FOLDER = "amaal"
+# FOLDER = "amaal"
 
 
 
