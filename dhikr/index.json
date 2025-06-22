@@ -22,6 +22,17 @@
         ]
     },
     {
+        "id": "salawat-after-asr-on-friday",
+        "title": "Salawat after Asr on Friday",
+        "description": "",
+        "total_lines": 62,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "salawat-ahlulbayt",
         "title": "Salawat Ahlulbayt",
         "description": "Imam `Ali (peace be upon him) mentioned in one of his sermons on Friday, as is cited in the book of al-Rawdah min al-Kafi, representing an invocation of Allah’s blessings upon the Holy Prophet (peace nad blessings upon him and his family)",

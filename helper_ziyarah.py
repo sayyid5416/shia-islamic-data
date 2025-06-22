@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Salawat Holy Prophet (saww)"
+ZIYARAH_NAME = "Salawat after Asr on Friday"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
