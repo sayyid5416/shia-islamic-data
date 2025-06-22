@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Imam Zayn al-Abidin (as)"
+ZIYARAH_NAME = "Bibi Zaynab (as) - in Yazid's court"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
