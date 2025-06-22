@@ -11,6 +11,17 @@
         ]
     },
     {
+        "id": "salawat",
+        "title": "Salawat",
+        "description": "",
+        "total_lines": 10,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "tasbih---syeda-fatima-az-zahra-(sa)",
         "title": "Tasbih - Syeda Fatima az-Zahra (sa)",
         "description": "",
