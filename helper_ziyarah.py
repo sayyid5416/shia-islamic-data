@@ -4,17 +4,17 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Eid al-Ghadeer"
+ZIYARAH_NAME = "Fadak"
 DESCRIPTION = """
 """
-LANGUAGES = ["en"]
-LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["ar", "en"]
+# LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
-FOLDER = "duas"
+# FOLDER = "duas"
 # FOLDER = "dhikr"
-FOLDER = "ziyarah"
-# FOLDER = "sermon"
-FOLDER = "amaal"
+# FOLDER = "ziyarah"
+FOLDER = "sermon"
+# FOLDER = "amaal"
 
 
 
@@ -293,9 +293,9 @@ if __name__ == "__main__":
     
     try:
         
-        regenerate_raw_file(ZIYARAH_ID)
+        # regenerate_raw_file(ZIYARAH_ID)
         
-        input(">>>>>> Enter to add again")
+        # input(">>>>>> Enter to add again")
         
         add_new_ziyarah_or_update_existing_from_raw()
         
