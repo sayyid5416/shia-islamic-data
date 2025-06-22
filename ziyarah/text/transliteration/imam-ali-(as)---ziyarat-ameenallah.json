@@ -1,7 +1,13 @@
 {
     "id": "imam-ali-(as)---ziyarat-ameenallah",
+    "title": "Imam Ali (as) - Ziyarat Ameenallah",
     "language": "transliteration",
     "text": [
+        "INFO: Introduction",
+        "DESC: • Allama Majlisi considers this Ziyarat as the best of all Ziyarats in terms of text and the chain of authority.",
+        "DESC: • It could be recited in all the holy shrines",
+        "DESC: • It could also be recited on Eid al-Ghadeer",
+        "INFO: Ziyarah",
         "alssalamu `alayka ya amina allahi fi ardihi",
         "wa hujjatahu `ala `ibadihi",
         "alssalamu `alayka ya amira almu'minina",
@@ -56,7 +62,7 @@
         "innaka waliyyu na`ma'i",
         "wa muntaha munaya",
         "wa ghayatu raja'i fi munqalabi wa mathwaya",
-        "INFO: In the book of Kamil al-Ziyarat, the following statements are added to this form of Ziyarah",
+        "INFO: More statements from Kamil al-Ziyarat",
         "anta ilahi wa sayyidi wa mawlaya",
         "ighfir li-awliya'ina",
         "wa kuffa `anna a`da'ana",
@@ -66,13 +72,14 @@
         "wa adhid kalimata albatili",
         "waj`alha alssufla",
         "innaka `ala kulli shay'in qadirun",
-        "INFO: Mafateeh ul Jinaan: p. 698; Misbah ul Mutahajjid: p. 738; and in Misbah uz Zaaer: p. 474, and the Mazaar of Agha Jamaal Khwansaari: p. 98 with slight difference.",
-        "INFO: Farewell Ziyaarat to be Recited after Ziyaarat-e-Ameenullah The author says: I have seen in the book ‘Al-Iqbaal’ and the book ‘Sahifa al-Saadeqiyyah’ written by late Sayed ibn Taaoos (r.a.) and in two manuscripts in which a farewell ziyaarat to be recited after ziyaarat-e-Ameenullah, narrated by Imam Ja’far al-Sadiq (as) has been mentioned.",
-        "INFO: Jaabir says: When I informed Imam Ja’far al-Sadiq (as) about the ziyaarat of Ameenullah as narrated by Imam Muhammad Baqir (as), he (as) said: “Whenever you decide to depart from the shrine of the Holy Imams (as) then add in it this supplication after Ziyaarat-e-Ameenullah",
+        "DESC: Mafateeh ul Jinaan: p. 698; Misbah ul Mutahajjid: p. 738; and in Misbah uz Zaaer: p. 474, and the Mazaar of Agha Jamaal Khwansaari: p. 98 with slight difference.",
+        "INFO: Farewell",
+        "DESC: Farewell Ziyaarat is recommended to be Recited after Ziyaarat-e-Ameenullah.",
+        "DESC: The author says: I have seen in the book ‘Al-Iqbaal’ and the book ‘Sahifa al-Saadeqiyyah’ written by late Sayed ibn Taaoos (ra) and in two manuscripts in which a farewell ziyaarat to be recited after ziyaarat-e-Ameenullah, narrated by Imam Ja’far al-Sadiq (as) has been mentioned.",
+        "DESC: Jaabir says: When I informed Imam Ja’far al-Sadiq (as) about the ziyaarat of Ameenullah as narrated by Imam Muhammad Baqir (as), he (as) said: “Whenever you decide to depart from the shrine of the Holy Imams (as) then add in it this supplication after Ziyaarat-e-Ameenullah",
         "assalaamo a’layka ayyohal emaamo wa rahmatul laahe wa barakaatohu as-tawde-o’kal laaha wa a’laykas salaamo wa rahmatul laahe wa barakaatoh.",
         "aamannaa bir-rasoole wa bemaa jeatum behi da-a’wtum elayhe.",
         "allaahumma laa taj-a’lho aakheral a’hde min zeyaaratee waliyyaka.",
         "allaahumma laa tahrimnee sawaaba mazaarehil lazee awjabta lahu wa yassir lanal a’wda elayhe in shaaa allaaho ta-a’alaa."
-    ],
-    "title": "Imam Ali (as) - Ziyarat Ameenallah"
+    ]
 }
