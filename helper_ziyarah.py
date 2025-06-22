@@ -4,9 +4,8 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Salawat Ahlulbayt"
+ZIYARAH_NAME = "Salawat Holy Prophet (saww)"
 DESCRIPTION = """
-Imam `Ali (peace be upon him) mentioned in one of his sermons on Friday, as is cited in the book of al-Rawdah min al-Kafi, representing an invocation of Allah’s blessings upon the Holy Prophet (peace nad blessings upon him and his family)
 """
 LANGUAGES = ["en"]
 LANGUAGES = ["ar", "transliteration", "en"]
