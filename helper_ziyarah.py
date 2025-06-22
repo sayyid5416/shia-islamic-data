@@ -4,10 +4,10 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Fadak"
+ZIYARAH_NAME = "Prophet (s) - last friday of Sha'ban"
 DESCRIPTION = """
 """
-LANGUAGES = ["ar", "en"]
+LANGUAGES = ["en"]
 # LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 # FOLDER = "duas"
