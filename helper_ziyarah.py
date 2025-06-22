@@ -4,16 +4,17 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Salawat after Asr on Friday"
+ZIYARAH_NAME = "Eid al-Ghadeer"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
-LANGUAGES = ["ar", "transliteration", "en"]
+# LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 # FOLDER = "duas"
-FOLDER = "dhikr"
+# FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 # FOLDER = "sermon"
+FOLDER = "amaal"
 
 
 
