@@ -22,6 +22,17 @@
         ]
     },
     {
+        "id": "eid-al-ghadeer",
+        "title": "Eid al-Ghadeer",
+        "description": "",
+        "total_lines": 137,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "eid-al-ghadeer---thanksgiving",
         "title": "Eid al-Ghadeer - Thanksgiving",
         "description": "",
