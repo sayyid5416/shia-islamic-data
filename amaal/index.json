@@ -7,5 +7,14 @@
         "languages": [
             "en"
         ]
+    },
+    {
+        "id": "eid-al-mubahila",
+        "title": "Eid al-Mubahila",
+        "description": "",
+        "total_lines": 11,
+        "languages": [
+            "en"
+        ]
     }
 ]
