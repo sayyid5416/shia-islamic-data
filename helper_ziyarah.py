@@ -125,13 +125,15 @@ def add_new_ziyarah_or_update_existing_from_raw():
     printDone(f"Total blocks read: {len(blocks)}")
 
     for i, block in enumerate(blocks):
-        if len(block) == 1:
+        if len(block) == len(LANGUAGES):
+            continue
+        elif len(block) == 1:
             textLine = block[0]
             if not any(textLine.startswith(prefix) for prefix in HEADING_PREFIX_LIST):
                 infoLine = f"{HEADING_PREFIX}{textLine}"
             else:
                 infoLine = textLine
-            blocks[i] = [infoLine, infoLine, infoLine]
+            blocks[i] = [infoLine] * len(LANGUAGES)
         elif len(block) != len(LANGUAGES):
             printError(f"Block {i+1} has {len(block)} lines: {block}")
             return
@@ -256,8 +258,6 @@ def regenerate_raw_file(ziyarah_id: str):
             unique_lines = set(lines)
             if len(unique_lines) == 1:
                 line = lines[0]
-                if not any(line.startswith(prefix) for prefix in HEADING_PREFIX_LIST):
-                    line = f"{HEADING_PREFIX}{line}"
                 f.write(line + "\n\n")
             else:
                 for line in lines:
