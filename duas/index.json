@@ -44,23 +44,23 @@
         ]
     },
     {
+        "id": "eid-al-ghadeer---eve",
+        "title": "Eid al-Ghadeer - Eve",
+        "description": 20,
+        "total_lines": 20,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "eid-al-ghadeer---from-iqbal-amaal",
         "title": "Eid al-Ghadeer - from Iqbal Amaal",
         "description": "",
         "total_lines": 45,
         "languages": [
             "ar",
-            "en"
-        ]
-    },
-    {
-        "id": "eid-al-ghadeer-eve",
-        "title": "Eid al-Ghadeer Eve",
-        "description": "",
-        "total_lines": 20,
-        "languages": [
-            "ar",
-            "transliteration",
             "en"
         ]
     },

@@ -9,8 +9,8 @@ DESCRIPTION = """
 """
 LANGUAGES = ["ar", "en"]
 # LANGUAGES = ["ar", "transliteration", "en"]
-FOLDER = "salah"
-# FOLDER = "duas"
+# FOLDER = "salah"
+FOLDER = "duas"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 # FOLDER = "sermon"
@@ -300,8 +300,8 @@ if __name__ == "__main__":
         add_new_ziyarah_or_update_existing_from_raw()
         
         # change_ziyarah_metadata(
-        #     current_id = "imam-ali-(as)---27th-rajab",
-        #     new_title = "Imam Ali (as) - on Mi'raj Day",
+        #     current_id = "eid-al-ghadeer-eve",
+        #     new_title = "Eid al-Ghadeer - Eve",
         # )
         
         reorder_json_keys()
