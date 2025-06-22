@@ -22,6 +22,16 @@
         ]
     },
     {
+        "id": "eid-al-ghadeer---thanksgiving",
+        "title": "Eid al-Ghadeer - Thanksgiving",
+        "description": "",
+        "total_lines": 14,
+        "languages": [
+            "ar",
+            "en"
+        ]
+    },
+    {
         "id": "eid-al-mubahila",
         "title": "Eid al-Mubahila",
         "description": "",
