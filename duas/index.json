@@ -44,6 +44,17 @@
         ]
     },
     {
+        "id": "eid-al-ghadeer",
+        "title": "Eid al-Ghadeer",
+        "description": "Reported by Sayyid Ibn Tawus from Shaykh al-Mufid",
+        "total_lines": 94,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "eid-al-ghadeer---eve",
         "title": "Eid al-Ghadeer - Eve",
         "description": 20,
