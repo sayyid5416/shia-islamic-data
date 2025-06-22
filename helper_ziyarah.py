@@ -297,12 +297,12 @@ if __name__ == "__main__":
         
         # input(">>>>>> Enter to add again")
         
-        add_new_ziyarah_or_update_existing_from_raw()
+        # add_new_ziyarah_or_update_existing_from_raw()
         
-        # change_ziyarah_metadata(
-        #     current_id = "eid-al-ghadeer-eve",
-        #     new_title = "Eid al-Ghadeer - Eve",
-        # )
+        change_ziyarah_metadata(
+            current_id = "ghadir-khumm",
+            new_title = "Prophet (s) - Ghadeer Khumm"
+        )
         
         reorder_json_keys()
     

@@ -1,33 +1,5 @@
 [
     {
-        "id": "bibi-zaynab-(as)---in-yazid's-court",
-        "title": "Bibi Zaynab (as) - in Yazid's court",
-        "description": "",
-        "total_lines": 64,
-        "languages": [
-            "en"
-        ]
-    },
-    {
-        "id": "fadak",
-        "title": "Fadak",
-        "description": "",
-        "total_lines": 78,
-        "languages": [
-            "ar",
-            "en"
-        ]
-    },
-    {
-        "id": "ghadir-khumm",
-        "title": "Ghadir Khumm",
-        "description": "",
-        "total_lines": 140,
-        "languages": [
-            "en"
-        ]
-    },
-    {
         "id": "imam-zayn-al-abidin-(as)",
         "title": "Imam Zayn al-Abidin (as)",
         "description": "",
@@ -37,10 +9,38 @@
         ]
     },
     {
+        "id": "prophet-(s)---ghadeer-khumm",
+        "title": "Prophet (s) - Ghadeer Khumm",
+        "description": 140,
+        "total_lines": 140,
+        "languages": [
+            "en"
+        ]
+    },
+    {
         "id": "prophet-(s)---last-friday-of-sha'ban",
         "title": "Prophet (s) - last friday of Sha'ban",
         "description": "",
         "total_lines": 21,
+        "languages": [
+            "en"
+        ]
+    },
+    {
+        "id": "sayyida-fatima-az-zahra-(sa)---fadak",
+        "title": "Sayyida Fatima az-Zahra (sa) - Fadak",
+        "description": 78,
+        "total_lines": 78,
+        "languages": [
+            "ar",
+            "en"
+        ]
+    },
+    {
+        "id": "sayyida-zaynab-(as)---in-yazid's-court",
+        "title": "Sayyida Zaynab (as) - in Yazid's court",
+        "description": 64,
+        "total_lines": 64,
         "languages": [
             "en"
         ]
