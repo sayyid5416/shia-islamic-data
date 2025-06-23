@@ -4,13 +4,13 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Imam Husayn (as) - Birthday, 3rd Shaban"
+ZIYARAH_NAME = "Ashura Eve"
 DESCRIPTION = """
 """
 LANGUAGES = ["ar"]
 LANGUAGES = ["ar", "transliteration", "en"]
-# FOLDER = "salah"
-FOLDER = "duas"
+FOLDER = "salah"
+# FOLDER = "duas"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 # FOLDER = "sermon"

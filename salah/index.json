@@ -1,5 +1,16 @@
 [
     {
+        "id": "ashura-eve",
+        "title": "Ashura Eve",
+        "description": "",
+        "total_lines": 16,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "eid-al-adha",
         "title": "Eid al-Adha",
         "description": "",

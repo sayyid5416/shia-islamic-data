@@ -1,0 +1,23 @@
+{
+    "id": "ashura-eve",
+    "title": "Ashura Eve",
+    "language": "transliteration",
+    "text": [
+        "INFO: Narration 1",
+        "DESC: It's 4 rakah salah, prayed 2 rakah at a time like Fajr",
+        "DESC: In each rakah recite [Surah al-Fatihah](Quran:1) once and [Surah al-Tawhid](Quran:112) 50 times",
+        "INFO: Narration 2",
+        "DESC: • It's 100 rakah salah with [Surah al-Fatihah](Quran:1) once and [Surah al-Tawhid](Quran:112) 3 times in each unit",
+        "DESC: • After accomplishment, the following is repeated 70 times",
+        "subhana allahi",
+        "walhamdu lillahi",
+        "wa la ilaha illa allahu",
+        "wallahu akbaru",
+        "wa la hawla wa la quwwata illa billahi al`aliyyi al`azimi",
+        "INFO: Narration 3",
+        "DESC: • It's 4 rakah salah at the last hours of this night",
+        "DESC: • Reciting [Surah al-Fatihah](Quran:1) once",
+        "DESC: • Repeat [Ayah al-Kursi](Quran:2:255) and [Surah al-Tawhid](Quran:112), [al-Falaq](Quran:113), [al-Nas](Quran:114) 10 times each",
+        "DESC: • After accomplishment, [Surah al-Tawhid](Quran:112) is repeated 100 times"
+    ]
+}
