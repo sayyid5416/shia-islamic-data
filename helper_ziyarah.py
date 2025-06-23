@@ -4,16 +4,21 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Bibi Zaynab (as) - in Yazid's court"
+ZIYARAH_NAME = "Dua Alqama (Safwan) - after Ziyarat Ashura"
 DESCRIPTION = """
+Shaykh Tusi reports in Misbah al-Mutahajjid that Muhammad bin Khalid al-Tayalisi narrated from Sayf bin ‘Umayra who said: “I rode out with Safwan bin Mihran al-Jammal towards al- Ghariy [Najaf], and a group of our companions were with us. This was after Abu ‘Abdillah (a.s.) (i.e. Imam al-Sadiq) had left. Later we set out for Medina from al-Hira. When we had completed performing the pilgrimage rites, Safwan turned his face in the direction of the grave of Abu ‘Abdillah (al-Husayn) (a.s.) and said to us: ‘salute and greet al-Husayn (a.s.) from this place, from the place of the head of the grave of the Prince of the Believers, the blessings of Allah be upon him, for Abu ‘Abdillah (al-Sadiq) (a.s.) pointed towards it (towards the grave of al-Husayn) from right here, and I was with him.’”
+
+He (Sayf bin 'Umayra) said: “Then Safwan recited the salutation, which ‘Alqama bin Muhammad al-Hadhrami had narrated from Abu Ja‘far al-Baqir (a.s.) for the day of ‘Ashura. Thereafter he recited two units of prayer at the head of the grave of the Prince of the Believers [Imam Ali (a.s.)]. At the end of these two rites, he bid farewell to the Prince of the Believers and gestured towards (the grave of) al-Husayn (a.s.) in the state of salutations and greetings, making his departure while his face was turned towards his (al-Husayn's) direction and bid him farewell. At the end he recited the following supplication: ‘O Allah! O Allah! O Allah! O He who responds to the call of the afflicted…’ (The famous supplication, widely known as the supplication of ‘Alqama).”
+
+At the end of the tradition, Safwan says to Sayf bin ‘Umayra: “I arrived with my Master, Abu ‘Abdillah al-Sadiq (a.s.) at this place and he acted in a similar way to how we acted in our pilgrimage rituals and he supplicated with this supplication when bidding farewell after having recited the ritual prayers which we had recited, and he bade farewell in the same manner as we bade farewell.”
 """
 LANGUAGES = ["en"]
-# LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
-# FOLDER = "duas"
+FOLDER = "duas"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
-FOLDER = "sermon"
+# FOLDER = "sermon"
 # FOLDER = "amaal"
 
 
@@ -297,12 +302,12 @@ if __name__ == "__main__":
         
         # input(">>>>>> Enter to add again")
         
-        # add_new_ziyarah_or_update_existing_from_raw()
+        add_new_ziyarah_or_update_existing_from_raw()
         
-        change_ziyarah_metadata(
-            current_id = "ghadir-khumm",
-            new_title = "Prophet (s) - Ghadeer Khumm"
-        )
+        # change_ziyarah_metadata(
+        #     current_id = "ghadir-khumm",
+        #     new_title = "Prophet (s) - Ghadeer Khumm"
+        # )
         
         reorder_json_keys()
     
