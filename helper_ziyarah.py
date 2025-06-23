@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Ashura Day"
+ZIYARAH_NAME = "Dua Asharaat"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
@@ -14,7 +14,7 @@ FOLDER = "duas"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 # FOLDER = "sermon"
-FOLDER = "amaal"
+# FOLDER = "amaal"
 
 
 
