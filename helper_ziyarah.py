@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Ashura Day"
+ZIYARAH_NAME = "Ashura Eve"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
