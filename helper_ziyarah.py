@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Imam Husayn (as) - Ashura, 3rd Shaban"
+ZIYARAH_NAME = "Imam Husayn (as) - on Ashura morning when facing Yazid's army"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
