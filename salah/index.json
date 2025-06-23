@@ -1,5 +1,14 @@
 [
     {
+        "id": "ashura-day",
+        "title": "Ashura Day",
+        "description": "",
+        "total_lines": 9,
+        "languages": [
+            "en"
+        ]
+    },
+    {
         "id": "ashura-eve",
         "title": "Ashura Eve",
         "description": "",

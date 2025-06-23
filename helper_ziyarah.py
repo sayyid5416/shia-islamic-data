@@ -4,11 +4,11 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Ashura Eve"
+ZIYARAH_NAME = "Ashura Day"
 DESCRIPTION = """
 """
-LANGUAGES = ["ar"]
-LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["en"]
+# LANGUAGES = ["ar", "transliteration", "en"]
 FOLDER = "salah"
 # FOLDER = "duas"
 # FOLDER = "dhikr"
