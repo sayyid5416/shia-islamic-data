@@ -1,5 +1,16 @@
 [
     {
+        "id": "ashura-10th-muharram",
+        "title": "Ashura 10th Muharram",
+        "description": "",
+        "total_lines": 39,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "eid-al-ghadeer",
         "title": "Eid al-Ghadeer",
         "description": "",
