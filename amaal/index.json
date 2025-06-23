@@ -11,6 +11,17 @@
         ]
     },
     {
+        "id": "ashura-day",
+        "title": "Ashura Day",
+        "description": "",
+        "total_lines": 31,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "eid-al-ghadeer",
         "title": "Eid al-Ghadeer",
         "description": "",
