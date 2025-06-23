@@ -1,16 +1,5 @@
 [
     {
-        "id": "ashura-10th-muharram",
-        "title": "Ashura 10th Muharram",
-        "description": "",
-        "total_lines": 39,
-        "languages": [
-            "ar",
-            "transliteration",
-            "en"
-        ]
-    },
-    {
         "id": "ashura-day",
         "title": "Ashura Day",
         "description": "",
@@ -27,8 +16,6 @@
         "description": "",
         "total_lines": 8,
         "languages": [
-            "ar",
-            "transliteration",
             "en"
         ]
     },

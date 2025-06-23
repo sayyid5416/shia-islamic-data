@@ -8,7 +8,7 @@ ZIYARAH_NAME = "Ashura Eve"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
-LANGUAGES = ["ar", "transliteration", "en"]
+# LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 FOLDER = "duas"
 # FOLDER = "dhikr"
