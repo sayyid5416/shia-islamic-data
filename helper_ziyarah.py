@@ -7,14 +7,14 @@ import json, os
 ZIYARAH_NAME = "Ashura Day"
 DESCRIPTION = """
 """
-LANGUAGES = ["en"]
-# LANGUAGES = ["ar", "transliteration", "en"]
-FOLDER = "salah"
+# LANGUAGES = ["en"]
+LANGUAGES = ["ar", "transliteration", "en"]
+# FOLDER = "salah"
 # FOLDER = "duas"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 # FOLDER = "sermon"
-# FOLDER = "amaal"
+FOLDER = "amaal"
 
 
 
