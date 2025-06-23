@@ -4,13 +4,13 @@
     "language": "en",
     "text": [
         "INFO: About",
-        "• It's 4 rakah salah, prayed with 2 rakah at a time.",
-        "• Pray anytime between Fajr and Dhuhr",
+        "DESC: • It's 4 rakah salah, prayed with 2 rakah at a time.",
+        "DESC: • Pray anytime between Fajr and Dhuhr",
         "INFO: First 2 rakah",
-        "• In 1st rakah, Recite [Súra al-Hamd](Quran:1) and then recite [Súra al-Káfirún](Quran:109)",
-        "• In 2nd rakah, Recite [Súra al-Hamd](Quran:1) and then recite [Súra al-Ikhlás](Quran:112)",
+        "DESC: • In 1st rakah, Recite [Súra al-Hamd](Quran:1) and then recite [Súra al-Káfirún](Quran:109)",
+        "DESC: • In 2nd rakah, Recite [Súra al-Hamd](Quran:1) and then recite [Súra al-Ikhlás](Quran:112)",
         "INFO: Second 2 rakah",
-        "• In 1st rakah, Recite [Súra al-Hamd](Quran:1) and then recite [Súra al-Ahzáb](Quran:33)",
-        "• In 2nd rakah, Recite [Súra al-Hamd](Quran:1) and then recite [Súra al-Munáfiqún](Quran:63)"
+        "DESC: • In 1st rakah, Recite [Súra al-Hamd](Quran:1) and then recite [Súra al-Ahzáb](Quran:33)",
+        "DESC: • In 2nd rakah, Recite [Súra al-Hamd](Quran:1) and then recite [Súra al-Munáfiqún](Quran:63)"
     ]
 }

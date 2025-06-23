@@ -7,14 +7,16 @@ import json, os
 ZIYARAH_NAME = "Ashura Day"
 DESCRIPTION = """
 """
-# LANGUAGES = ["en"]
-LANGUAGES = ["ar", "transliteration", "en"]
-# FOLDER = "salah"
+LANGUAGES = ["en"]
+# LANGUAGES = ["ar", "transliteration", "en"]
+FOLDER = "salah"
 # FOLDER = "duas"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 # FOLDER = "sermon"
-FOLDER = "amaal"
+# FOLDER = "amaal"
+
+ADD_PREFIX_FOR_SINGLE_LINE = True
 
 
 
@@ -125,7 +127,7 @@ def add_new_ziyarah_or_update_existing_from_raw():
     printDone(f"Total blocks read: {len(blocks)}")
 
     for i, block in enumerate(blocks):
-        if len(block) == len(LANGUAGES):
+        if len(block) == len(LANGUAGES) and not ADD_PREFIX_FOR_SINGLE_LINE:
             continue
         elif len(block) == 1:
             textLine = block[0]
