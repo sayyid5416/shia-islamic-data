@@ -4,11 +4,11 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Imam Husayn (as) - on Ashura morning when facing Yazid's army"
+ZIYARAH_NAME = "Imam Husayn (as) - on Ashura taught to his son Imam Zainul Abideen (as)"
 DESCRIPTION = """
 """
-LANGUAGES = ["en"]
-LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["ar"]
+# LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 FOLDER = "duas"
 # FOLDER = "dhikr"
