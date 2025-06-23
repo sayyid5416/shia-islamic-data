@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Dua Asharaat"
+ZIYARAH_NAME = "Dua al-Husayn (as) - Ashura, 3rd Shaban"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
