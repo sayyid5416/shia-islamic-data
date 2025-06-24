@@ -4,11 +4,11 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Isteghfar"
+ZIYARAH_NAME = "Tahajjud - Salatul Layl"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
-# LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["ar", "transliteration", "en"]
 FOLDER = "salah"
 # FOLDER = "duas"
 # FOLDER = "dhikr"
@@ -16,7 +16,7 @@ FOLDER = "salah"
 # FOLDER = "sermon"
 # FOLDER = "amaal"
 
-ADD_PREFIX_FOR_SINGLE_LINE = True
+ADD_PREFIX_FOR_SINGLE_LINE = True       # USE WISELY -> If True, adds "INFO: " prefix to single-line blocks; if False, skips them
 
 
 
