@@ -10,9 +10,9 @@
         "INFO: Fast",
         "DESC: It's recommended to fast on this day.",
         "INFO: Duas / Dhikr",
-        "DESC: • Pray salah",
-        "DESC: • Recite Ziyarah of Imam Ali (as)",
-        "DESC: • Recite Ziyarah Jamia",
-        "DESC: • Recite Duas"
+        "DESC: • Pray [salah]([[salah:eid-al-mubahila]])",
+        "DESC: • Recite [Ziyarah of Imam Ali (as)]([[ziyarah:]])",
+        "DESC: • Recite [Ziyarah Jamia]([[ziyarah:]])",
+        "DESC: • Recite [Duas]([[duas:]])"
     ]
 }
