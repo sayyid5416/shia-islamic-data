@@ -16,6 +16,8 @@
         "description": "",
         "total_lines": 8,
         "languages": [
+            "ar",
+            "transliteration",
             "en"
         ]
     },
