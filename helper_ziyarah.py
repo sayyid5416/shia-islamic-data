@@ -8,13 +8,13 @@ ZIYARAH_NAME = "Ashura Day"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
-# LANGUAGES = ["ar", "transliteration", "en"]
-FOLDER = "salah"
+LANGUAGES = ["ar", "transliteration", "en"]
+# FOLDER = "salah"
 # FOLDER = "duas"
 # FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 # FOLDER = "sermon"
-# FOLDER = "amaal"
+FOLDER = "amaal"
 
 ADD_PREFIX_FOR_SINGLE_LINE = True
 
@@ -295,9 +295,9 @@ if __name__ == "__main__":
     
     try:
         
-        # regenerate_raw_file(ZIYARAH_ID)
+        regenerate_raw_file(ZIYARAH_ID)
         
-        # input(">>>>>> Enter to add again")
+        input(">>>>>> Enter to add again")
         
         add_new_ziyarah_or_update_existing_from_raw()
         
