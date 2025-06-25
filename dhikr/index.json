@@ -1,16 +1,5 @@
 [
     {
-        "id": "arbaeen-(chehlum)",
-        "title": "Arbaeen (Chehlum)",
-        "description": "",
-        "total_lines": 6,
-        "languages": [
-            "ar",
-            "transliteration",
-            "en"
-        ]
-    },
-    {
         "id": "hadith-al-kisa",
         "title": "Hadith al-Kisa",
         "description": "",
