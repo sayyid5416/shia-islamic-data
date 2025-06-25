@@ -835,9 +835,9 @@
         ]
     },
     {
-        "id": "syeda-zainab-binte-ali-(sa)---2",
-        "title": "Syeda Zainab binte Ali (sa) - 2",
-        "description": "",
+        "id": "syeda-zainab-binte-ali-(sa)---long",
+        "title": "Syeda Zainab binte Ali (sa) - long",
+        "description": 75,
         "total_lines": 75,
         "languages": [
             "ar",
