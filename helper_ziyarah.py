@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Imam Hassan (as) - at Shrine"
+ZIYARAH_NAME = "Ziyarat Arbaeen"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
