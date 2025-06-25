@@ -5,9 +5,11 @@
     "text": [
         "INFO: General",
         "DESC: • Perform ghusl before Dhuhr",
-        "DESC: • After Zuhr recite [Sura Asr](Quran:103) & seek forgiveness 70 times - \"Astaghfirullah\"",
-        "DESC: • During sunset \"La ilaha illalah\" x 40 times",
         "INFO: Ziyarah",
-        "DESC: Recite [Ziyarat Arbaeen]([[ziyarah:ziyarat-arbaeen]])"
+        "DESC: Recite [Ziyarat Arbaeen]([[ziyarah:ziyarat-arbaeen]])",
+        "INFO: Dhikr",
+        "DESC: • [Tasbihaat Arba]([[dhikr:tasbihat-al-arba'a]]) 70 times",
+        "DESC: • After Dhuhr recite [Sura Asr](Quran:103) & seek forgiveness 70 times - \"Astaghfirullah\"",
+        "DESC: • During sunset \"La ilaha illalah\" x 40 times"
     ]
 }
