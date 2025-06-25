@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Tasbihat al-Arba'a"
+ZIYARAH_NAME = "Arbaeen (Chehlum)"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
@@ -26,7 +26,7 @@ TEXT_DIR = f"{FOLDER}/text"
 
 # INFO - general
 HEADING_PREFIX = "INFO: "
-# HEADING_PREFIX = "DESC: "
+HEADING_PREFIX = "DESC: "
 HEADING_PREFIX_LIST = ["INFO: ", "DESC: "]
 INPUT_FILE = "raw.txt"
 
