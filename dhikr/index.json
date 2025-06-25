@@ -86,5 +86,16 @@
             "transliteration",
             "en"
         ]
+    },
+    {
+        "id": "tasbihat-al-arba'a",
+        "title": "Tasbihat al-Arba'a",
+        "description": "",
+        "total_lines": 1,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
     }
 ]
