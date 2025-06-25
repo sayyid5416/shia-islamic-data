@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Salawat - Imam Hassan(as) & Imam Hussain (as)"
+ZIYARAH_NAME = "Imam Hassan (as) - at Shrine"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
@@ -12,7 +12,7 @@ LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 # FOLDER = "duas"
 FOLDER = "dhikr"
-# FOLDER = "ziyarah"
+FOLDER = "ziyarah"
 # FOLDER = "sermon"
 # FOLDER = "amaal"
 
@@ -26,7 +26,7 @@ TEXT_DIR = f"{FOLDER}/text"
 
 # INFO - general
 HEADING_PREFIX = "INFO: "
-HEADING_PREFIX = "DESC: "
+# HEADING_PREFIX = "DESC: "
 HEADING_PREFIX_LIST = ["INFO: ", "DESC: "]
 INPUT_FILE = "raw.txt"
 
@@ -299,12 +299,12 @@ if __name__ == "__main__":
         
         # input(">>>>>> Enter to add again")
         
-        # add_new_ziyarah_or_update_existing_from_raw()
+        add_new_ziyarah_or_update_existing_from_raw()
         
-        change_ziyarah_metadata(
-            current_id =  "salawat-zarrab-isfahani",
-            new_title = "Salawat - Zarrab Isfahani",
-        )
+        # change_ziyarah_metadata(
+        #     current_id =  "salawat-zarrab-isfahani",
+        #     new_title = "Salawat - Zarrab Isfahani",
+        # )
         
         reorder_json_keys()
     
