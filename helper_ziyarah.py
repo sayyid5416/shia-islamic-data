@@ -8,13 +8,13 @@ ZIYARAH_NAME = "Arbaeen (Chehlum)"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
-LANGUAGES = ["ar", "transliteration", "en"]
+# LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 # FOLDER = "duas"
 FOLDER = "dhikr"
 # FOLDER = "ziyarah"
 # FOLDER = "sermon"
-# FOLDER = "amaal"
+FOLDER = "amaal"
 
 ADD_PREFIX_FOR_SINGLE_LINE = True       # USE WISELY -> If True, adds "INFO: " prefix to single-line blocks; if False, skips them
 

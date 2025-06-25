@@ -1,5 +1,14 @@
 [
     {
+        "id": "arbaeen-(chehlum)",
+        "title": "Arbaeen (Chehlum)",
+        "description": "",
+        "total_lines": 6,
+        "languages": [
+            "en"
+        ]
+    },
+    {
         "id": "ashura-day",
         "title": "Ashura Day",
         "description": "",
