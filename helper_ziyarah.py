@@ -299,12 +299,12 @@ if __name__ == "__main__":
         
         # input(">>>>>> Enter to add again")
         
-        add_new_ziyarah_or_update_existing_from_raw()
+        # add_new_ziyarah_or_update_existing_from_raw()
         
-        # change_ziyarah_metadata(
-        #     current_id = "syeda-zainab-binte-ali-(sa)---2",
-        #     new_title = "Syeda Zainab binte Ali (sa) - long",
-        # )
+        change_ziyarah_metadata(
+            current_id =  "salawat-zarrab-isfahani",
+            new_title = "Salawat - Zarrab Isfahani",
+        )
         
         reorder_json_keys()
     
