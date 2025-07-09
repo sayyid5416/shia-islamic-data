@@ -4,17 +4,17 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "Arbaeen (Chehlum)"
+ZIYARAH_NAME = "After Salat"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
-# LANGUAGES = ["ar", "transliteration", "en"]
+LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 # FOLDER = "duas"
 FOLDER = "dhikr"
-# FOLDER = "ziyarah"
+FOLDER = "ziyarah"
 # FOLDER = "sermon"
-FOLDER = "amaal"
+# FOLDER = "amaal"
 
 ADD_PREFIX_FOR_SINGLE_LINE = True       # USE WISELY -> If True, adds "INFO: " prefix to single-line blocks; if False, skips them
 
@@ -295,9 +295,9 @@ if __name__ == "__main__":
     
     try:
         
-        # regenerate_raw_file(ZIYARAH_ID)
+        regenerate_raw_file(ZIYARAH_ID)
         
-        # input(">>>>>> Enter to add again")
+        input(">>>>>> Enter to add again")
         
         add_new_ziyarah_or_update_existing_from_raw()
         
