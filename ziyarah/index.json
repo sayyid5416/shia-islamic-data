@@ -956,6 +956,17 @@
         ]
     },
     {
+        "id": "ziyarat-al-waritha",
+        "title": "Ziyarat al-Waritha",
+        "description": "",
+        "total_lines": 65,
+        "languages": [
+            "ar",
+            "transliteration",
+            "en"
+        ]
+    },
+    {
         "id": "ziyarat-arbaeen",
         "title": "Ziyarat Arbaeen",
         "description": "",

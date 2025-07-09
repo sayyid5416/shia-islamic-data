@@ -4,7 +4,7 @@ import json, os
 
 
 # ITEM
-ZIYARAH_NAME = "After Salat"
+ZIYARAH_NAME = "Ziyarat al-Waritha"
 DESCRIPTION = """
 """
 LANGUAGES = ["en"]
@@ -295,9 +295,9 @@ if __name__ == "__main__":
     
     try:
         
-        regenerate_raw_file(ZIYARAH_ID)
+        # regenerate_raw_file(ZIYARAH_ID)
         
-        input(">>>>>> Enter to add again")
+        # input(">>>>>> Enter to add again")
         
         add_new_ziyarah_or_update_existing_from_raw()
         
