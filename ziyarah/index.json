@@ -945,20 +945,9 @@
         ]
     },
     {
-        "id": "ziyarat-al-warith",
-        "title": "Ziyarat al-Warith",
-        "description": "This Ziyarat al-Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day.\nIt is also a means to seek needs when recited with specific intentions",
-        "total_lines": 59,
-        "languages": [
-            "ar",
-            "transliteration",
-            "en"
-        ]
-    },
-    {
         "id": "ziyarat-al-waritha",
         "title": "Ziyarat al-Waritha",
-        "description": "",
+        "description": "This Ziyarat al-Warith (Imam as the inheritor from all previous prophets) is recited on thursday nights & even every day.\nIt is also a means to seek needs when recited with specific intentions",
         "total_lines": 65,
         "languages": [
             "ar",
