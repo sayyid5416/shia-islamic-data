@@ -1,14 +1,5 @@
 [
     {
-        "id": "aa---test",
-        "title": "aa - test",
-        "description": "",
-        "total_lines": 7,
-        "languages": [
-            "en"
-        ]
-    },
-    {
         "id": "after-salat",
         "title": "After Salat",
         "description": "",
