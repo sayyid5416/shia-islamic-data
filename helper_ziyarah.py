@@ -11,10 +11,12 @@ LANGUAGES = ["en"]
 # LANGUAGES = ["ar", "transliteration", "en"]
 # FOLDER = "salah"
 # FOLDER = "duas"
-FOLDER = "dhikr"
+# FOLDER = "dhikr"
 FOLDER = "ziyarah"
 # FOLDER = "sermon"
 # FOLDER = "amaal"
+
+AUDIO_ID = ""
 
 ADD_PREFIX_FOR_SINGLE_LINE = False       # USE WISELY -> If True, adds "INFO: " prefix to single-line blocks; if False, skips them
 # ADD_PREFIX_FOR_SINGLE_LINE = True       # USE WISELY -> If True, adds "INFO: " prefix to single-line blocks; if False, skips them
@@ -44,10 +46,10 @@ ZIYARAH_ID = getZiyarahId(ZIYARAH_NAME)
 # ---------------------------- Helpers ---------------------------- #
 def printStart(msg: str):
     print(f"> {msg}")
-    
+
 def printDone(msg: str):
     print(f"    ⩥ {msg}")
-    
+
 def printError(msg: str):
     print(f"    [x] {msg}")
 
@@ -93,6 +95,7 @@ def update_index_after_adding_new_ziyarah(totalLines: int):
         "description": DESCRIPTION.strip(),
         "total_lines": totalLines,
         "languages": LANGUAGES,
+        "audio_id": AUDIO_ID,
     }
 
     # Load existing index or create new list
@@ -158,12 +161,7 @@ def add_new_ziyarah_or_update_existing_from_raw():
     
     update_index_after_adding_new_ziyarah(totalLines=len(blocks))
 
-
-def change_ziyarah_metadata(
-    current_id: str,
-    new_title: str | None = None,
-    # new_description: str | None = None
-):
+def change_ziyarah_metadata(current_id: str, new_title: str | None = None):
     if not os.path.exists(INDEX_JSON_PATH):
         printError(f"{INDEX_JSON_PATH} not found.")
         return
@@ -183,16 +181,16 @@ def change_ziyarah_metadata(
     entry = matched[0]
     updated_title = new_title or entry["title"]
     updated_id = getZiyarahId(updated_title)
-    # updated_description = new_description.strip() if new_description is not None else entry.get("description", "")
 
     index = [z for z in index if z.get("id") != current_id]
     index.append(
         {
             "id": updated_id,
             "title": updated_title,
-            "description": entry["total_lines"],
+            "description": entry["description"],
             "total_lines": entry["total_lines"],
             "languages": entry["languages"],
+            "audio_id": entry.get("audio_id", "")
         }
     )
 
@@ -278,7 +276,8 @@ def reorder_json_keys():
             "title": item["title"],
             "description": item["description"],
             "total_lines": item["total_lines"],
-            "languages": item["languages"]
+            "languages": item["languages"],
+            "audio_id": item.get("audio_id", "")
         }
         for item in data
     ]
@@ -287,20 +286,20 @@ def reorder_json_keys():
 
     with open(INDEX_JSON_PATH, 'w', encoding='utf-8') as f:
         json.dump(reordered, f, ensure_ascii=False, indent=4)
-        
+
 
 
 
 if __name__ == "__main__":
     print("\n------------------ STARTING ------------------\n")
-    
+
     try:
         
         # regenerate_raw_file(ZIYARAH_ID)
         
         # input(">>>>>> Enter to add again")
         
-        add_new_ziyarah_or_update_existing_from_raw()
+        # add_new_ziyarah_or_update_existing_from_raw()
         
         # change_ziyarah_metadata(
         #     current_id =  "salawat-zarrab-isfahani",
@@ -308,13 +307,12 @@ if __name__ == "__main__":
         # )
         
         reorder_json_keys()
-    
+
     except FileNotFoundError:
         printError(f"Error: File '{INPUT_FILE}' not found.")
     except IOError as e:
         printError(f"I/O error({e.errno}): {e.strerror}")
     except Exception as e:
         printError(f"Unexpected error: {e}")
-        
+
     print("\n------------------ DONE ------------------\n")
-    
