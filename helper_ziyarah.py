@@ -9,7 +9,7 @@ DESCRIPTION = """
 """
 LANGUAGES = ["en"]
 # LANGUAGES = ["ar", "transliteration", "en"]
-# FOLDER = "salah"
+FOLDER = "salah"
 # FOLDER = "duas"
 # FOLDER = "dhikr"
 FOLDER = "ziyarah"
@@ -96,6 +96,7 @@ def update_index_after_adding_new_ziyarah(totalLines: int):
         "total_lines": totalLines,
         "languages": LANGUAGES,
         "audio_id": AUDIO_ID,
+        "item_type": FOLDER,
     }
 
     # Load existing index or create new list
@@ -190,7 +191,8 @@ def change_ziyarah_metadata(current_id: str, new_title: str | None = None):
             "description": entry["description"],
             "total_lines": entry["total_lines"],
             "languages": entry["languages"],
-            "audio_id": entry.get("audio_id", "")
+            "audio_id": entry.get("audio_id", ""),
+            "item_type": entry.get("item_type", FOLDER),
         }
     )
 
@@ -277,7 +279,8 @@ def reorder_json_keys():
             "description": item["description"],
             "total_lines": item["total_lines"],
             "languages": item["languages"],
-            "audio_id": item.get("audio_id", "")
+            "audio_id": item.get("audio_id", ""),
+            "item_type": item.get("item_type", FOLDER),
         }
         for item in data
     ]

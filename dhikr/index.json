@@ -9,7 +9,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "dhikr"
     },
     {
         "id": "salawat",
@@ -21,7 +22,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "dhikr"
     },
     {
         "id": "salawat---after-asr-on-friday",
@@ -33,7 +35,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "dhikr"
     },
     {
         "id": "salawat---ahlulbayt",
@@ -45,7 +48,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "dhikr"
     },
     {
         "id": "salawat---holy-prophet-(saww)",
@@ -57,7 +61,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "dhikr"
     },
     {
         "id": "salawat---imam-hassan(as)-&-imam-hussain-(as)",
@@ -69,7 +74,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "dhikr"
     },
     {
         "id": "salawat---zarrab-isfahani",
@@ -81,7 +87,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "dhikr"
     },
     {
         "id": "tasbih---syeda-fatima-az-zahra-(sa)",
@@ -93,7 +100,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "dhikr"
     },
     {
         "id": "tasbihat-al-arba'a",
@@ -105,6 +113,7 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "dhikr"
     }
 ]

@@ -9,7 +9,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "dua-alqama-(safwan)---after-ziyarat-ashura",
@@ -21,7 +22,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "dua-asharaat",
@@ -33,7 +35,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "dua-kumayl",
@@ -45,7 +48,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "dua-nudba",
@@ -57,7 +61,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "dua-tawassul",
@@ -69,7 +74,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "eid-al-ghadeer",
@@ -81,7 +87,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "eid-al-ghadeer---eve",
@@ -93,7 +100,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "eid-al-ghadeer---from-iqbal-amaal",
@@ -104,7 +112,8 @@
             "ar",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "eid-al-mubahila",
@@ -116,7 +125,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "h.-abal-fadhl-al-abbas-(as)---after-ziyarah-at-the-shrine",
@@ -128,7 +138,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "imam-husayn-(as)---ashura,-3rd-shaban",
@@ -140,7 +151,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "imam-husayn-(as)---birthday,-3rd-shaban",
@@ -152,7 +164,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "imam-husayn-(as)---on-ashura-morning-when-facing-yazid's-army",
@@ -164,7 +177,8 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "imam-husayn-(as)---on-ashura-taught-to-his-son-imam-zainul-abideen-(as)",
@@ -174,7 +188,8 @@
         "languages": [
             "ar"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     },
     {
         "id": "naad-e-ali",
@@ -186,6 +201,7 @@
             "transliteration",
             "en"
         ],
-        "audio_id": ""
+        "audio_id": "",
+        "item_type": "duas"
     }
 ]
