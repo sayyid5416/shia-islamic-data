@@ -6,12 +6,16 @@ import os
 
 
 # Information
-NAME = "Peshawar Nights"
-AUTHOR = "Sayyid Muhammad al-Musawi al-Shirazi"
-TRANSLATOR = ["Hamid Quinlan", "Charles Ali Campbell"]
-PUBLISHER = "Ansariyan Publications - Qum"
+NAME = "Al-Muraja'at"
+AUTHOR = "Sayyid Abd al-Husayn Sharaf al-Din al-Musawi"
+TRANSLATOR = ["Yasin T. Al-Jibouri"]
+PUBLISHER = "Imam Husayn (as) Islamic Foundation Beirut"
 ABOUT = """
-Transcript of dialogues between Sunni scholars and Shi'i author, about major topics relating to Shi'ism including the death of the Prophet (s), successorship, companions, infallibility, Muta' (temporary marriage), and the family of the Prophet.
+A Shi'i-Sunni dialogue (also known as 'The Right Path')
+
+A series of letters debating Shi'i and Sunni beliefs between the late Shi'i scholar Sharaf al-Din, and the late Sunni scholar and head of Al-Azhar university of that time, Al-Shaykh Salim al-Bishri al-Maliki.
+
+The written form of the debates in book, has the advantage that the two parties had the opportunity to provide the best possible replies they could give. The book is written without any disrespect and under mutual fairness. This is one of the most important books that provides a well-argued account of Shiite beliefs, drawing upon reliable sources with a persuasive tone. The book is also called “al-Munazarat al-Azhariyya wa al-mubahathat al-Misriyya”(Debates in al-Azhar and discussions in Egypt).
 """
 CATEGORY = "Sunni & Shi'a"
 
