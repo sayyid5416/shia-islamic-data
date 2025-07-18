@@ -6,18 +6,12 @@ import os
 
 
 # Information
-NAME = "Then I Was Guided"
-AUTHOR = "Muhammad al-Tijani al-Samawi"
-TRANSLATOR = "Muhammad Fazal Haq"
-PUBLISHER = "Islamic Seminary Publications"
+NAME = "Peshawar Nights"
+AUTHOR = "Sayyid Muhammad al-Musawi al-Shirazi"
+TRANSLATOR = ["Hamid Quinlan", "Charles Ali Campbell"]
+PUBLISHER = "Ansariyan Publications - Qum"
 ABOUT = """
-This text is an autobiographical exploration of personal transformation and spiritual enlightenment by Muhammad Tijani, tracing his journey from skepticism to guidance. 
-
-Through encounters with scholars and reflections on Islamic history, it delves into the search for truth and the significance of following the Ahl al Bayt. 
-
-By addressing misconceptions about Shi'ism with logic and references, the book aims to bridge the divide between different schools of thought. 
-
-Tijani's story highlights the importance of knowledge, open-mindedness, and the pursuit of truth.
+Transcript of dialogues between Sunni scholars and Shi'i author, about major topics relating to Shi'ism including the death of the Prophet (s), successorship, companions, infallibility, Muta' (temporary marriage), and the family of the Prophet.
 """
 CATEGORY = "Sunni & Shi'a"
 
@@ -41,7 +35,7 @@ PDF_FILE_PATH = "books/new.pdf"
     "id": "",
     "name": "",
     "author": "",
-    "translator": "",
+    "translator": [],
     "publisher": "",
     "about": "",
     "size": "",

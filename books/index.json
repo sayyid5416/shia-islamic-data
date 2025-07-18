@@ -1,5 +1,18 @@
 [
     {
+        "about": "Transcript of dialogues between Sunni scholars and Shi'i author, about major topics relating to Shi'ism including the death of the Prophet (s), successorship, companions, infallibility, Muta' (temporary marriage), and the family of the Prophet.",
+        "author": "Sayyid Muhammad al-Musawi al-Shirazi",
+        "category": "Sunni & Shi'a",
+        "id": "peshawar-nights",
+        "name": "Peshawar Nights",
+        "publisher": "Ansariyan Publications - Qum",
+        "size": "1.6 MB",
+        "translator": [
+            "Hamid Quinlan",
+            "Charles Ali Campbell"
+        ]
+    },
+    {
         "about": "This text is an autobiographical exploration of personal transformation and spiritual enlightenment by Muhammad Tijani, tracing his journey from skepticism to guidance. \n\nThrough encounters with scholars and reflections on Islamic history, it delves into the search for truth and the significance of following the Ahl al Bayt. \n\nBy addressing misconceptions about Shi'ism with logic and references, the book aims to bridge the divide between different schools of thought. \n\nTijani's story highlights the importance of knowledge, open-mindedness, and the pursuit of truth.",
         "author": "Muhammad al-Tijani al-Samawi",
         "category": "Sunni & Shi'a",
@@ -7,6 +20,8 @@
         "name": "Then I Was Guided",
         "publisher": "Islamic Seminary Publications",
         "size": "581.4 KB",
-        "translator": "Muhammad Fazal Haq"
+        "translator": [
+            "Muhammad Fazal Haq"
+        ]
     }
 ]
