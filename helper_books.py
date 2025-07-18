@@ -33,7 +33,7 @@ ID = generateIdFromName(NAME)
 
 # Location
 INDEX_FILE = "books/index.json"
-PDF_FILE_PATH = "books/pdfs/new.pdf"
+PDF_FILE_PATH = "books/new.pdf"
 
 # Template
 """
