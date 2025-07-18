@@ -4,6 +4,7 @@
         "title": "Ashura Day",
         "description": "",
         "total_lines": 9,
+        "total_lines_text": 0,
         "languages": [
             "en"
         ],
@@ -15,6 +16,7 @@
         "title": "Ashura Eve",
         "description": "",
         "total_lines": 16,
+        "total_lines_text": 5,
         "languages": [
             "ar",
             "transliteration",
@@ -28,6 +30,7 @@
         "title": "Eid al-Adha",
         "description": "",
         "total_lines": 32,
+        "total_lines_text": 12,
         "languages": [
             "ar",
             "transliteration",
@@ -41,6 +44,7 @@
         "title": "Eid al-Fitr",
         "description": "",
         "total_lines": 32,
+        "total_lines_text": 12,
         "languages": [
             "ar",
             "transliteration",
@@ -54,6 +58,7 @@
         "title": "Eid al-Ghadeer",
         "description": "",
         "total_lines": 138,
+        "total_lines_text": 126,
         "languages": [
             "ar",
             "transliteration",
@@ -67,6 +72,7 @@
         "title": "Eid al-Ghadeer - Thanksgiving",
         "description": "",
         "total_lines": 14,
+        "total_lines_text": 8,
         "languages": [
             "ar",
             "en"
@@ -79,6 +85,7 @@
         "title": "Eid al-Mubahila",
         "description": "",
         "total_lines": 41,
+        "total_lines_text": 23,
         "languages": [
             "ar",
             "en"
@@ -91,6 +98,7 @@
         "title": "Isteghfar",
         "description": "",
         "total_lines": 34,
+        "total_lines_text": 0,
         "languages": [
             "en"
         ],
@@ -102,6 +110,7 @@
         "title": "Nafilah",
         "description": "",
         "total_lines": 42,
+        "total_lines_text": 0,
         "languages": [
             "en"
         ],
@@ -113,6 +122,7 @@
         "title": "Tahajjud - Salatul Layl",
         "description": "",
         "total_lines": 37,
+        "total_lines_text": 14,
         "languages": [
             "ar",
             "transliteration",

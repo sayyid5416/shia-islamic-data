@@ -4,6 +4,7 @@
         "title": "Arbaeen (Chehlum)",
         "description": "",
         "total_lines": 8,
+        "total_lines_text": 0,
         "languages": [
             "en"
         ],
@@ -15,6 +16,7 @@
         "title": "Ashura Day",
         "description": "",
         "total_lines": 52,
+        "total_lines_text": 25,
         "languages": [
             "ar",
             "transliteration",
@@ -28,6 +30,7 @@
         "title": "Ashura Eve",
         "description": "",
         "total_lines": 8,
+        "total_lines_text": 0,
         "languages": [
             "ar",
             "transliteration",
@@ -41,6 +44,7 @@
         "title": "Eid al-Ghadeer",
         "description": "",
         "total_lines": 16,
+        "total_lines_text": 0,
         "languages": [
             "en"
         ],
@@ -52,6 +56,7 @@
         "title": "Eid al-Mubahila",
         "description": "",
         "total_lines": 11,
+        "total_lines_text": 0,
         "languages": [
             "en"
         ],

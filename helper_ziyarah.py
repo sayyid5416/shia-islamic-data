@@ -9,12 +9,13 @@ DESCRIPTION = """
 """
 LANGUAGES = ["en"]
 # LANGUAGES = ["ar", "transliteration", "en"]
-FOLDER = "salah"
-# FOLDER = "duas"
-# FOLDER = "dhikr"
-FOLDER = "ziyarah"
-# FOLDER = "sermon"
+
 # FOLDER = "amaal"
+# FOLDER = "dhikr"
+# FOLDER = "duas"
+FOLDER = "salah"
+# FOLDER = "sermon"
+FOLDER = "ziyarah"
 
 AUDIO_ID = ""
 
@@ -33,6 +34,8 @@ HEADING_PREFIX = "DESC: "
 HEADING_PREFIX_LIST = ["INFO: ", "DESC: "]
 INPUT_FILE = "raw.txt"
 
+LANGUAGES_ALL = ["ar", "transliteration", "en"]
+ALL_FOLDERS = ["amaal", "dhikr", "duas", "salah", "sermon", "ziyarah"]
 
 
 # INFO - generated
@@ -89,17 +92,25 @@ def read_blocks(filePath: str) -> list[list[str]]:
 def update_index_after_adding_new_ziyarah(totalLines: int):
     """Updates ziyarat index by adding/replacing entry"""
     printStart("Updating index...")
+
+    en_path = f"{TEXT_DIR}/en/{ZIYARAH_ID}.json"
+    total_lines_text = 0
+    if os.path.exists(en_path):
+        with open(en_path, "r", encoding="utf-8") as f:
+            lines = json.load(f).get("text", [])
+            total_lines_text = sum(1 for l in lines if not any(l.startswith(p) for p in HEADING_PREFIX_LIST))
+
     entry = {
         "id": ZIYARAH_ID,
         "title": ZIYARAH_NAME,
         "description": DESCRIPTION.strip(),
         "total_lines": totalLines,
+        "total_lines_text": total_lines_text,
         "languages": LANGUAGES,
         "audio_id": AUDIO_ID,
         "item_type": FOLDER,
     }
 
-    # Load existing index or create new list
     if os.path.exists(INDEX_JSON_PATH):
         with open(INDEX_JSON_PATH, "r", encoding="utf-8") as f:
             try:
@@ -109,13 +120,9 @@ def update_index_after_adding_new_ziyarah(totalLines: int):
     else:
         index = []
 
-    # Remove old entry with same id if exists
     index = [item for item in index if item.get("id") != ZIYARAH_ID]
-
-    # Append new entry
     index.append(entry)
 
-    # Save updated index
     with open(INDEX_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=4)
     printDone(f"Updated index with {ZIYARAH_ID}.")
@@ -162,6 +169,7 @@ def add_new_ziyarah_or_update_existing_from_raw():
     
     update_index_after_adding_new_ziyarah(totalLines=len(blocks))
 
+
 def change_ziyarah_metadata(current_id: str, new_title: str | None = None):
     if not os.path.exists(INDEX_JSON_PATH):
         printError(f"{INDEX_JSON_PATH} not found.")
@@ -190,6 +198,7 @@ def change_ziyarah_metadata(current_id: str, new_title: str | None = None):
             "title": updated_title,
             "description": entry["description"],
             "total_lines": entry["total_lines"],
+            "total_lines_text": entry.get("total_lines_text", 0),
             "languages": entry["languages"],
             "audio_id": entry.get("audio_id", ""),
             "item_type": entry.get("item_type", FOLDER),
@@ -219,6 +228,7 @@ def change_ziyarah_metadata(current_id: str, new_title: str | None = None):
                 printDone(f"Renamed {old_path} → {new_path}")
             else:
                 printError(f"File not found: {old_path}")
+
 
 def regenerate_raw_file(ziyarah_id: str):
     """Rebuilds raw.txt from existing JSON files using languages from index.json."""
@@ -268,27 +278,77 @@ def regenerate_raw_file(ziyarah_id: str):
                 f.write("\n")
     printDone(f"Generated {INPUT_FILE} with {total_lines} blocks.")
 
+
 def reorder_json_keys():
-    with open(INDEX_JSON_PATH, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    for _folder in ALL_FOLDERS:
+        _indexJsonPath = f"{_folder}/index.json"
+        with open(_indexJsonPath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
 
-    reordered = [
-        {
-            "id": item["id"],
-            "title": item["title"],
-            "description": item["description"],
-            "total_lines": item["total_lines"],
-            "languages": item["languages"],
-            "audio_id": item.get("audio_id", ""),
-            "item_type": item.get("item_type", FOLDER),
-        }
-        for item in data
-    ]
-    
-    reordered.sort(key=lambda x: x.get("id", ""))
+        reordered = [
+            {
+                "id": item["id"],
+                "title": item["title"],
+                "description": item["description"],
+                "total_lines": item["total_lines"],
+                "total_lines_text": item.get("total_lines_text", 0),
+                "languages": item["languages"],
+                "audio_id": item.get("audio_id", ""),
+                "item_type": item.get("item_type", _folder),
+            }
+            for item in data
+        ]
+        
+        reordered.sort(key=lambda x: x.get("id", ""))
 
-    with open(INDEX_JSON_PATH, 'w', encoding='utf-8') as f:
-        json.dump(reordered, f, ensure_ascii=False, indent=4)
+        with open(_indexJsonPath, 'w', encoding='utf-8') as f:
+            json.dump(reordered, f, ensure_ascii=False, indent=4)
+
+
+def add_total_lines_without_info_or_desc_to_all_index_files():
+    """
+    Read file from <folder>/text/<language>/<file>.json for all items in ALL_FOLDERS.
+    Adds 'total_lines_text' in index.json (excluding INFO:/DESC: lines).
+    """
+    for folder in ALL_FOLDERS:
+        index_path = f"{folder}/index.json"
+
+        if not os.path.exists(index_path):
+            printError(f"{index_path} not found.")
+            continue
+
+        with open(index_path, "r", encoding="utf-8") as f:
+            try:
+                index = json.load(f)
+            except json.JSONDecodeError:
+                printError(f"{index_path} is invalid.")
+                continue
+
+        for entry in index:
+            z_id = entry["id"]
+            lines = None
+
+            for lang in LANGUAGES_ALL:
+                json_path = f"{folder}/text/{lang}/{z_id}.json"
+                if os.path.exists(json_path):
+                    with open(json_path, "r", encoding="utf-8") as f:
+                        lines = json.load(f).get("text", [])
+                    break
+
+            if lines is None:
+                printError(f"Missing all language files for ID: {z_id}")
+                entry["total_lines_text"] = 0
+                continue
+
+            entry["total_lines_text"] = sum(
+                1 for line in lines if not any(line.startswith(p) for p in HEADING_PREFIX_LIST)
+            )
+
+        with open(index_path, "w", encoding="utf-8") as f:
+            json.dump(index, f, ensure_ascii=False, indent=4)
+        printDone(f"Updated {index_path}")
+
+
 
 
 
@@ -309,6 +369,7 @@ if __name__ == "__main__":
         #     new_title = "Salawat - Zarrab Isfahani",
         # )
         
+        # add_total_lines_without_info_or_desc_to_all_index_files()
         reorder_json_keys()
 
     except FileNotFoundError:

@@ -4,6 +4,7 @@
         "title": "Imam Zayn al-Abidin (as)",
         "description": "",
         "total_lines": 36,
+        "total_lines_text": 17,
         "languages": [
             "en"
         ],
@@ -15,6 +16,7 @@
         "title": "Prophet (s) - Ghadeer Khumm",
         "description": 140,
         "total_lines": 140,
+        "total_lines_text": 122,
         "languages": [
             "en"
         ],
@@ -26,6 +28,7 @@
         "title": "Prophet (s) - last friday of Sha'ban",
         "description": "",
         "total_lines": 21,
+        "total_lines_text": 18,
         "languages": [
             "en"
         ],
@@ -37,6 +40,7 @@
         "title": "Sayyida Fatima az-Zahra (sa) - Fadak",
         "description": 78,
         "total_lines": 78,
+        "total_lines_text": 40,
         "languages": [
             "ar",
             "en"
@@ -49,6 +53,7 @@
         "title": "Sayyida Zaynab (as) - in Yazid's court",
         "description": 64,
         "total_lines": 64,
+        "total_lines_text": 23,
         "languages": [
             "en"
         ],
