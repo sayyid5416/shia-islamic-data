@@ -46,7 +46,6 @@ PDF_FILE_PATH = "books/new.pdf"
     "about": "",
     "size": "",
     "category": "",
-    "tags": []
 }
 """
 
