@@ -39,10 +39,10 @@ ALL_FOLDERS = ["amaal", "dhikr", "duas", "salah", "sermon", "ziyarah"]
 
 
 # INFO - generated
-def getZiyarahId(name: str):
+def generateIdFromName(name: str):
     return name.lower().replace(" ", "-")
 
-ZIYARAH_ID = getZiyarahId(ZIYARAH_NAME)
+ZIYARAH_ID = generateIdFromName(ZIYARAH_NAME)
 
 
 
@@ -189,7 +189,7 @@ def change_ziyarah_metadata(current_id: str, new_title: str | None = None):
 
     entry = matched[0]
     updated_title = new_title or entry["title"]
-    updated_id = getZiyarahId(updated_title)
+    updated_id = generateIdFromName(updated_title)
 
     index = [z for z in index if z.get("id") != current_id]
     index.append(
