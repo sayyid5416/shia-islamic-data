@@ -6,14 +6,13 @@ import os
 
 
 # Information
-NAME = "The Shi'ah are the real Ahlul-Sunnah"
+NAME = "All Solutions are with the Prophet's Progeny"
 AUTHOR = "Muhammad al-Tijani al-Samawi"
-TRANSLATOR = ["Yasin T. Al-Jibouri"]
-PUBLISHER = "Pyam-e-Aman"
+TRANSLATOR = ["Abdullah al-Shahin"]
+PUBLISHER = "Ansariyan Publications - Qum"
 ABOUT = """
-An inquiry of an explorer of the truth into the delicate yet essential question of: 
-
-"Who is best qualified to the claim of being a follower of Islam's Prophet in spirit and in practice?"
+In this text, the author Al-Tijani Al-Samawi tries to present the idea that a contemporary Muslim, who lives in the civilization of the twentieth century and faces different challenges, cannot abide by the Islamic Sharia correctly unless he follows and associates with the Immaculate Progeny of the Prophet (S). 
+The fact that the Holy Qur'an and the Prophet's Sunnah have been liable to misinterpretation and distortion creates more need for us to understand more the need of the infallible Imams to guide us and provide the correct interpretations as teachers and experts of the holy Qur'an.
 """
 CATEGORY = "Sunni & Shi'a"
 
