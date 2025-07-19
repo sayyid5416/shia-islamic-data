@@ -15,6 +15,7 @@ In this text, the author Al-Tijani Al-Samawi tries to present the idea that a co
 The fact that the Holy Qur'an and the Prophet's Sunnah have been liable to misinterpretation and distortion creates more need for us to understand more the need of the infallible Imams to guide us and provide the correct interpretations as teachers and experts of the holy Qur'an.
 """
 CATEGORY = "Sunni & Shi'a"
+COVER = ""
 
 
 ALL_CATEGORIES = [
@@ -36,6 +37,7 @@ PDF_FILE_PATH = "books/new.pdf"
     "id": "",
     "name": "",
     "author": "",
+    "cover": "",
     "translator": [],
     "publisher": "",
     "about": "",
@@ -93,6 +95,7 @@ def add_pdf_file() -> None:
             "about": ABOUT.strip(),
             "size": format_file_size(file_size),
             "category": CATEGORY,
+            "cover": COVER,
         })
 
         f.seek(0)
@@ -127,7 +130,7 @@ if __name__ == "__main__":
 
     try:
 
-        add_pdf_file()
+        # add_pdf_file()
         sort_index_file()
 
     except FileNotFoundError as e:
