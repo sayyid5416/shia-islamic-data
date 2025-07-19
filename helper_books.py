@@ -6,26 +6,32 @@ import os
 
 
 # Information
-NAME = "All Solutions are with the Prophet's Progeny"
-AUTHOR = "Muhammad al-Tijani al-Samawi"
-TRANSLATOR = ["Abdullah al-Shahin"]
-PUBLISHER = "Ansariyan Publications - Qum"
+NAME = "Al-Lohoof ala Qatla al-Tofuf"
+AUTHOR = "Sayyid Ibn Tawus"
+TRANSLATOR = ["Sayyid Athar Husayn S.H. Rizvi"]
+PUBLISHER = "Naba Organization"
 ABOUT = """
-In this text, the author Al-Tijani Al-Samawi tries to present the idea that a contemporary Muslim, who lives in the civilization of the twentieth century and faces different challenges, cannot abide by the Islamic Sharia correctly unless he follows and associates with the Immaculate Progeny of the Prophet (S). 
-The fact that the Holy Qur'an and the Prophet's Sunnah have been liable to misinterpretation and distortion creates more need for us to understand more the need of the infallible Imams to guide us and provide the correct interpretations as teachers and experts of the holy Qur'an.
+“Al-Lohoof ala Qatla al-Tofuf” is a heart-rending but detailed and authentic account of the tragedy of Karbala and the sacrifice of Imam Husayn (as), it was written by renowned Shia scholar, Sayyid Raziuddin Ali bin Musa Ibn Ja'far bin Muhammad Ibn Tawus al-Hilli (ra) better known as Sayyid Ibn Tawus, that died 664 hijri. Sayyid Ibn Tawus (ra) was a top Shia scholar and thinker of the seventh century, and he belonged to the family of learned who wielded tremendous influence in the scientific, religious and political circles.
+
+The book has been divided into three main parts:
+1) The events before martyrdom (from the birth of Imam Husayn (as) until the day of Ashura)
+2) The detailed account of the day of Ashura and gallantry of Imam Husayn's (as) companions
+3) The incidents after the martyrdom of Imam Husayn (as)
 """
-CATEGORY = "Sunni & Shi'a"
-COVER = ""
+CATEGORY = "Karbala"
 
 
 ALL_CATEGORIES = [
     "Sunni & Shi'a",
+    "Karbala"
 ]
 
 
 
 # Generated
 ID = generateIdFromName(NAME)
+# COVER = ""
+COVER = f"https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/{ID}.jpg"
 
 # Location
 INDEX_FILE = "books/index.json"
@@ -123,6 +129,24 @@ def sort_index_file() -> None:
     printDone("Index sorted")
 
 
+def copy_cover_with_name() -> None:
+    """Copy cover.jpg to its final path if COVER URL is defined and local file exists."""
+    if not COVER:
+        return
+
+    printStart("Copying cover image")
+
+    source_cover_path = "books/cover.jpg"
+    final_cover_path = f"books/covers/{ID}.jpg"
+
+    if not os.path.exists(source_cover_path):
+        printError(f"Source cover not found: {source_cover_path}")
+        return
+
+    prepare_file(final_cover_path)
+    shutil.copy(source_cover_path, final_cover_path)
+    printDone(f"Copied cover to: {final_cover_path}")
+
 
 
 if __name__ == "__main__":
@@ -131,6 +155,7 @@ if __name__ == "__main__":
     try:
 
         add_pdf_file()
+        copy_cover_with_name()
         sort_index_file()
 
     except FileNotFoundError as e:
