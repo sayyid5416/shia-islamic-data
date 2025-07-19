@@ -6,16 +6,14 @@ import os
 
 
 # Information
-NAME = "Al-Muraja'at"
-AUTHOR = "Sayyid Abd al-Husayn Sharaf al-Din al-Musawi"
+NAME = "The Shi'ah are the real Ahlul-Sunnah"
+AUTHOR = "Muhammad al-Tijani al-Samawi"
 TRANSLATOR = ["Yasin T. Al-Jibouri"]
-PUBLISHER = "Imam Husayn (as) Islamic Foundation Beirut"
+PUBLISHER = "Pyam-e-Aman"
 ABOUT = """
-A Shi'i-Sunni dialogue (also known as 'The Right Path')
+An inquiry of an explorer of the truth into the delicate yet essential question of: 
 
-A series of letters debating Shi'i and Sunni beliefs between the late Shi'i scholar Sharaf al-Din, and the late Sunni scholar and head of Al-Azhar university of that time, Al-Shaykh Salim al-Bishri al-Maliki.
-
-The written form of the debates in book, has the advantage that the two parties had the opportunity to provide the best possible replies they could give. The book is written without any disrespect and under mutual fairness. This is one of the most important books that provides a well-argued account of Shiite beliefs, drawing upon reliable sources with a persuasive tone. The book is also called “al-Munazarat al-Azhariyya wa al-mubahathat al-Misriyya”(Debates in al-Azhar and discussions in Egypt).
+"Who is best qualified to the claim of being a follower of Islam's Prophet in spirit and in practice?"
 """
 CATEGORY = "Sunni & Shi'a"
 
