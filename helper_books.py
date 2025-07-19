@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
     try:
 
-        # add_pdf_file()
+        add_pdf_file()
         sort_index_file()
 
     except FileNotFoundError as e:
