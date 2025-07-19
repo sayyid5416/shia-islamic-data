@@ -6,17 +6,12 @@ import os
 
 
 # Information
-NAME = "Al-Lohoof ala Qatla al-Tofuf"
-AUTHOR = "Sayyid Ibn Tawus"
-TRANSLATOR = ["Sayyid Athar Husayn S.H. Rizvi"]
-PUBLISHER = "Naba Organization"
+NAME = "Maqtal al-Husayn"
+AUTHOR = "Sayyid Abd al-Razzaq al-Muqarram"
+TRANSLATOR = ["Yasin T. Al-Jibouri"]
+PUBLISHER = "Al-Kharsan Foundation for Publications"
 ABOUT = """
-“Al-Lohoof ala Qatla al-Tofuf” is a heart-rending but detailed and authentic account of the tragedy of Karbala and the sacrifice of Imam Husayn (as), it was written by renowned Shia scholar, Sayyid Raziuddin Ali bin Musa Ibn Ja'far bin Muhammad Ibn Tawus al-Hilli (ra) better known as Sayyid Ibn Tawus, that died 664 hijri. Sayyid Ibn Tawus (ra) was a top Shia scholar and thinker of the seventh century, and he belonged to the family of learned who wielded tremendous influence in the scientific, religious and political circles.
-
-The book has been divided into three main parts:
-1) The events before martyrdom (from the birth of Imam Husayn (as) until the day of Ashura)
-2) The detailed account of the day of Ashura and gallantry of Imam Husayn's (as) companions
-3) The incidents after the martyrdom of Imam Husayn (as)
+A detailed and authentic account of the tragedy of Karbala and the sacrifice of Imam Husayn (a).
 """
 CATEGORY = "Karbala"
 
@@ -30,8 +25,8 @@ ALL_CATEGORIES = [
 
 # Generated
 ID = generateIdFromName(NAME)
-# COVER = ""
-COVER = f"https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/{ID}.jpg"
+COVER = ""
+# COVER = f"https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/{ID}.jpg"
 
 # Location
 INDEX_FILE = "books/index.json"
