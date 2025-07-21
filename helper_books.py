@@ -6,7 +6,7 @@ import os
 
 
 # Information
-NAME = "Tawdih al-masa'il 4th Edition"
+NAME = "Tawdih al-masa'il 4th Edition - Ayt. Sistani"
 AUTHOR = "Sayyid Ali al-Husayni al-Sistani"
 TRANSLATOR = ["Muhammad Ali Ismail"]
 PUBLISHER = "The World Federation"
