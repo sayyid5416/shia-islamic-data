@@ -6,20 +6,28 @@ import os
 
 
 # Information
-NAME = "As-Sahifa Al-Kamilah Al-Sajjadiyya"
-AUTHOR = "Imam Ali Zayn al-Abidin"
-TRANSLATOR = []
-PUBLISHER = "Muhammadi Trust of Great Britain and Northern Ireland"
+NAME = "Tawdih al-masa'il 4th Edition"
+AUTHOR = "Sayyid Ali al-Husayni al-Sistani"
+TRANSLATOR = ["Muhammad Ali Ismail"]
+PUBLISHER = "The World Federation"
 ABOUT = """
-A collection of supplications and whispered prayers composed by the great-grandson of the Prophet (s). Includes supplication for the Coming of the Month of Ramadhan, and supplication for Bidding Farewell to the Month of Ramadhan. At the end there is also the famous Treatise on Rights that explains beautifully the rights in an Islamic point of view.
+Also known as "Islamic Laws"
+
+Tawḍīḥ al-Masāʾil by Grand Ayatollah Sayyid Ali al-Sistani is his official risāla ʿamaliyya (manual of practical Islamic laws). It contains his fatāwā (legal rulings) based on Shia Jaʿfarī fiqh, covering:
+
+Ṭahāra (purity)
+Ṣalāh (prayer)
+Ṣawm (fasting)
+Khums, Zakāt, Hajj, business ethics, marriage, and more.
 """
-CATEGORY = "Sahifa"
+CATEGORY = "Marja al-Taqlīd"
 
 
 ALL_CATEGORIES = [
     "Sunni & Shi'a",
     "Karbala",
-    "Sahifa"
+    "Sahifa",
+    "Marja al-Taqlīd",
 ]
 
 
