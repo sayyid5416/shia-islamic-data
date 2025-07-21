@@ -6,7 +6,7 @@ import os
 
 
 # Information
-NAME = "Maqtal al-Husayn"
+NAME = "Then I Was Guided"
 AUTHOR = "Sayyid Abd al-Razzaq al-Muqarram"
 TRANSLATOR = ["Yasin T. Al-Jibouri"]
 PUBLISHER = "Al-Kharsan Foundation for Publications"
@@ -26,7 +26,7 @@ ALL_CATEGORIES = [
 # Generated
 ID = generateIdFromName(NAME)
 COVER = ""
-# COVER = f"https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/{ID}.jpg"
+COVER = f"https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/{ID}.jpg"
 
 # Location
 INDEX_FILE = "books/index.json"
@@ -143,14 +143,36 @@ def copy_cover_with_name() -> None:
     printDone(f"Copied cover to: {final_cover_path}")
 
 
+def update_cover_in_index() -> None:
+    """Copy cover image and update its path in index.json if the book exists."""
+    printStart("Updating cover path in index")
+    prepare_file(INDEX_FILE)
+
+    with open(INDEX_FILE, "r+", encoding="utf-8") as f:
+        data = json.load(f)
+        if not isinstance(data, list):
+            raise TypeError("index.json must be a list of entries")
+
+        for book in data:
+            if book.get("id") == ID:
+                book["cover"] = COVER
+                break
+
+        f.seek(0)
+        json.dump(data, f, ensure_ascii=False, indent=4)
+        f.truncate()
+    printDone("Cover path updated in index")
+
+
 
 if __name__ == "__main__":
     print("\n------------------ STARTING ------------------\n")
 
     try:
 
-        add_pdf_file()
+        # add_pdf_file()
         copy_cover_with_name()
+        update_cover_in_index()
         sort_index_file()
 
     except FileNotFoundError as e:
