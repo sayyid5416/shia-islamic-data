@@ -6,19 +6,20 @@ import os
 
 
 # Information
-NAME = "Then I Was Guided"
-AUTHOR = "Sayyid Abd al-Razzaq al-Muqarram"
-TRANSLATOR = ["Yasin T. Al-Jibouri"]
-PUBLISHER = "Al-Kharsan Foundation for Publications"
+NAME = "As-Sahifa Al-Kamilah Al-Sajjadiyya"
+AUTHOR = "Imam Ali Zayn al-Abidin"
+TRANSLATOR = []
+PUBLISHER = "Muhammadi Trust of Great Britain and Northern Ireland"
 ABOUT = """
-A detailed and authentic account of the tragedy of Karbala and the sacrifice of Imam Husayn (a).
+A collection of supplications and whispered prayers composed by the great-grandson of the Prophet (s). Includes supplication for the Coming of the Month of Ramadhan, and supplication for Bidding Farewell to the Month of Ramadhan. At the end there is also the famous Treatise on Rights that explains beautifully the rights in an Islamic point of view.
 """
-CATEGORY = "Karbala"
+CATEGORY = "Sahifa"
 
 
 ALL_CATEGORIES = [
     "Sunni & Shi'a",
-    "Karbala"
+    "Karbala",
+    "Sahifa"
 ]
 
 
@@ -170,9 +171,9 @@ if __name__ == "__main__":
 
     try:
 
-        # add_pdf_file()
+        add_pdf_file()
         copy_cover_with_name()
-        update_cover_in_index()
+        # update_cover_in_index()
         sort_index_file()
 
     except FileNotFoundError as e:

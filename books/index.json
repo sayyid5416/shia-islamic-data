@@ -39,6 +39,17 @@
         ]
     },
     {
+        "about": "A collection of supplications and whispered prayers composed by the great-grandson of the Prophet (s). Includes supplication for the Coming of the Month of Ramadhan, and supplication for Bidding Farewell to the Month of Ramadhan. At the end there is also the famous Treatise on Rights that explains beautifully the rights in an Islamic point of view.",
+        "author": "Imam Ali Zayn al-Abidin",
+        "category": "Sahifa",
+        "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/as-sahifa-al-kamilah-al-sajjadiyya.jpg",
+        "id": "as-sahifa-al-kamilah-al-sajjadiyya",
+        "name": "As-Sahifa Al-Kamilah Al-Sajjadiyya",
+        "publisher": "Muhammadi Trust of Great Britain and Northern Ireland",
+        "size": "1.6 MB",
+        "translator": []
+    },
+    {
         "about": "A detailed and authentic account of the tragedy of Karbala and the sacrifice of Imam Husayn (a).",
         "author": "Sayyid Abd al-Razzaq al-Muqarram",
         "category": "Karbala",
