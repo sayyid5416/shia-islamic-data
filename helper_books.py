@@ -6,7 +6,7 @@ import os
 
 
 # Information
-NAME = "Sahih Muslim - Volume 2"
+NAME = "Sahih Muslim - Volume 3"
 AUTHOR = "Abul Hussain Muslim bin al-Hajjaj"
 TRANSLATOR = ["Nasiruddin al-Khattab", "Huda Khattab", "Abu Khaliyl"]
 PUBLISHER = "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia"
