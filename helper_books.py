@@ -6,21 +6,23 @@ import os
 
 
 # Information
-NAME = "Tawdih al-masa'il 4th Edition - Ayt. Sistani"
-AUTHOR = "Sayyid Ali al-Husayni al-Sistani"
-TRANSLATOR = ["Muhammad Ali Ismail"]
-PUBLISHER = "The World Federation"
+NAME = "Sahih Al-Bukhari - Volume 1"
+AUTHOR = "Abu Abdullah Muhammad ibn Ismail al-Bukhari"
+TRANSLATOR = ["Dr. Muhammad Muhsin Khan"]
+PUBLISHER = "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia"
 ABOUT = """
-Also known as "Islamic Laws"
+Sahih al-Bukhari is one of the six major hadith collections in Sunni Islam, compiled by al-Bukhari (d. 870 CE).
 
-Tawḍīḥ al-Masāʾil by Grand Ayatollah Sayyid Ali al-Sistani is his official risāla ʿamaliyya (manual of practical Islamic laws). It contains his fatāwā (legal rulings) based on Shia Jaʿfarī fiqh, covering:
+Full title: Al-Jami al-Sahih al-Musnad al-Mukhtasar min Umur Rasul Allah (saww) wa Sunanihi wa Ayyamihi
 
-Ṭahāra (purity)
-Ṣalāh (prayer)
-Ṣawm (fasting)
-Khums, Zakāt, Hajj, business ethics, marriage, and more.
+Compiled: 9th century CE: ~200 years after Prophet Muhammad (saww)
+
+Total Hadiths: ~7,000 (including repetitions); ~2,600 unique
+
+Sunni View: Regarded as the most authentic book after the Qur’an
+Shia View: Not accepted as authoritative due to questionable narrators and theological bias
 """
-CATEGORY = "Marja al-Taqlīd"
+CATEGORY = "Sunni"
 
 
 ALL_CATEGORIES = [
@@ -28,6 +30,7 @@ ALL_CATEGORIES = [
     "Karbala",
     "Sahifa",
     "Marja al-Taqlīd",
+    "Sunni"
 ]
 
 
