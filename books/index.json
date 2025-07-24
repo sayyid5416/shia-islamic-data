@@ -297,6 +297,21 @@
         ]
     },
     {
+        "about": "Sahih Muslim is one of the six major hadith collections in Sunni Islam, compiled by Muslim ibn al-Hajjaj (d. 875 CE).\n\nSunni View: Considered the second most authentic hadith collection after Sahih al-Bukhari\nShia View: Not accepted as reliable due to many disputed narrators",
+        "author": "Abul Hussain Muslim bin al-Hajjaj",
+        "category": "Sunni",
+        "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-muslim---volume-7.jpg",
+        "id": "sahih-muslim---volume-7",
+        "name": "Sahih Muslim - Volume 7",
+        "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
+        "size": "7.1 MB",
+        "translator": [
+            "Nasiruddin al-Khattab",
+            "Huda Khattab",
+            "Abu Khaliyl"
+        ]
+    },
+    {
         "about": "Also known as \"Islamic Laws\"\n\nTawḍīḥ al-Masāʾil by Grand Ayatollah Sayyid Ali al-Sistani is his official risāla ʿamaliyya (manual of practical Islamic laws). It contains his fatāwā (legal rulings) based on Shia Jaʿfarī fiqh, covering:\n\nṬahāra (purity)\nṢalāh (prayer)\nṢawm (fasting)\nKhums, Zakāt, Hajj, business ethics, marriage, and more.",
         "author": "Sayyid Ali al-Husayni al-Sistani",
         "category": "Marja al-Taqlīd",
