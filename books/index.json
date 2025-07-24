@@ -142,6 +142,19 @@
         ]
     },
     {
+        "about": "Sahih al-Bukhari is one of the six major hadith collections in Sunni Islam, compiled by al-Bukhari (d. 870 CE).\n\nFull title: Al-Jami al-Sahih al-Musnad al-Mukhtasar min Umur Rasul Allah (saww) wa Sunanihi wa Ayyamihi\n\nCompiled: 9th century CE: ~200 years after Prophet Muhammad (saww)\n\nTotal Hadiths: ~7,000 (including repetitions); ~2,600 unique\n\nSunni View: Regarded as the most authentic book after the Qur’an\nShia View: Not accepted as authoritative due to questionable narrators and theological bias",
+        "author": "Abu Abdullah Muhammad ibn Ismail al-Bukhari",
+        "category": "Sunni",
+        "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-6.jpg",
+        "id": "sahih-al-bukhari---volume-6",
+        "name": "Sahih Al-Bukhari - Volume 6",
+        "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
+        "size": "8.2 MB",
+        "translator": [
+            "Dr. Muhammad Muhsin Khan"
+        ]
+    },
+    {
         "about": "Also known as \"Islamic Laws\"\n\nTawḍīḥ al-Masāʾil by Grand Ayatollah Sayyid Ali al-Sistani is his official risāla ʿamaliyya (manual of practical Islamic laws). It contains his fatāwā (legal rulings) based on Shia Jaʿfarī fiqh, covering:\n\nṬahāra (purity)\nṢalāh (prayer)\nṢawm (fasting)\nKhums, Zakāt, Hajj, business ethics, marriage, and more.",
         "author": "Sayyid Ali al-Husayni al-Sistani",
         "category": "Marja al-Taqlīd",
