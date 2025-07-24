@@ -6,21 +6,15 @@ import os
 
 
 # Information
-NAME = "Sahih Al-Bukhari - Appendix"
-AUTHOR = "Abu Abdullah Muhammad ibn Ismail al-Bukhari"
-TRANSLATOR = ["Dr. Muhammad Muhsin Khan"]
+NAME = "Sahih Muslim - Volume 1"
+AUTHOR = "Abul Hussain Muslim bin al-Hajjaj"
+TRANSLATOR = ["Nasiruddin al-Khattab", "Huda Khattab", "Abu Khaliyl"]
 PUBLISHER = "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia"
 ABOUT = """
-Sahih al-Bukhari is one of the six major hadith collections in Sunni Islam, compiled by al-Bukhari (d. 870 CE).
+Sahih Muslim is one of the six major hadith collections in Sunni Islam, compiled by Muslim ibn al-Hajjaj (d. 875 CE).
 
-Full title: Al-Jami al-Sahih al-Musnad al-Mukhtasar min Umur Rasul Allah (saww) wa Sunanihi wa Ayyamihi
-
-Compiled: 9th century CE: ~200 years after Prophet Muhammad (saww)
-
-Total Hadiths: ~7,000 (including repetitions); ~2,600 unique
-
-Sunni View: Regarded as the most authentic book after the Qur’an
-Shia View: Not accepted as authoritative due to questionable narrators and theological bias
+Sunni View: Considered the second most authentic hadith collection after Sahih al-Bukhari
+Shia View: Not accepted as reliable due to many disputed narrators
 """
 CATEGORY = "Sunni"
 
