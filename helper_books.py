@@ -6,7 +6,7 @@ import os
 
 
 # Information
-NAME = "Sahih Al-Bukhari - Volume 9"
+NAME = "Sahih Al-Bukhari - Appendix"
 AUTHOR = "Abu Abdullah Muhammad ibn Ismail al-Bukhari"
 TRANSLATOR = ["Dr. Muhammad Muhsin Khan"]
 PUBLISHER = "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia"
