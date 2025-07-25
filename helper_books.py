@@ -72,7 +72,7 @@ def format_file_size(bytes_size: int) -> str:
 
 
 def add_pdf_file() -> None:
-    """Append book info to index.json and copy PDF to final path."""
+    """Append or update book info in index.json and copy PDF to final path."""
     printStart("Adding new PDF file")
 
     final_pdf_path = f"books/pdfs/{CATEGORY}/{ID}.pdf"
@@ -92,7 +92,7 @@ def add_pdf_file() -> None:
         except json.JSONDecodeError:
             index_data = []
 
-        index_data.append({
+        new_entry = {
             "id": ID,
             "name": NAME,
             "author": AUTHOR,
@@ -102,7 +102,14 @@ def add_pdf_file() -> None:
             "size": format_file_size(file_size),
             "category": CATEGORY,
             "cover": COVER,
-        })
+        }
+
+        for i, item in enumerate(index_data):
+            if item.get("id") == ID:
+                index_data[i] = new_entry
+                break
+        else:
+            index_data.append(new_entry)
 
         f.seek(0)
         json.dump(index_data, f, ensure_ascii=False, indent=4)
