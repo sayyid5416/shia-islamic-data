@@ -6,15 +6,15 @@ import os
 
 
 # Information
-NAME = "Sunan Ibn Majah - Glossary Of Islamic Terms"
-AUTHOR = "Muhammad ibn Yazid Ibn Majah al-Qazwini"
-TRANSLATOR = ["Nasiruddin al-Khattab", "Abu Khaliyl"]
+NAME = "Sunan Abu Dawood - volume 1"
+AUTHOR = "Abu Dawood Sulaiman ibn al-Ash'ath al-Sijistani"
+TRANSLATOR = ["Yaser Qadhi", "Abu Khaliyl"]
 PUBLISHER = "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia"
 ABOUT = """
-Sunan Ibn Majah is one of the six major hadith collections in Sunni Islam, compiled by Ibn Majah (d. 887 CE).
+Sunan Abu Dawood is one of the six major hadith collections in Sunni Islam, compiled by Abu Dawood (d. 889 CE).
 
-Sunni View: Included in the Kutub al-Sittah, though considered the weakest among the six due to a higher number of weak narrators
-Shia View: Not accepted as reliable due to conflicting narrations and reliance on disputed sources
+Sunni View: Highly regarded for its focus on hadiths related to jurisprudence (fiqh) and used extensively by legal scholars
+Shia View: Not accepted as reliable due to differences in narrator credibility and jurisprudential methodology
 """
 CATEGORY = "Sunni"
 
