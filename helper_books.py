@@ -5,16 +5,15 @@ import os
 
 
 
-# Information
-NAME = "Sunan Abu Dawood - volume 1"
-AUTHOR = "Abu Dawood Sulaiman ibn al-Ash'ath al-Sijistani"
-TRANSLATOR = ["Yaser Qadhi", "Abu Khaliyl"]
+NAME = "Sunan al-Nasa'i - Glossary of Islamic Terms"
+AUTHOR = "Ahmad ibn Shu'ayb al-Nasa'i"
+TRANSLATOR = ["Nasiruddin al-Khattab", "Abu Khaliyl"]
 PUBLISHER = "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia"
 ABOUT = """
-Sunan Abu Dawood is one of the six major hadith collections in Sunni Islam, compiled by Abu Dawood (d. 889 CE).
+Sunan al-Nasa'i is one of the six canonical hadith collections in Sunni Islam, compiled by al-Nasa'i (d. 915 CE).
 
-Sunni View: Highly regarded for its focus on hadiths related to jurisprudence (fiqh) and used extensively by legal scholars
-Shia View: Not accepted as reliable due to differences in narrator credibility and jurisprudential methodology
+Sunni View: Highly valued, especially for its authenticity; it is considered among the most rigorous in chain verification after Sahih al-Bukhari and Sahih Muslim  
+Shia View: Not accepted as reliable due to differing standards for evaluating narrators and legal content
 """
 CATEGORY = "Sunni"
 
