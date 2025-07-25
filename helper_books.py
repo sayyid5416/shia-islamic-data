@@ -6,15 +6,15 @@ import os
 
 
 # Information
-NAME = "Jami at-Tirmidhi - Glossary Of Islamic Terms"
-AUTHOR = "Muhammad ibn Isa at-Tirmidhi"
-TRANSLATOR = ["Abu Khaliyl", "Hafiz Abu Tahir Zubair Ali Zai"]
+NAME = "Sunan Ibn Majah - Glossary Of Islamic Terms"
+AUTHOR = "Muhammad ibn Yazid Ibn Majah al-Qazwini"
+TRANSLATOR = ["Nasiruddin al-Khattab", "Abu Khaliyl"]
 PUBLISHER = "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia"
 ABOUT = """
-Jami at-Tirmidhi is one of the six major hadith collections in Sunni Islam, compiled by at-Tirmidhi (d. 892 CE).
+Sunan Ibn Majah is one of the six major hadith collections in Sunni Islam, compiled by Ibn Majah (d. 887 CE).
 
-Sunni View: Regarded as an important hadith source with unique commentary and hadith grading by the compiler himself
-Shia View: Not accepted as reliable due to differing hadith standards and disputed narrators
+Sunni View: Included in the Kutub al-Sittah, though considered the weakest among the six due to a higher number of weak narrators
+Shia View: Not accepted as reliable due to conflicting narrations and reliance on disputed sources
 """
 CATEGORY = "Sunni"
 
