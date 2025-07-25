@@ -6,15 +6,15 @@ import os
 
 
 # Information
-NAME = "Sahih Muslim - Glossary of Islamic Terms"
-AUTHOR = "Abul Hussain Muslim bin al-Hajjaj"
-TRANSLATOR = ["Nasiruddin al-Khattab", "Huda Khattab", "Abu Khaliyl"]
+NAME = "Jami at-Tirmidhi - Glossary Of Islamic Terms"
+AUTHOR = "Muhammad ibn Isa at-Tirmidhi"
+TRANSLATOR = ["Abu Khaliyl", "Hafiz Abu Tahir Zubair Ali Zai"]
 PUBLISHER = "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia"
 ABOUT = """
-Sahih Muslim is one of the six major hadith collections in Sunni Islam, compiled by Muslim ibn al-Hajjaj (d. 875 CE).
+Jami at-Tirmidhi is one of the six major hadith collections in Sunni Islam, compiled by at-Tirmidhi (d. 892 CE).
 
-Sunni View: Considered the second most authentic hadith collection after Sahih al-Bukhari
-Shia View: Not accepted as reliable due to many disputed narrators
+Sunni View: Regarded as an important hadith source with unique commentary and hadith grading by the compiler himself
+Shia View: Not accepted as reliable due to differing hadith standards and disputed narrators
 """
 CATEGORY = "Sunni"
 
