@@ -56,6 +56,8 @@ PDF_FILE_PATH = "books/new.pdf"
 
 def format_file_size(bytes_size: int) -> str:
     """Convert file size in bytes to a human-readable string."""
+    if bytes_size < 0:
+        return "Invalid"
     units = ["B", "KB", "MB", "GB", "TB"]
     i = 0
     size = float(bytes_size)
