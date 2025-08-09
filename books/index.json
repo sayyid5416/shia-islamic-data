@@ -5,7 +5,9 @@
         "category": "Karbala",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/al-lohoof-ala-qatla-al-tofuf.jpg",
         "id": "al-lohoof-ala-qatla-al-tofuf",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Al-Lohoof ala Qatla al-Tofuf",
         "publisher": "Naba Organization",
         "size": "809.4 KB",
@@ -19,7 +21,9 @@
         "category": "Sunni & Shi'a",
         "cover": "",
         "id": "al-muraja'at",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Al-Muraja'at",
         "publisher": "Imam Husayn (as) Islamic Foundation Beirut",
         "size": "1.3 MB",
@@ -33,7 +37,9 @@
         "category": "Sunni & Shi'a",
         "cover": "",
         "id": "all-solutions-are-with-the-prophet's-progeny",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "All Solutions are with the Prophet's Progeny",
         "publisher": "Ansariyan Publications - Qum",
         "size": "854.6 KB",
@@ -47,7 +53,9 @@
         "category": "Sahifa",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/as-sahifa-al-kamilah-al-sajjadiyya.jpg",
         "id": "as-sahifa-al-kamilah-al-sajjadiyya",
-        "language": "en",
+        "language": [
+            "en", "ar"
+        ],
         "name": "As-Sahifa Al-Kamilah Al-Sajjadiyya",
         "publisher": "Muhammadi Trust of Great Britain and Northern Ireland",
         "size": "1.6 MB",
@@ -59,7 +67,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/jami-at-tirmidhi---glossary-of-islamic-terms.jpg",
         "id": "jami-at-tirmidhi---glossary-of-islamic-terms",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Jami at-Tirmidhi - Glossary Of Islamic Terms",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "1.5 MB",
@@ -74,7 +84,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/jami-at-tirmidhi---volume-1.jpg",
         "id": "jami-at-tirmidhi---volume-1",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Jami at-Tirmidhi - volume 1",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "10.2 MB",
@@ -89,7 +101,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/jami-at-tirmidhi---volume-2.jpg",
         "id": "jami-at-tirmidhi---volume-2",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Jami at-Tirmidhi - volume 2",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "10.7 MB",
@@ -104,7 +118,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/jami-at-tirmidhi---volume-3.jpg",
         "id": "jami-at-tirmidhi---volume-3",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Jami at-Tirmidhi - volume 3",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "10.7 MB",
@@ -119,7 +135,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/jami-at-tirmidhi---volume-4.jpg",
         "id": "jami-at-tirmidhi---volume-4",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Jami at-Tirmidhi - volume 4",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "10.7 MB",
@@ -134,7 +152,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/jami-at-tirmidhi---volume-5.jpg",
         "id": "jami-at-tirmidhi---volume-5",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Jami at-Tirmidhi - volume 5",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "11.1 MB",
@@ -149,7 +169,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/jami-at-tirmidhi---volume-6.jpg",
         "id": "jami-at-tirmidhi---volume-6",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Jami at-Tirmidhi - volume 6",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "10.1 MB",
@@ -164,7 +186,9 @@
         "category": "Karbala",
         "cover": "",
         "id": "maqtal-al-husayn",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Maqtal al-Husayn",
         "publisher": "Al-Kharsan Foundation for Publications",
         "size": "1.8 MB",
@@ -178,7 +202,9 @@
         "category": "Sunni & Shi'a",
         "cover": "",
         "id": "peshawar-nights",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Peshawar Nights",
         "publisher": "Ansariyan Publications - Qum",
         "size": "1.6 MB",
@@ -193,7 +219,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---appendix.jpg",
         "id": "sahih-al-bukhari---appendix",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Appendix",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "1.4 MB",
@@ -207,7 +235,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-1.jpg",
         "id": "sahih-al-bukhari---volume-1",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Volume 1",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8.9 MB",
@@ -221,7 +251,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-2.jpg",
         "id": "sahih-al-bukhari---volume-2",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Volume 2",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8.5 MB",
@@ -235,7 +267,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-3.jpg",
         "id": "sahih-al-bukhari---volume-3",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Volume 3",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "9.9 MB",
@@ -249,7 +283,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-4.jpg",
         "id": "sahih-al-bukhari---volume-4",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Volume 4",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "9.4 MB",
@@ -263,7 +299,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-5.jpg",
         "id": "sahih-al-bukhari---volume-5",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Volume 5",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8.9 MB",
@@ -277,7 +315,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-6.jpg",
         "id": "sahih-al-bukhari---volume-6",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Volume 6",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8.2 MB",
@@ -291,7 +331,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-7.jpg",
         "id": "sahih-al-bukhari---volume-7",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Volume 7",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8.1 MB",
@@ -305,7 +347,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-8.jpg",
         "id": "sahih-al-bukhari---volume-8",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Volume 8",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8 MB",
@@ -319,7 +363,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-al-bukhari---volume-9.jpg",
         "id": "sahih-al-bukhari---volume-9",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Al-Bukhari - Volume 9",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "7.3 MB",
@@ -333,7 +379,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-muslim---glossary-of-islamic-terms.jpg",
         "id": "sahih-muslim---glossary-of-islamic-terms",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Muslim - Glossary of Islamic Terms",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "1.5 MB",
@@ -349,7 +397,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-muslim---volume-1.jpg",
         "id": "sahih-muslim---volume-1",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Muslim - Volume 1",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "10 MB",
@@ -365,7 +415,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-muslim---volume-2.jpg",
         "id": "sahih-muslim---volume-2",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Muslim - Volume 2",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8.3 MB",
@@ -381,7 +433,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-muslim---volume-3.jpg",
         "id": "sahih-muslim---volume-3",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Muslim - Volume 3",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8.3 MB",
@@ -397,7 +451,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-muslim---volume-4.jpg",
         "id": "sahih-muslim---volume-4",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Muslim - Volume 4",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "7.7 MB",
@@ -413,7 +469,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-muslim---volume-5.jpg",
         "id": "sahih-muslim---volume-5",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Muslim - Volume 5",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8.2 MB",
@@ -429,7 +487,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-muslim---volume-6.jpg",
         "id": "sahih-muslim---volume-6",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Muslim - Volume 6",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "7.8 MB",
@@ -445,7 +505,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sahih-muslim---volume-7.jpg",
         "id": "sahih-muslim---volume-7",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sahih Muslim - Volume 7",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "7.1 MB",
@@ -461,7 +523,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-abu-dawood---glossary-of-islamic-terms.jpg",
         "id": "sunan-abu-dawood---glossary-of-islamic-terms",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Abu Dawood - Glossary Of Islamic Terms",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "1.4 MB",
@@ -476,7 +540,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-abu-dawood---volume-1.jpg",
         "id": "sunan-abu-dawood---volume-1",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Abu Dawood - volume 1",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "11.8 MB",
@@ -491,7 +557,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-abu-dawood---volume-2.jpg",
         "id": "sunan-abu-dawood---volume-2",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Abu Dawood - volume 2",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "10 MB",
@@ -506,7 +574,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-abu-dawood---volume-3.jpg",
         "id": "sunan-abu-dawood---volume-3",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Abu Dawood - volume 3",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "11.1 MB",
@@ -521,7 +591,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-abu-dawood---volume-4.jpg",
         "id": "sunan-abu-dawood---volume-4",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Abu Dawood - volume 4",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "9.5 MB",
@@ -536,7 +608,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-abu-dawood---volume-5.jpg",
         "id": "sunan-abu-dawood---volume-5",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Abu Dawood - volume 5",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "8.4 MB",
@@ -551,7 +625,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-al-nasa'i---glossary-of-islamic-terms.jpg",
         "id": "sunan-al-nasa'i---glossary-of-islamic-terms",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan al-Nasa'i - Glossary of Islamic Terms",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "4.4 MB",
@@ -566,7 +642,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-al-nasa'i---volume-1.jpg",
         "id": "sunan-al-nasa'i---volume-1",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan al-Nasa'i - volume 1",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "17.2 MB",
@@ -581,7 +659,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-al-nasa'i---volume-2.jpg",
         "id": "sunan-al-nasa'i---volume-2",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan al-Nasa'i - volume 2",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "17.1 MB",
@@ -596,7 +676,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-al-nasa'i---volume-3.jpg",
         "id": "sunan-al-nasa'i---volume-3",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan al-Nasa'i - volume 3",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "19.8 MB",
@@ -611,7 +693,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-al-nasa'i---volume-4.jpg",
         "id": "sunan-al-nasa'i---volume-4",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan al-Nasa'i - volume 4",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "16 MB",
@@ -626,7 +710,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-al-nasa'i---volume-5.jpg",
         "id": "sunan-al-nasa'i---volume-5",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan al-Nasa'i - volume 5",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "20.3 MB",
@@ -641,7 +727,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-al-nasa'i---volume-6.jpg",
         "id": "sunan-al-nasa'i---volume-6",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan al-Nasa'i - volume 6",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "11.9 MB",
@@ -656,7 +744,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-ibn-majah---glossary-of-islamic-terms.jpg",
         "id": "sunan-ibn-majah---glossary-of-islamic-terms",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Ibn Majah - Glossary Of Islamic Terms",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "3.4 MB",
@@ -671,7 +761,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-ibn-majah---volume-1.jpg",
         "id": "sunan-ibn-majah---volume-1",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Ibn Majah - volume 1",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "22.2 MB",
@@ -686,7 +778,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-ibn-majah---volume-2.jpg",
         "id": "sunan-ibn-majah---volume-2",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Ibn Majah - volume 2",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "18 MB",
@@ -701,7 +795,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-ibn-majah---volume-3.jpg",
         "id": "sunan-ibn-majah---volume-3",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Ibn Majah - volume 3",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "19.7 MB",
@@ -716,7 +812,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-ibn-majah---volume-4.jpg",
         "id": "sunan-ibn-majah---volume-4",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Ibn Majah - volume 4",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "16 MB",
@@ -731,7 +829,9 @@
         "category": "Sunni",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/sunan-ibn-majah---volume-5.jpg",
         "id": "sunan-ibn-majah---volume-5",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Sunan Ibn Majah - volume 5",
         "publisher": "Darussalam Publishers and Distributors, Riyadh, Saudi Arabia",
         "size": "15.8 MB",
@@ -746,7 +846,9 @@
         "category": "Marja al-Taqlīd",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/tawdih-al-masa'il-4th-edition---ayt.-sistani.jpg",
         "id": "tawdih-al-masa'il-4th-edition---ayt.-sistani",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Tawdih al-masa'il 4th Edition - Ayt. Sistani",
         "publisher": "The World Federation",
         "size": "10.9 MB",
@@ -760,7 +862,9 @@
         "category": "Sunni & Shi'a",
         "cover": "",
         "id": "the-shi'ah-are-the-real-ahlul-sunnah",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "The Shi'ah are the real Ahlul-Sunnah",
         "publisher": "Pyam-e-Aman",
         "size": "1 MB",
@@ -774,7 +878,9 @@
         "category": "Sunni & Shi'a",
         "cover": "https://raw.githubusercontent.com/sayyid5416/shia-islamic-data/main/books/covers/then-i-was-guided.jpg",
         "id": "then-i-was-guided",
-        "language": "en",
+        "language": [
+            "en"
+        ],
         "name": "Then I Was Guided",
         "publisher": "Islamic Seminary Publications",
         "size": "581.4 KB",

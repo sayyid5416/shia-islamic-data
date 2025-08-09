@@ -16,9 +16,9 @@ Sunni View: Highly valued, especially for its authenticity; it is considered amo
 Shia View: Not accepted as reliable due to differing standards for evaluating narrators and legal content
 """
 CATEGORY = "Sunni"
-LANGUAGE = "en"
+LANGUAGE = ["en"]
 
-ALL_LANGUAGES = ["en"]
+ALL_LANGUAGES = ["en", "ar"]
 ALL_CATEGORIES = [
     "Sunni & Shi'a",
     "Karbala",
