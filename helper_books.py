@@ -16,8 +16,9 @@ Sunni View: Highly valued, especially for its authenticity; it is considered amo
 Shia View: Not accepted as reliable due to differing standards for evaluating narrators and legal content
 """
 CATEGORY = "Sunni"
+LANGUAGE = "en"
 
-
+ALL_LANGUAGES = ["en"]
 ALL_CATEGORIES = [
     "Sunni & Shi'a",
     "Karbala",
@@ -49,6 +50,7 @@ PDF_FILE_PATH = "books/new.pdf"
     "about": "",
     "size": "",
     "category": "",
+    "language": "en"
 }
 """
 
@@ -98,6 +100,7 @@ def add_pdf_file() -> None:
             "id": ID,
             "name": NAME,
             "author": AUTHOR,
+            "language": LANGUAGE,
             "translator": TRANSLATOR,
             "publisher": PUBLISHER,
             "about": ABOUT.strip(),
@@ -184,8 +187,8 @@ if __name__ == "__main__":
 
     try:
 
-        add_pdf_file()
-        copy_cover_with_name()
+        # add_pdf_file()
+        # copy_cover_with_name()
         # update_cover_in_index()
         sort_index_file()
 
