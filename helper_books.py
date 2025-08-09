@@ -181,26 +181,6 @@ def update_cover_in_index() -> None:
     printDone("Cover path updated in index")
 
 
-def update_sunni_languages() -> None:
-    """Set language to ['en', 'ar'] for all Sunni category entries in index.json."""
-    printStart("Updating Sunni languages")
-    prepare_file(INDEX_FILE)
-
-    with open(INDEX_FILE, "r+", encoding="utf-8") as f:
-        data = json.load(f)
-        if not isinstance(data, list):
-            raise TypeError("index.json must be a list of entries")
-
-        for book in data:
-            if book.get("category") == "Sunni":
-                book["language"] = ["en", "ar"]
-
-        f.seek(0)
-        json.dump(data, f, ensure_ascii=False, indent=4)
-        f.truncate()
-
-    printDone("Sunni languages updated")
-
 
 if __name__ == "__main__":
     print("\n------------------ STARTING ------------------\n")
@@ -210,7 +190,6 @@ if __name__ == "__main__":
         # add_pdf_file()
         # copy_cover_with_name()
         # update_cover_in_index()
-        update_sunni_languages()
         sort_index_file()
 
     except FileNotFoundError as e:
